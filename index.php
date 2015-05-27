@@ -1,3 +1,13 @@
+
+<?php
+/**
+ * Created by PhpStorm.
+ * User: martin
+ * Date: 26-5-15
+ * Time: 13:45
+ */
+
+?>
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -21,5 +31,6 @@
 <?php include 'resources/footer.php'; ?>
 
 </body>
+
 
 </html>
