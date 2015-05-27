@@ -17,7 +17,7 @@
 <body>
 <?php include 'resources/header.php'; ?>
 
-    <div class="container ">
+    <div class="content container ">
     	<div class="container-fluid">
   			<div class="row">
 
