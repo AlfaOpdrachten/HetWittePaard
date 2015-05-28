@@ -52,9 +52,15 @@ footer {
 #footer-holder {
     height: 200px;
     border: solid black 1px;
+    color: white;
     padding: 0;
-    background:rgba(255,255,255,0.3);
-    margin-bottom: 0px;
+    background-color: darkred;
+    opacity: 0.8;
+    margin-bottom: 0;
+}
+
+#footer-holder h6, #footer-holder p {
+    opacity: 1;
 }
 
 #footer-holder #footer-left, #footer-holder #footer-center, #footer-holder #footer-right{
@@ -62,4 +68,3 @@ footer {
 }
 
 
->>>>>>> cfc74ff93bc3ee086df7aaee7ac8eae777a74a8b

@@ -1,7 +1,8 @@
-<footer>
-    <div id="footer-holder" class="container">
 
-         <div id="footer-left" class="col-lg-3" style="border: 1px solid black">
+<footer>
+    <div id="footer-holder" class="container-fluid">
+
+         <div id="footer-left" class="col-md-3" style="border: 1px solid black">
              <h6><b>Openingstijden</b></h6>
              <br>
              <p>
@@ -11,7 +12,7 @@
              </p>
 
          </div>
-         <div id="footer-center" class="col-lg-3" style="border: 1px solid black">
+         <div id="footer-center" class="col-md-3" style="border: 1px solid black">
              <p><b>Contactgegevens</b></p>
              <p>
                  Restaurant Het Witte Paard<br>
@@ -23,18 +24,18 @@
 
                      <a href="#" class="svg webicon facebook">Like us on Facebook</a>
          </div>
-         <div id="footer-right" class="col-lg-3" style="border: 1px solid black">
+         <div id="footer-right" class="col-md-3" style="border: 1px solid black">
                  <h6><b>Handige linkjes</b></h6>
                  <a href="#">Reserveren</a><br>
                  <a href="#">Contact</a><br>
                  <a href="#">Algemene voorwaarden</a><br>
                  <a href="#">Cookies</a>
          </div>
-         <div id="footer-right" class="col-lg-3" style="border: 1px solid black">RECHTS</div>
+         <div id="footer-right" class="col-md-3" style="border: 1px solid black">RECHTS</div>
 
     </div>
     <div class="container">
-        <div id="copyrightholder" class="col-lg-12">
+        <div id="copyrightholder" class="col-md-12">
             <span>© 2015 Copyright - Restaurant het Witte Paard Oostwold</span>
         </div>
     </div>
