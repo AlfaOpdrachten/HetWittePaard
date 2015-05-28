@@ -51,11 +51,9 @@ footer {
 }
 #footer-holder {
     height: 200px;
-    border: solid black 1px;
-    color: white;
+    color: antiquewhite;
     padding: 0;
     background-color: darkred;
-    opacity: 0.8;
     margin-bottom: 0;
 }
 
@@ -63,8 +61,25 @@ footer {
     opacity: 1;
 }
 
+ #footer-holder #footer-rightimg {
+    padding: 0;
+     margin: 0;
+
+}
+
+ #footer-holder #footer-left #borderstyle {
+     height: 150px;
+     margin-top: 25px;
+     border-right: solid black 1px;
+     clear: none;
+     width: 0;
+     display: none;
+ }
+
 #footer-holder #footer-left, #footer-holder #footer-center, #footer-holder #footer-right{
     height: 200px;
 }
 
-
+#copyrightholder {
+    background-color: saddlebrown;
+}
