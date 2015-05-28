@@ -3,6 +3,7 @@
 
          <div id="footer-left" class="col-lg-3" style="border: 1px solid black">
              <h6><b>Openingstijden</b></h6>
+             <br>
              <p>
                  maandag en dinsdag: Gesloten.............
                  woensdag t/m zaterdag: vanaf 12.00 uur

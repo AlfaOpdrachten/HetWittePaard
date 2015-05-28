@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
 	<!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/css/bootstrap.css' ?>">
 
     <!-- Jquery -->
 	<script src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/libs/jquery-1.11.2.min.js'?>> </script>
@@ -21,6 +21,7 @@
 	
 	<!-- Custum CSS -->
 	<link rel="stylesheet" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/css/main.css' ?>">
+
 
     <link rel="stylesheet" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/css/webicons.css' ?>">
 
