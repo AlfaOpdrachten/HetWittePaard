@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="nl">
 
+<script>
+	function isNumberKey(evt){
+		var charCode = (evt.which) ? evt.which : event.ketCode
+		if (charCode > 31 && (charCode < 45 || charCode > 57))
+			return false;
+		return true;
+	}
+</script>
+
 
 <?php include 'resources/head.php'; ?>
 
