@@ -9,7 +9,9 @@
     <div class="content container ">
     	<div class="container-fluid">
   			<div class="row">
-
+                <div class="col-md-8">
+                    <h1>Welkom</h1>
+                </div>
             </div>
         </div>
     </div>
