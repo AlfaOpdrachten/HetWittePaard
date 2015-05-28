@@ -16,7 +16,7 @@ html {
 .content {
     margin-top: 70px;
 }
-.navbar-default {
+.navbar-default{
     background: darkred top left repeat;
     border: 1px solid #78302B;
 }
@@ -60,6 +60,24 @@ footer {
 #footer-holder #footer-left, #footer-holder #footer-center, #footer-holder #footer-right{
     height: 200px;
 }
+.caret-up {
+    width: 0;
+    height: 0;
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
 
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
 
->>>>>>> cfc74ff93bc3ee086df7aaee7ac8eae777a74a8b
+#dropdownmenu {
+    background-color: darkred;
+}
+#dropdownmenu:hover {
+    background-color: #78302B;
+}
+#dropdownmenus {
+    background-color: darkred;
+}

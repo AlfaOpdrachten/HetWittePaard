@@ -2,6 +2,24 @@
     <img class="img-responsive" src="img/header.jpg"/>
 </div>
 
+<script>
+
+    $(function(){
+        $(".dropdown").hover(
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");
+            },
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");
+            });
+    });
+
+</script>
+
 <?php
 @session_start();
     $home          =   "link";
@@ -37,31 +55,31 @@
 
 ?>
 <div class="container">
-<nav class="navbar navbar-default" role="navigation">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand <?php echo $home; ?>" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?> >Startpagina</a>
-    </div>
-
-    <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-        <!-- Nav left -->
-
-        </ul>
-
-        <ul class="nav navbar-nav navbar-right">
-            <li><a class="<?php echo $menu ?> "           href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/menu.php'?>>Menu</a></li>
-            <li><a class="<?php echo $reserveren ?> "     href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/reserveren.php'?>>Reserveren</a></li>
-            <li><a class="<?php echo $historie ?> "       href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/historie.php'?>>Historie</a></li>
-            <li><a class="<?php echo $nieuws ?> "         href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/nieuws.php'?>>Nieuws</a></li>
-            <li><a class="<?php echo $contact ?> "        href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/contact.php'?>>Contact</a></li>
-        </ul>
-    </div><!--/.nav-collapse -->
-</div>
-</nav>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand <?php echo $home; ?>" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?> >Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="<?php echo $reserveren ?> "     href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/reserveren.php'?>>Reserveren</a></li>
+                    <li><a class="<?php echo $historie ?> "       href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/historie.php'?>>Historie</a></li>
+                    <li><a class="<?php echo $nieuws ?> "         href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/nieuws.php'?>>Nieuws</a></li>
+                    <li><a class="<?php echo $contact ?> "        href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/contact.php'?>>Contact</a></li>
+                    <li class="dropdown">
+                        <a class="<?php echo $menu ?>" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/menu.php'?> id="dropdownmenu" class="dropdown-toggle" data-toggle="dropdown">Menu's <b class="caret"></b></a>
+                        <ul id="dropdownmenus" class="dropdown-menu">
+                            <li><a id="dropdownmenu" href="#">Hoofd menu</a></li>
+                            <li><a id="dropdownmenu" href="#">Desert menu</a></li>
+                            <li><a id="dropdownmenu" href="#">Lunch menu</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 </div>

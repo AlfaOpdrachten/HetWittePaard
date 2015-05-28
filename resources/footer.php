@@ -20,7 +20,7 @@
                  M: info@caferestauranthetwittepaard.nl
              </p>
 
-                     <a href="#" class="svg webicon facebook">Like us on Facebook</a>
+                     <a href="https://www.facebook.com/HetWittePaardOostwold" class="svg webicon facebook">Like us on Facebook</a>
          </div>
          <div id="footer-right" class="col-lg-3" style="border: 1px solid black">
                  <h6><b>Handige linkjes</b></h6>
