@@ -1,3 +1,35 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-family: fantasy;
+    background: url("../img/555.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
 .content {
 	margin-top: 70px;
 }
+
+footer {
+    background-color: transparent !important;
+}
+#footer-holder {
+    height: 200px;
+    border: solid black 1px;
+    padding: 0;
+
+    margin-bottom: 0px;
+}
+
+#footer-holder #footer-left, #footer-holder #footer-center, #footer-holder #footer-right{
+    height: 200px;
+}
+
+
