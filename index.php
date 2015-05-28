@@ -10,16 +10,16 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8">
-                <div class="col-md-12">
+                <div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 5px 0px black;">
                     <h1>Welkom</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.</p>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 5px 0px black;">
                     <h1>Welkom</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem illum nesciunt quasi tempora tenetur. Eum incidunt laboriosam libero magnam nam neque odio quaerat quibusdam reiciendis veritatis! Incidunt porro quas sit!</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" style="border: 1px solid black; margin-bottom: 5px; margin-top: 10px; box-shadow: 0px 0px 5px 0px black;">
                 <div class="col-md-12">
                     <h1>Week Aanbiedingen</h1>
                 </div>
@@ -34,7 +34,7 @@
                         <p>Met een heerlijke huisgemaakte zigeunersaus</p>
                     </div>
                     <div class="col-md-12">
-                        <hr>
+                        <hr style="border-color:#000000; box-shadow: 0px 0px 1px 0px black;">
                     </div>
 
                 </div>
@@ -49,7 +49,7 @@
                         <p>Met een heerlijke huisgemaakte zigeunersaus</p>
                     </div>
                     <div class="col-md-12">
-                        <hr>
+                        <hr style="border-color:#000000; box-shadow: 0px 0px 1px 0px black;">
                     </div>
 
                 </div>
@@ -64,11 +64,11 @@
                         <p>Met een heerlijke huisgemaakte zigeunersaus</p>
                     </div>
                     <div class="col-md-12">
-                        <hr>
+                        <hr style="border-color:#000000; box-shadow: 0px 0px 1px 0px black;">
                     </div>
 
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12" style="margin-bottom: 20px;">
                     <div class="col-md-10">
                         <p>Steak van de grill</p>
                     </div>
@@ -77,10 +77,6 @@
                     </div>
                     <div class="col-md-10">
                         <p>Met een heerlijke huisgemaakte zigeunersaus</p>
-                    </div>
-                    <div class="col-md-12">
-                        <hr>
-                    </div>
 
                 </div>
             </div>

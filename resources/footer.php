@@ -1,16 +1,19 @@
-<footer>
-    <div id="footer-holder" class="container">
 
-         <div id="footer-left" class="col-lg-3" style="border: 1px solid black">
+<footer>
+    <div id="footer-holder" class="container-fluid">
+
+         <div id="footer-left" class="col-md-3">
              <h6><b>Openingstijden</b></h6>
+             <br>
              <p>
                  maandag en dinsdag: Gesloten.............
                  woensdag t/m zaterdag: vanaf 12.00 uur
                  zondag: vanaf 15:00..............................
              </p>
+             <div id="borderstyle"></div>
 
          </div>
-         <div id="footer-center" class="col-lg-3" style="border: 1px solid black">
+         <div id="footer-center" class="col-md-3">
              <p><b>Contactgegevens</b></p>
              <p>
                  Restaurant Het Witte Paard<br>
@@ -22,18 +25,18 @@
 
                      <a href="https://www.facebook.com/HetWittePaardOostwold" class="svg webicon facebook">Like us on Facebook</a>
          </div>
-         <div id="footer-right" class="col-lg-3" style="border: 1px solid black">
+         <div id="footer-right" class="col-md-3">
                  <h6><b>Handige linkjes</b></h6>
                  <a href="#">Reserveren</a><br>
                  <a href="#">Contact</a><br>
                  <a href="#">Algemene voorwaarden</a><br>
                  <a href="#">Cookies</a>
          </div>
-         <div id="footer-right" class="col-lg-3" style="border: 1px solid black">RECHTS</div>
+         <div id="footer-rightimg" class="col-md-3" ><img class="img-responsive" src="img/locatie.jpg" style="height: 200px; width: 300px;" </div>
 
     </div>
-    <div class="container">
-        <div id="copyrightholder" class="col-lg-12">
+    <div class="row container-fluid">
+        <div id="copyrightholder" class="col-md-12">
             <span>© 2015 Copyright - Restaurant het Witte Paard Oostwold</span>
         </div>
     </div>

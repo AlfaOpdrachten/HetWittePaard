@@ -51,11 +51,30 @@ footer {
 }
 #footer-holder {
     height: 200px;
-    border: solid black 1px;
+    color: antiquewhite;
     padding: 0;
-
-    margin-bottom: 0px;
+    background-color: darkred;
+    margin-bottom: 0;
 }
+
+#footer-holder h6, #footer-holder p {
+    opacity: 1;
+}
+
+ #footer-holder #footer-rightimg {
+    padding: 0;
+     margin: 0;
+
+}
+
+ #footer-holder #footer-left #borderstyle {
+     height: 150px;
+     margin-top: 25px;
+     border-right: solid black 1px;
+     clear: none;
+     width: 0;
+     display: none;
+ }
 
 #footer-holder #footer-left, #footer-holder #footer-center, #footer-holder #footer-right{
     height: 200px;
@@ -67,6 +86,7 @@ footer {
     border-right: 4px solid rgba(0, 0, 0, 0);
     border-bottom: 4px solid;
 
+<<<<<<< HEAD
     display: inline-block;
     margin-left: 2px;
     vertical-align: middle;
@@ -81,3 +101,8 @@ footer {
 #dropdownmenus {
     background-color: darkred;
 }
+=======
+#copyrightholder {
+    background-color: saddlebrown;
+}
+>>>>>>> 621b9897cbe0f5450b3f9db0d38a8932ccde96da
