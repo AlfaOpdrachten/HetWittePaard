@@ -85,8 +85,6 @@ footer {
     border-left: 4px solid rgba(0, 0, 0, 0);
     border-right: 4px solid rgba(0, 0, 0, 0);
     border-bottom: 4px solid;
-
-<<<<<<< HEAD
     display: inline-block;
     margin-left: 2px;
     vertical-align: middle;
@@ -101,8 +99,6 @@ footer {
 #dropdownmenus {
     background-color: darkred;
 }
-=======
 #copyrightholder {
     background-color: saddlebrown;
 }
->>>>>>> 621b9897cbe0f5450b3f9db0d38a8932ccde96da
