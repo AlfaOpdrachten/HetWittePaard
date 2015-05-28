@@ -20,6 +20,8 @@
 
 	
 	<!-- Custum CSS -->
-	<link href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/css/main.css' ?>           			rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/css/main.css' ?>">
+
+    <link rel="stylesheet" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/css/webicons.css' ?>">
 
 </head>
