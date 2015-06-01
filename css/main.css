@@ -50,35 +50,36 @@ footer {
     background-color: transparent !important;
 }
 #footer-holder {
-    height: 200px;
     color: antiquewhite;
     padding: 0;
     background-color: darkred;
     margin-bottom: 0;
+    opacity: 0.6;
 }
 
-#footer-holder h6, #footer-holder p {
+#footer-holder #footer-center, #footer-holder #footer-right {
+    padding-left: 0;
+}
+
+#footer-holder #footer-right {
+    padding: 0;
+}
+
+
+#footer-holder h1 {
+    font-size: medium;
     opacity: 1;
 }
 
+#footer-holder a {
+    color: antiquewhite;
+}
+
  #footer-holder #footer-rightimg {
+    margin: 0;
     padding: 0;
-     margin: 0;
-
 }
 
- #footer-holder #footer-left #borderstyle {
-     height: 150px;
-     margin-top: 25px;
-     border-right: solid black 1px;
-     clear: none;
-     width: 0;
-     display: none;
- }
-
-#footer-holder #footer-left, #footer-holder #footer-center, #footer-holder #footer-right{
-    height: 200px;
-}
 .caret-up {
     width: 0;
     height: 0;
@@ -100,5 +101,6 @@ footer {
     background-color: darkred;
 }
 #copyrightholder {
-    background-color: saddlebrown;
+    background-color: darkred;
+    margin-bottom: 0;
 }

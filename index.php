@@ -7,7 +7,7 @@
 <?php include 'resources/header.php'; ?>
 
 <div class="content container ">
-    <div class="container-fluid">
+    <div class="container-fluid" style="padding-left: 0;">
         <div class="row">
             <div class="col-md-8">
                 <div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 5px 0px black;">

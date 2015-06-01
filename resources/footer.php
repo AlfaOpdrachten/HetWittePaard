@@ -1,43 +1,47 @@
 
 <footer>
     <div id="footer-holder" class="container-fluid">
+        <div class="col-md-8">
 
-         <div id="footer-left" class="col-md-3">
-             <h6><b>Openingstijden</b></h6>
-             <br>
-             <p>
-                 maandag en dinsdag: Gesloten.............
-                 woensdag t/m zaterdag: vanaf 12.00 uur
-                 zondag: vanaf 15:00..............................
-             </p>
-             <div id="borderstyle"></div>
+                 <div id="footer-left" class="col-md-4">
+                     <h1><b>Openingstijden</b></h1>
+                     <p>
+                         Maandag en dinsdag: Gesloten.............
+                         Woensdag t/m zaterdag: vanaf 12.00 uur
+                         Zondag: vanaf 15:00..............................
+                     </p>
 
-         </div>
-         <div id="footer-center" class="col-md-3">
-             <p><b>Contactgegevens</b></p>
-             <p>
-                 Restaurant Het Witte Paard<br>
-                 Hoofdstraat 217<br>
-                 9828 PB Oostwold<br>
-                 T: 050 – 5515 282<br>
-                 M: info@caferestauranthetwittepaard.nl
-             </p>
+                 </div>
+                 <div id="footer-center" class="col-md-4">
+                     <h1><b>Contactgegevens</b></h1>
+                     <p>
+                         Restaurant Het Witte Paard<br>
+                         Hoofdstraat 217<br>
+                         9828 PB Oostwold<br>
+                         T: 050 – 5515 282<br>
+                         M: info@caferestauranthetwittepaard.nl
+                     </p>
 
                      <a href="https://www.facebook.com/HetWittePaardOostwold" class="svg webicon facebook">Like us on Facebook</a>
+
+                 </div>
+                 <div id="footer-right" class="col-md-4">
+                         <h1><b>Handige linkjes</b></h1>
+                         <a href="#">Reserveren</a><br>
+                         <a href="#">Contact</a><br>
+                         <a href="#">Algemene voorwaarden</a><br>
+                         <a href="#">Cookies</a>
+                 </div>
+
+            <div id="copyrightholder" class="col-md-9">
+                <span>© 2015 Copyright - Restaurant het Witte Paard Oostwold</span>
+            </div>
+        </div>
+         <div id="footer-rightimg" class="col-md-4" ><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9559.63336911132!2d6.438001!3d53.20156!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfadee8db3e1edc18!2sHet+Witte+Paard!5e0!3m2!1snl!2snl!4v1433156672998" height="235px;" width="380px;" frameborder="0" style="border:0"></iframe>
          </div>
-         <div id="footer-right" class="col-md-3">
-                 <h6><b>Handige linkjes</b></h6>
-                 <a href="#">Reserveren</a><br>
-                 <a href="#">Contact</a><br>
-                 <a href="#">Algemene voorwaarden</a><br>
-                 <a href="#">Cookies</a>
-         </div>
-         <div id="footer-rightimg" class="col-md-3" ><img class="img-responsive" src="img/locatie.jpg" style="height: 200px; width: 300px;" </div>
 
     </div>
     <div class="row container-fluid">
-        <div id="copyrightholder" class="col-md-12">
-            <span>© 2015 Copyright - Restaurant het Witte Paard Oostwold</span>
-        </div>
+
     </div>
 </footer>
