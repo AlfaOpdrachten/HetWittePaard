@@ -100,6 +100,9 @@ footer {
 #dropdownmenus {
     background-color: darkred;
 }
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
 #copyrightholder {
     background-color: darkred;
     margin-bottom: 0;
