@@ -49,6 +49,18 @@
         case 'nieuws':
             $nieuws             = "linkActive";
             break;
+        case 'kaart':
+            $nieuws             = "linkActive";
+            break;
+        case 'lunch':
+            $nieuws             = "linkActive";
+            break;
+        case 'diner':
+            $nieuws             = "linkActive";
+            break;
+        case 'dessert':
+            $nieuws             = "linkActive";
+            break;
         case 'contact':
             $contact            = "linkActive";
     }
@@ -72,11 +84,11 @@
                     <li><a class="<?php echo $nieuws ?> "         href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/nieuws.php'?>>Nieuws</a></li>
                     <li><a class="<?php echo $contact ?> "        href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/contact.php'?>>Contact</a></li>
                     <li class="dropdown">
-                        <a class="<?php echo $menu ?>" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/menu.php'?> id="dropdownmenu" class="dropdown-toggle" data-toggle="dropdown">Menu's <b class="caret"></b></a>
+                        <a class="<?php echo $menu ?>" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart.php'?> id="dropdownmenu">Onze kaart <b class="caret"></b></a>
                         <ul id="dropdownmenus" class="dropdown-menu">
-                            <li><a id="dropdownmenu" href="#">Hoofd menu</a></li>
-                            <li><a id="dropdownmenu" href="#">Desert menu</a></li>
-                            <li><a id="dropdownmenu" href="#">Lunch menu</a></li>
+                            <li><a class="<?php echo $lunch ?> " id="dropdownmenu" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/lunch.php'?>>Lunch</a></li>
+                            <li><a class="<?php echo $diner ?> " id="dropdownmenu" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/diner.php'?>>Diner</a></li>
+                            <li><a class="<?php echo $desert ?> " id="dropdownmenu" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/dessert.php'?>>Dessert</a></li>
                         </ul>
                     </li>
                 </ul>
