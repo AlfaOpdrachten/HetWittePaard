@@ -3,8 +3,32 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
+    <style>
+        body {
+            background:#fff;
+        }
+
+        .panel-transparent {
+            background: none;
+        }
+
+        .panel-transparent .panel-heading{
+            background: rgba(139, 0, 0, 0.8)!important;
+        }
+
+        .panel-transparent .panel-body{
+            background: rgba(46, 51, 56, 0.2)!important;
+        }
+    </style>
 </head>
 <body>
 
+<div class="panel panel-primary panel-transparent">
+    <div class="panel-heading">
+
+    <div class="panel-body">
+        Panel content
+    </div>
+</div>
 </body>
 </html>

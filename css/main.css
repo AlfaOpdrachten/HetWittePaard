@@ -68,7 +68,7 @@ footer {
 
 #footer-holder h1 {
     font-size: medium;
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 #footer-holder a {
@@ -107,3 +107,4 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     background-color: darkred;
     margin-bottom: 0;
 }
+

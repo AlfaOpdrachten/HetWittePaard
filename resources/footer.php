@@ -1,9 +1,9 @@
 
 <footer>
     <div id="footer-holder" class="container-fluid">
-        <div class="col-md-8">
+        <div class="col-md-8 panel-transparent">
 
-                 <div id="footer-left" class="col-md-4">
+                 <div id="footer-left" class="col-md-4 panel-body">
                      <h1><b>Openingstijden</b></h1>
                      <p>
                          Maandag en dinsdag: Gesloten.............
@@ -12,7 +12,7 @@
                      </p>
 
                  </div>
-                 <div id="footer-center" class="col-md-4">
+                 <div id="footer-center" class="col-md-4 panel-body">
                      <h1><b>Contactgegevens</b></h1>
                      <p>
                          Restaurant Het Witte Paard<br>
@@ -25,7 +25,7 @@
                      <a href="https://www.facebook.com/HetWittePaardOostwold" class="svg webicon facebook">Like us on Facebook</a>
 
                  </div>
-                 <div id="footer-right" class="col-md-4">
+                 <div id="footer-right" class="col-md-4 panel-body">
                          <h1><b>Handige linkjes</b></h1>
                          <a href="#">Reserveren</a><br>
                          <a href="#">Contact</a><br>
