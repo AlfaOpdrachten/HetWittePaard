@@ -45,7 +45,10 @@ html {
     background-image:url("../img/header.jpg");
     background-repeat: inherit;
 }
-
+.thumbnail img {
+    height: 250px;
+    width: 100%;
+}
 footer {
     background-color: transparent !important;
 }
