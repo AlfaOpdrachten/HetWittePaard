@@ -53,11 +53,11 @@ footer {
     background-color: transparent !important;
 }
 #footer-holder {
-    color: antiquewhite;
+    color: white;
     padding: 0;
     background-color: darkred;
     margin-bottom: 0;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 #footer-holder #footer-center, #footer-holder #footer-right {
@@ -65,7 +65,7 @@ footer {
 }
 
 #footer-holder #footer-right {
-    padding: 0;
+    padding-top: 15px;
 }
 
 
@@ -111,3 +111,14 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     margin-bottom: 0;
 }
 
+.panel-transparent {
+    background: none;
+}
+
+.panel-transparent .panel-heading{
+    background: rgba(139, 0, 0, 0.2)!important;
+}
+
+.panel-transparent .panel-body{
+    background: rgba(139, 0, 0, 0.2)!important;
+}

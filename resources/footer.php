@@ -6,9 +6,9 @@
                  <div id="footer-left" class="col-md-4 panel-body">
                      <h1><b>Openingstijden</b></h1>
                      <p>
-                         Maandag en dinsdag: Gesloten.............
-                         Woensdag t/m zaterdag: vanaf 12.00 uur
-                         Zondag: vanaf 15:00..............................
+                         Ma/di: Gesloten<br>
+                         Wo t/m za: vanaf 12.00 uur<br>
+                         Zo: vanaf 15:00
                      </p>
 
                  </div>
