@@ -10,24 +10,24 @@
     <div class="container-fluid" style="padding-left: 0;">
         <div class="row">
             <div class="col-md-8">
-                <div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 5px 0px black;">
+                <div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 5px 0px black; background-color: bisque;">
                     <h1>Over ons</h1>
                     <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.</p>
                 </div>
                 <div class="col-md-12" style="padding: 0px;">
                     <div class="col-md-6" style="margin-top: 10px; padding: 0px; padding-right: 10px;">
-                        <div class="thumbnail" style="background-color: beige;">
-                            <img src="img/foodheader (1).jpg" alt="contact">
+                        <div class="thumbnail" style="background-color: bisque;">
+                            <img src="img/menu1.jpg" alt="Menu">
                             <div class="caption">
-                                <p><a class="btn btn-lg" style="color: black; font-size: 35px;" href="/HetWittePaard/reserveren.php" role="button">Menu</a></p>
+                                <p><a class="btn btn-link" style="color: black; font-size: 35px;" href="/HetWittePaard/kaart/index.php" role="button">Bekijk menu</a></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6" style="margin-top: 10px; padding: 0px; padding-left: 10px;">
-                        <div class="thumbnail" style="background-color: beige;">
-                            <img src="img/foodheader (1).jpg" alt="reserveren">
+                    <div class="col-md-6" style="margin-top: 10px; padding: 0px; padding-left: 10px; ">
+                        <div class="thumbnail" style="background-color: bisque;">
+                            <img src="img/reserveren.jpg" alt="Reserveren">
                             <div class="caption">
-                                <p><a class="btn btn-lg" style="color: black; font-size: 35px;" href="/HetWittePaard/reserveren.php" role="button">Reserveren</a></p>
+                                <p><a class="btn btn-link" style="color: black; font-size: 35px;" href="/HetWittePaard/reserveren.php" role="button">Reserveren</a></p>
 
                             </div>
                         </div>
