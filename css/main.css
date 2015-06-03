@@ -17,7 +17,7 @@ html {
     margin-top: 70px;
 }
 .navbar-default{
-    background: darkred top left repeat;
+    background: rgba(139, 0, 0, 0.3);
     border: 1px solid #78302B;
 }
 .navbar-default a {
@@ -25,7 +25,7 @@ html {
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: #7A312C;
+    background: rgba(139, 0, 0, 0.3);
     color: #FFC0CB;
 }
 
@@ -36,14 +36,25 @@ html {
 
 @media screen and (min-width: 768px) {
     .linkActive {
-        background-color: #990012;
+        background: rgba(139, 0, 0, 0.3);
     }
+    #dropdownmenus {
+        background: rgba(139, 0, 0, 0.3);
+    }
+}
+#dropdownmenu {
+    background: rgba(139, 0, 0, 0.0);
+}
+#dropdownmenu:hover {
+    background: rgba(139, 0, 0, 0.3);
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
 }
 
 .masthead {
-    height:180px;
     background-image:url("../img/header.jpg");
-    background-repeat: inherit;
 }
 .thumbnail img {
     height: 250px;
@@ -92,19 +103,6 @@ footer {
     display: inline-block;
     margin-left: 2px;
     vertical-align: middle;
-}
-
-#dropdownmenu {
-    background-color: darkred;
-}
-#dropdownmenu:hover {
-    background-color: #78302B;
-}
-#dropdownmenus {
-    background-color: darkred;
-}
-ul.nav li.dropdown:hover ul.dropdown-menu {
-    display: block;
 }
 #copyrightholder {
     background-color: darkred;
