@@ -66,9 +66,9 @@ footer {
 #footer-holder {
     color: white;
     padding: 0;
-    background-color: darkred;
+    background-color: rgba(139, 0, 0, 0.6);
     margin-bottom: 0;
-    opacity: 0.7;
+
 }
 
 #footer-holder #footer-center, #footer-holder #footer-right {
@@ -82,7 +82,7 @@ footer {
 
 #footer-holder h1 {
     font-size: medium;
-    opacity: 1 !important;
+
 }
 
 #footer-holder a {
@@ -105,7 +105,7 @@ footer {
     vertical-align: middle;
 }
 #copyrightholder {
-    background-color: darkred;
+
     margin-bottom: 0;
 }
 
@@ -120,3 +120,4 @@ footer {
 .panel-transparent .panel-body{
     background: rgba(139, 0, 0, 0.2)!important;
 }
+
