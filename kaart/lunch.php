@@ -15,13 +15,11 @@
                 <li class="active">Lunch</li>
             </ol>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6" style="border 1px solid;up">
            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quia, adipisci. Voluptatem vel, nemo officiis nulla tempora magni ad numquam dicta recusandae. Fuga doloribus dolorum, fugiat ipsa accusantium illo delectus? 
         </div>
-        <div class="col-md-4">
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quia, adipisci. Voluptatem vel, nemo officiis nulla tempora magni ad numquam dicta recusandae. Fuga doloribus dolorum, fugiat ipsa accusantium illo delectus? 
-        </div>
-        <div class="col-md-4">
+
+        <div class="col-md-6">
            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quia, adipisci. Voluptatem vel, nemo officiis nulla tempora magni ad numquam dicta recusandae. Fuga doloribus dolorum, fugiat ipsa accusantium illo delectus? 
         </div>
     </div>
