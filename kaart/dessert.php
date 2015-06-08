@@ -15,14 +15,60 @@
                 <li class="active">Dessert</li>
             </ol>
         </div>
-        <div class="col-md-4">
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quia, adipisci. Voluptatem vel, nemo officiis nulla tempora magni ad numquam dicta recusandae. Fuga doloribus dolorum, fugiat ipsa accusantium illo delectus? 
-        </div>
-        <div class="col-md-4">
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quia, adipisci. Voluptatem vel, nemo officiis nulla tempora magni ad numquam dicta recusandae. Fuga doloribus dolorum, fugiat ipsa accusantium illo delectus? 
-        </div>
-        <div class="col-md-4">
-           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quia, adipisci. Voluptatem vel, nemo officiis nulla tempora magni ad numquam dicta recusandae. Fuga doloribus dolorum, fugiat ipsa accusantium illo delectus? 
+         <div class="menuOverzicht">
+            <div class="col-md-6">
+                <div class="col-md-8">
+                    <h3>Chocotaartje met balletje ijs<h3>
+                </div>
+                <div class="col-xs-4 col-md-4 prijs">
+                    <p>6.50</p>
+                </div>
+                <div class="col-md-8">
+                    <h3>Dame blanche<h3>
+                </div>
+                <div class="col-xs-4 col-md-4 prijs">
+                    <p>5.50</p>
+                </div>
+                <div class="col-md-8">
+                    <h3>Chocotaartje met balletje ijs<h3>
+                </div>
+                <div class="col-xs-4 col-md-4 prijs">
+                    <p>6.50</p>
+                </div>
+                <div class="col-md-8">
+                    <h3>Chocotaartje met balletje ijs<h3>
+                </div>
+                <div class="col-xs-4 col-md-4 prijs">
+                    <p>6.50</p>
+                </div>
+                <div class="col-md-8">
+                    <h3>Chocotaartje met balletje ijs<h3>
+                </div>
+                <div class="col-xs-4 col-md-4 prijs">
+                    <p>6.50</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="col-md-8">
+                    <h3>Chocotaartje met balletje ijs<h3>
+                </div>
+                <div class="col-xs-4 col-md-4 prijs">
+                    <p>6.50</p>
+                </div>
+                <div class="col-md-8">
+                    <h3>Chocotaartje met balletje ijs<h3>
+                    <p>Amaretto</p>
+                    <p>sambuca</p>
+                    <p>Amaretto</p>
+                    <p>sambuca</p>
+                    <p>Amaretto</p>
+                    <p>sambuca</p>
+                </div>
+                <div class="col-xs-4 col-md-4 prijs">
+                    <p>6.50</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
