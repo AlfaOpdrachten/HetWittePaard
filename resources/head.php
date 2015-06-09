@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="shortcut icon" href="img/favicon.ico">
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/css/bootstrap.css' ?>">
 
