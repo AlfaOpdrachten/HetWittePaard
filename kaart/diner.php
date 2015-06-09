@@ -17,17 +17,17 @@
             </ol>
         </div>
         <div class="menuOverzicht">
-            <div class="col-md-6">
-                <div class="col-md-12">
+            <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-12">
                     <h2>Soepen</h2>
                 </div>
-                    <div class="col-md-8">
+                    <div class="col-xs-8 col-md-8">
                         <h3>Groninger mosterdsoep met gebakken spekjes<h3>
                     </div>
                     <div class="col-xs-4 col-md-4 prijs">
                         <p>6.50</p>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-xs-8 col-md-8">
                         <h3>Champignonsoep<h3>
                     </div>
                     <div class="col-xs-4 col-md-4 prijs">
@@ -87,7 +87,7 @@
                     <div class="col-xs-4 col-md-4 prijs">
                         <p>6.50</p>
                     </div>
-                <div class="col-md-12">
+                <div class="col-xs-12 col-md-12">
                     <h2>Maaltijdsalades</h2>
                 </div>
                     <div class="col-xs-8 col-md-8">
@@ -117,8 +117,8 @@
                     </div>
             </div>
 
-            <div class="col-md-6">
-                <div class="col-md-12">
+            <div class="col-xs-12 col-md-6">
+                <div class="col-xs-12 col-md-12">
                     <h2>Hoofdgerechten - vlees</h2>
                 </div>
                     <div class="col-xs-8 col-md-8">
@@ -171,7 +171,7 @@
                     <div class="col-xs-4 col-md-4 prijs">
                         <p>15.75</p>
                     </div>
-                <div class="col-md-12">
+                <div class="col-xs-12 col-md-12">
                     <h2>Hoofdgerechten - vis</h2>
                 </div>
                     <div class="col-xs-8 col-md-8">

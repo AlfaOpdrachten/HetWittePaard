@@ -5,7 +5,7 @@
 
 <body>
 <?php include '../resources/header.php'; ?>
-
+<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
 <div class="content container ">
     <div class="container-fluid" style="padding-left: 0;">
         <div class="row">
@@ -16,32 +16,32 @@
             </ol>
         </div>
          <div class="menuOverzicht">
-            <div class="col-md-6">
-                <div class="col-md-8">
+            <div class="col-xs-12 col-md-6">
+                <div class="col-xs-8 col-md-8">
                     <h3>Chocotaartje met balletje ijs<h3>
                 </div>
                 <div class="col-xs-4 col-md-4 prijs">
                     <p>6.50</p>
                 </div>
-                <div class="col-md-8">
+                <div class="col-xs-8 col-md-8">
                     <h3>Dame blanche<h3>
                 </div>
                 <div class="col-xs-4 col-md-4 prijs">
                     <p>5.50</p>
                 </div>
-                <div class="col-md-8">
+                <div class="col-xs-8 col-md-8">
                     <h3>Chocotaartje met balletje ijs<h3>
                 </div>
                 <div class="col-xs-4 col-md-4 prijs">
                     <p>6.50</p>
                 </div>
-                <div class="col-md-8">
+                <div class="col-xs-8 col-md-8">
                     <h3>Chocotaartje met balletje ijs<h3>
                 </div>
                 <div class="col-xs-4 col-md-4 prijs">
                     <p>6.50</p>
                 </div>
-                <div class="col-md-8">
+                <div class="col-xs-8 col-md-8">
                     <h3>Chocotaartje met balletje ijs<h3>
                 </div>
                 <div class="col-xs-4 col-md-4 prijs">
@@ -49,14 +49,14 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
-                <div class="col-md-8">
+            <div class="col-xs-12 col-md-6">
+                <div class="col-xs-8 col-md-8">
                     <h3>Chocotaartje met balletje ijs<h3>
                 </div>
                 <div class="col-xs-4 col-md-4 prijs">
                     <p>6.50</p>
                 </div>
-                <div class="col-md-8">
+                <div class="col-xs-8 col-md-8">
                     <h3>Chocotaartje met balletje ijs<h3>
                     <p>Amaretto</p>
                     <p>sambuca</p>

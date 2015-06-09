@@ -5,7 +5,7 @@
 
 <body>
 <?php include '../resources/header.php'; ?>
-
+<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
 <div class="content container ">
     <div class="container-fluid" style="padding-left: 0;">
         <div class="row">
