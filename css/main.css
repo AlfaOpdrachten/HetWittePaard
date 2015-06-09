@@ -113,6 +113,10 @@ footer {
     background: none;
 }
 
+iframe{
+    margin-bottom: -7px;
+}
+
 .panel-transparent .panel-heading{
     background: rgba(139, 0, 0, 0.2)!important;
 }
