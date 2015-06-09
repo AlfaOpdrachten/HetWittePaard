@@ -1,0 +1,157 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-family: fantasy;
+    background: url("../img/555.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.content {
+    margin-top: 70px;
+}
+.navbar-default{
+    background: rgba(139, 0, 0, 0.3);
+    border: 1px solid #78302B;
+}
+.navbar-default a {
+    color: #fff!important;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background: rgba(139, 0, 0, 0.3);
+    color: #FFC0CB;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: inherit;
+}
+
+@media screen and (min-width: 768px) {
+    .linkActive {
+        background: rgba(139, 0, 0, 0.3);
+    }
+    #dropdownmenus {
+        background: rgba(139, 0, 0, 0.3);
+    }
+}
+#dropdownmenu {
+    background: rgba(139, 0, 0, 0.0);
+}
+#dropdownmenu:hover {
+    background: rgba(139, 0, 0, 0.3);
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+
+.masthead {
+    background-image:url("../img/header.jpg");
+}
+.thumbnail img {
+    height: 250px;
+    width: 100%;
+}
+footer {
+    background-color: transparent !important;
+}
+#footer-holder {
+    color: white;
+    padding: 0;
+    background-color: rgba(139, 0, 0, 0.6);
+    margin-bottom: 0;
+
+}
+
+#footer-holder #footer-center, #footer-holder #footer-right {
+    padding-left: 0;
+}
+
+#footer-holder #footer-right {
+    padding-top: 15px;
+}
+
+
+#footer-holder h1 {
+    font-size: medium;
+
+}
+
+#footer-holder a {
+    color: antiquewhite;
+}
+
+#footer-holder #footer-rightimg {
+    margin: 0;
+    padding: 0;
+}
+
+.caret-up {
+    width: 0;
+    height: 0;
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+#copyrightholder {
+
+    margin-bottom: 0;
+}
+
+.panel-transparent {
+    background: none;
+}
+
+.panel-transparent .panel-heading{
+    background: rgba(139, 0, 0, 0.2)!important;
+}
+
+.panel-transparent .panel-body{
+    background: rgba(139, 0, 0, 0.2)!important;
+}
+
+.menuOverzicht .col-md-6 {
+    padding: 0px;
+
+}
+.menuOverzicht .item {
+    border: 1px solid #000;
+    box-shadow: 0px 0px 5px 0px #000;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 5px 0px;
+}
+
+.menuOverzicht img {
+    width: 100%;
+    height: 150px;
+}
+.menuOverzicht h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+}
+.menuOverzicht .prijs p {
+    font-size: 30px;
+    font-weight: 800;
+}
+.breadcrumb {
+    background-color: #EDD29B;
+    border: 1px solid;
+}
+.breadcrumb a {
+    color: inherit;
+}
+.carousel-inner > .item > img{
+    width:100%;
+    height:360px;
+}
