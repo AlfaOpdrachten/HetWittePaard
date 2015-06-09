@@ -20,7 +20,7 @@
     	<div class="container-fluid">
   			<div class="row">
 	  				<div class="col-md-7">
-						<form role="form">
+						<form method="post" action="<?php echo htmlspecialchars($_server["PHP_SELF"]);?>" role="form">
 							<div class="col-xs-12 col-sm-6 col-md-6">
 								<div class="form-group">
 									<label for="naam">Uw voornaam: *</label>
