@@ -16,6 +16,7 @@ html {
 .content {
     margin-top: 70px;
 }
+
 .navbar-default{
     background: rgba(139, 0, 0, 0.3);
     border: 1px solid #78302B;
@@ -53,9 +54,14 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
 }
 
-.masthead {
-    background-image:url("../img/header.jpg");
+@media (min-width: 1367px) {
+    .masthead {
+        background-image: url("../img/headerfoto.jpg");
+        height: 484px;
+        padding-top:432px;
+    }
 }
+
 .thumbnail img {
     height: 250px;
     width: 100%;
@@ -154,4 +160,15 @@ footer {
 .carousel-inner > .item > img{
     width:100%;
     height:360px;
+}
+@media (max-width: 420px){
+    .container {
+        padding-right: 0px!important;
+    }
+    .container h2 {
+        font-size: 22px;
+    }
+    .container h3 {
+        font-size: 15px;
+    }
 }
