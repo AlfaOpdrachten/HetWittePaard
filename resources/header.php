@@ -1,6 +1,6 @@
-<div class="masthead">
-    <div class="container">
-        <nav class="navbar navbar-default" role="navigation">
+<div class="container">
+    <div class="masthead">
+        <nav class="navbar-default navbar" role="navigation">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
