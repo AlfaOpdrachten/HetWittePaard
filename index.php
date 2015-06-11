@@ -39,17 +39,17 @@
     </div>
     <div class="col-md-4" style="border: 1px solid black; margin-bottom: 50px; margin-top: 10px; box-shadow: 0px 0px 5px 0px black;">
         <div class="col-md-12">
-            <h1 style="font-size: 30px">Week Aanbiedingen</h1>
+            <h1 style="font-size: 30px; text-align: center;">Nieuws</h1>
         </div>
         <div class="col-md-12">
-            <div class="col-md-10">
-                <p>Steak van de grill</p>
+            <div class="col-md-7">
+                <p style="font-size: 20px;">Titel news</p>
             </div>
-            <div class="col-md-2">
-                <p>&euro;14.99</p>
+            <div class="col-md-5">
+                <p style="font-size: 20px; text-align: end;">11-06-2015</p>
             </div>
-            <div class="col-md-10">
-                <p>Met een heerlijke huisgemaakte zigeunersaus</p>
+            <div class="col-md-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus accusantium, alias aliquam at cum debitis delectus deserunt harum minima molestiae molestias nisi perferendis rerum, sapiente totam voluptate voluptatum.</p>
             </div>
             <div class="col-md-12">
                 <hr style="border-color:#000000; box-shadow: 0px 0px 1px 0px black;">
@@ -57,14 +57,14 @@
 
         </div>
         <div class="col-md-12">
-            <div class="col-md-10">
-                <p>Steak van de grill</p>
+            <div class="col-md-7">
+                <p style="font-size: 20px;">Titel news</p>
             </div>
-            <div class="col-md-2">
-                <p>&euro;14.99</p>
+            <div class="col-md-5">
+                <p style="font-size: 20px; text-align: end;">11-06-2015</p>
             </div>
-            <div class="col-md-10">
-                <p>Met een heerlijke huisgemaakte zigeunersaus</p>
+            <div class="col-md-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus accusantium, alias aliquam at cum debitis delectus deserunt harum minima molestiae molestias nisi perferendis rerum, sapiente totam voluptate voluptatum.</p>
             </div>
             <div class="col-md-12">
                 <hr style="border-color:#000000; box-shadow: 0px 0px 1px 0px black;">
@@ -72,31 +72,20 @@
 
         </div>
         <div class="col-md-12">
-            <div class="col-md-10">
-                <p>Steak van de grill</p>
+            <div class="col-md-7">
+                <p style="font-size: 20px;">Titel news</p>
             </div>
-            <div class="col-md-2">
-                <p>&euro;14.99</p>
+            <div class="col-md-5">
+                <p style="font-size: 20px; text-align: end;">11-06-2015</p>
             </div>
-            <div class="col-md-10">
-                <p>Met een heerlijke huisgemaakte zigeunersaus</p>
+            <div class="col-md-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus accusantium, alias aliquam at cum debitis delectus deserunt harum minima molestiae molestias nisi perferendis rerum, sapiente totam voluptate voluptatum.</p>
             </div>
             <div class="col-md-12">
                 <hr style="border-color:#000000; box-shadow: 0px 0px 1px 0px black;">
+                <p><a class="btn btn-link" style="color: black; font-size: 18px; text-align: end;" href="/HetWittePaard/nieuws.php" role="button">Klik hier voor meer nieuws.</a></p>
             </div>
 
-        </div>
-        <div class="col-md-12" style="margin-bottom: 38px;">
-            <div class="col-md-10">
-                <p>Steak van de grill</p>
-            </div>
-            <div class="col-md-2">
-                <p>&euro;14.99</p>
-            </div>
-            <div class="col-md-10">
-                <p>Met een heerlijke huisgemaakte zigeunersaus.</p>
-
-            </div>
         </div>
     </div>
 </div>
