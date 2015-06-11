@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="nl">
 
+<?php include 'resources/head.php'; ?>
+
 <script>
     function isNumberKey(evt){
         var charCode = (evt.which) ? evt.which : event.ketCode
         if (charCode > 31 && (charCode < 45 || charCode > 57))
             return false;
         return true;
-    }
+    };
+
+    $(function(){
+        $("#datepicker").datepicker();
+        $.datepicker.formatDate("dd-mm-yy", new Date(1,1,2008));
+    });
+
 </script>
-
-
-<?php include 'resources/head.php'; ?>
 
 <body>
 <?php include 'resources/header.php'; ?>
@@ -59,8 +64,8 @@
                     </div>
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <div class="form-group">
-                            <label for="datum">Datum *</label>
-                            <input type="date" class="form-control" id="datum" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                            <label for="datepicker">Datum *</label>
+                            <input type="text" class="form-control"  id="datepicker"  style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-12 col-md-12">

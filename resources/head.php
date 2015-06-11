@@ -7,11 +7,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- dit is  voor de kalender -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/css/bootstrap.css' ?>">
-
-    <!-- Jquery -->
-	<script src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/libs/jquery-1.11.2.min.js'?>> </script>
 
     <!-- Bootstrap JavaScript -->
     <script src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/libs/bootstrap.min.js'?>> </script>
