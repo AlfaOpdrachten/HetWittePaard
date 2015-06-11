@@ -9,6 +9,12 @@
 
     <div class="content container ">
     	<div class="container-fluid">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
+                <li class="active">Contact</li>
+            </ol>
+        </div>
   			<div class="row">
                     <div class="col-md-6">
                 <IMG SRC="img/restaurant.jpg" ALT="restaurant" WIDTH="500" HEIGHT="300">
