@@ -1,6 +1,6 @@
 
 <footer>
-    <div id="footer-holder" class="container-fluid">
+    <div id="footer-holder" style="height: 260px;" class="container-fluid">
         <div class="col-md-8 panel-default">
 
                  <div id="footer-left" class="col-md-4 panel-body">
