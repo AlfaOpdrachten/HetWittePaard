@@ -30,8 +30,8 @@
 
                      <!-- <img src="img/webicons/webicon-facebook-s.png" /> -->
                      <a href="https://www.facebook.com/HetWittePaardOostwold" class="webicon facebook">Like us on Facebook</a>
-                     <a href="https://www.facebook.com/HetWittePaardOostwold" class="webicon twitter">Like us on Facebook</a>
-                     <a href="https://www.facebook.com/HetWittePaardOostwold" class="webicon mail">Like us on Facebook</a>
+                     <a href="https://www.twitter.com/het_witte_paard" class="webicon twitter">Like us on Facebook</a>
+                     <a href="mailto:info@caferestauranthetwittepaard.nl" class="webicon mail">Like us on Facebook</a>
 
                  </div>
                  <div id="footer-right" class="col-md-4 panel-body">
