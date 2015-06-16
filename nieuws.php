@@ -17,6 +17,10 @@
 <div class="content container ">
     <div class="container-fluid" style="padding-left: 0;">
         <div class="row">
+            <ol class="breadcrumb">
+                <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
+                <li class="active">Nieuws</li>
+            </ol>
             <div class="col-md-8">
                 <div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 5px 0px black; background-color: bisque;">
                     <div class="col-md-7">
