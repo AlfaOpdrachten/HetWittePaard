@@ -6,18 +6,20 @@
 
 <body>
 <?php include 'resources/header.php'; ?>
+<div class="container">
+    <div class="row" style="padding-left: 15px; padding-right: 15px; margin-top: 15px;">
+        <ol class="breadcrumb">
+            <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
+            <li class="active">Contact</li>
+        </ol>
+    </div>
+</div>
 
     <div class="content container ">
     	<div class="container-fluid">
-        <div class="row">
-            <ol class="breadcrumb">
-                <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
-                <li class="active">Contact</li>
-            </ol>
-        </div>
   			<div class="row">
-                    <div class="col-md-6">
-                <IMG SRC="img/restaurant.jpg" ALT="restaurant" WIDTH="500" HEIGHT="300">
+                <div class="col-md-6">
+                    <img src="img/restaurant.jpg" ALT="restaurant" WIDTH="500" HEIGHT="300">
                 </div>
                 <div class="col-md-5" id="informatie" style="margin-bottom: 100px;">
                     <div class="col-xs-12 col-sm-6 col-md-12">
@@ -45,7 +47,39 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <h2>Heeft u een vraag stel hem?</h2>
+                    </div>
+                    <form class="form-horizontal" role="form" action="formulierverzenden.php" method="post">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="naam">Naam:</label>
+                        <div class="col-sm-10">
+                            <input required type="text" class="form-control" id="naam" name="naam" placeholder="Naam">
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">E-mail adres:</label>
+                        <div class="col-sm-10">          
+                            <input required type="email" class="form-control" id="email" name="email" placeholder="voorbeeld@mail.nl">
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="bericht">Uw bericht:</label>
+                        <div class="col-sm-10">
+                            <textarea required class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht."></textarea>
+                            <span class="text-danger">*</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">Verstuur bericht</button>
+                        </div>
+                    </div>
+                </form>
+                </div>
             </div>
         </div>
     </div>
