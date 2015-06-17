@@ -5,14 +5,15 @@
 
 <body>
 <?php include 'resources/header.php'; ?>
-
+<div class="container">
+    <div class="row" style="padding-left: 15px; padding-right: 15px; margin-top: 15px;">
+        <ol class="breadcrumb">
+            <li class="active">Home</li>
+        </ol>
+    </div>
+</div>
 <div class="content container ">
     <div class="container-fluid" style="padding-left: 0;">
-    <div class="row" style="padding-left: 15px;">
-            <ol class="breadcrumb">
-                <li class="active">Home</li>
-            </ol>
-        </div>
         <div class="row">
             <div class="col-md-8">
                 <div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 5px 0px black; background-color: bisque;">

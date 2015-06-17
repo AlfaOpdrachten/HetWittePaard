@@ -6,15 +6,17 @@
 
 <body>
 <?php include 'resources/header.php'; ?>
+<div class="container">
+    <div class="row" style="padding-left: 15px; padding-right: 15px; margin-top: 15px;">
+        <ol class="breadcrumb">
+            <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
+            <li class="active">Contact</li>
+        </ol>
+    </div>
+</div>
 
     <div class="content container ">
     	<div class="container-fluid">
-        <div class="row">
-            <ol class="breadcrumb">
-                <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
-                <li class="active">Contact</li>
-            </ol>
-        </div>
   			<div class="row">
                 <div class="col-md-6">
                     <img src="img/restaurant.jpg" ALT="restaurant" WIDTH="500" HEIGHT="300">
