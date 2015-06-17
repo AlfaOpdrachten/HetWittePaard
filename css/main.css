@@ -12,7 +12,10 @@ html {
     background-size: cover;
 
 }
-
+.thumbnail {
+    background-color: #EDD29B;
+    border: 1px solid #DDDDDD;
+}
 .content {
     margin-top: 70px;
 }

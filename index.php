@@ -8,7 +8,7 @@
 
 <div class="content container ">
     <div class="container-fluid" style="padding-left: 0;">
-    <div class="row">
+    <div class="row" style="padding-left: 15px;">
             <ol class="breadcrumb">
                 <li class="active">Home</li>
             </ol>
@@ -94,7 +94,6 @@
         </div>
     </div>
 </div>
-
 
 
 

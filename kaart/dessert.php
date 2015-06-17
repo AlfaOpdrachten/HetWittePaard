@@ -8,7 +8,7 @@
 <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
 <div class="content container ">
     <div class="container-fluid" style="padding-left: 0;">
-        <div class="row">
+        <div class="row" style="padding-left:15px;">
             <ol class="breadcrumb">
                 <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
                 <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/index.php'?>>Kaart</a></li>
