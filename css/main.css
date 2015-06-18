@@ -77,8 +77,10 @@ footer {
     padding: 0;
     background-color: rgba(139, 0, 0, 0.6);
     margin-bottom: 0;
+    height: 260px;
 
 }
+
 
 #footer-holder #footer-center, #footer-holder #footer-right {
     padding-left: 0;
@@ -201,4 +203,10 @@ footer {
 .active.right {
     opacity: 0;
     z-index: 2;
+}
+
+@media (max-width: 768px) {
+    #footer-holder{
+        height: 100%;
+    }
 }
