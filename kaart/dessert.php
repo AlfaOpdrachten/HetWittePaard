@@ -77,9 +77,9 @@
 
 
 
-
+<div class="container">
 <?php include '../resources/footer.php'; ?>
-
+</div>
 </body>
 
 
