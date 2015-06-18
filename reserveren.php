@@ -120,11 +120,11 @@
             </div>
         </div>
     </div>
+</div>
 
 
 
-
-    <?php include 'resources/footer.php'; ?>
+<?php include 'resources/footer.php'; ?>
 
 </body>
 
