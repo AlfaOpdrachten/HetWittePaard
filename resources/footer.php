@@ -36,10 +36,12 @@
                  </div>
                  <div id="footer-right" class="col-md-4 panel-body">
                          <h1><b>Handige linkjes</b></h1>
-                         <a href="#">Reserveren</a><br>
-                         <a href="#">Contact</a><br>
-                         <a href="#">Algemene voorwaarden</a><br>
-                         <a href="#">Cookies</a>
+                         <a href="index.php">Home</a><br>
+                         <a href="reserveren.php">Reserveren</a><br>
+                         <a href="contact.php">Contact</a><br>
+                         <a href="kaart/index.php">Menu</a><br>
+
+
                  </div>
 
             <div id="copyrightholder" class="col-md-9">
