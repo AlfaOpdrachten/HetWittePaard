@@ -50,13 +50,52 @@
                	 		</div>
         			</form>
         		</div>
+
+
+
+
+
+               <?php
+
+               $data = file_get_contents('http://snshoeksema.nl/CMS/text/?location=HWP%');
+               $data = json_decode($data,1);
+               $test = $data[0];
+
+
+               for($i = 0; $i < $test; $i++){
+
+                   echo "
+
+               <div class='col-md-12 recenties'>
+        			<div class='col-md-6'>
+        				<div class='col-md-12 recentiesItem'>
+	        				<div class='col-md-2'><p>Naam:</p></div><div class='col-md-10'><p>lorem ipsum</p></div>
+	        				<div class='col-md-12'><p>recentie</p></div>
+	        				<div class='col-md-12'>
+	        				<p>".$data[$i+1]['Text']."</p>
+	        				</div>
+	        				<div class='col-md-2'><p>rating:</p></div><div class='col-md-10'><p>8</p></div>
+	        			</div>
+        			</div>";
+
+               }
+
+
+
+                ?>
+
+<!--
         		<div class="col-md-12 recenties">
         			<div class="col-md-6">
         				<div class="col-md-12 recentiesItem">
 	        				<div class="col-md-2"><p>Naam:</p></div><div class="col-md-10"><p>lorem ipsum</p></div>
 	        				<div class="col-md-12"><p>recentie</p></div>
 	        				<div class="col-md-12">
-	        				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem delectus nihil ullam suscipit provident dicta architecto id, eos, iste, minima ipsam, mollitia. Delectus temporibus hic dolores cupiditate maxime? Corporis, molestiae!</p>
+	        				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem delectus nihil 
+                                ullam suscipit 
+                                provident dicta architecto id, eos, iste, minima ipsam, mollitia. 
+                                Delectus temporibus hic dolores 
+                                cupiditate maxime? Corporis, molestiae!</p>
 	        				</div>
 	        				<div class="col-md-2"><p>rating:</p></div><div class="col-md-10"><p>8</p></div>
 	        			</div>
@@ -94,6 +133,7 @@
         		
         		</div>
         	</div>
+            -->
         </div>
     </div>
 </body>
