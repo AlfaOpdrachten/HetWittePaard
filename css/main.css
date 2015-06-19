@@ -18,10 +18,11 @@ html {
 }
 .content {
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .navbar-default{
-    background: rgba(139, 0, 0, 0.3);
+    background: rgba(139, 0, 0, 0.6);
     border: 1px solid #78302B;
 }
 .navbar-default a {
@@ -29,7 +30,7 @@ html {
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background: rgba(139, 0, 0, 0.3);
+    background: rgba(139, 0, 0, 0.6);
     color: #FFC0CB;
 }
 
@@ -40,10 +41,10 @@ html {
 
 @media screen and (min-width: 768px) {
     .linkActive {
-        background: rgba(139, 0, 0, 0.3);
+        background: rgba(139, 0, 0, 0.6);
     }
     #dropdownmenus {
-        background: rgba(139, 0, 0, 0.3);
+        background: rgba(139, 0, 0, 0.6);
     }
 }
 #dropdownmenu {
@@ -77,8 +78,10 @@ footer {
     padding: 0;
     background-color: rgba(139, 0, 0, 0.6);
     margin-bottom: 0;
+    height: 260px;
 
 }
+
 
 #footer-holder #footer-center, #footer-holder #footer-right {
     padding-left: 0;
@@ -201,4 +204,10 @@ footer {
 .active.right {
     opacity: 0;
     z-index: 2;
+}
+
+@media (max-width: 768px) {
+    #footer-holder{
+        height: 100%;
+    }
 }
