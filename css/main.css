@@ -18,7 +18,6 @@ html {
 }
 .content {
     margin-top: 70px;
-    margin-bottom: 70px;
 }
 
 .navbar-default{
@@ -205,9 +204,14 @@ footer {
     opacity: 0;
     z-index: 2;
 }
-
 @media (max-width: 768px) {
     #footer-holder{
         height: 100%;
+    }
+}
+@media screen and (max-width: 970px){
+    #googlemaps{
+        visibility: hidden;
+        display: none;
     }
 }
