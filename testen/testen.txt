@@ -1,0 +1,27 @@
+1. Vooter zie foto index1
+
+2. http://localhost/HetWittePaard/gastenboek.php#     je kan submit clicken zonder iets intevullen(geen melding etc)
+foto gastenboek1
+
+3. Reserveren, bij hoeveel personen kan je een getal invoeren(better allen cijfers imo)
+
+4. Reserveren, als je alless tot "Voorkeustijd" hebt ingevoeld dan krijgt je "verboden toegang", hij check niet of "Datum" is ingevoeld.
+foto reserveren 2.1, 2.2
+
+5. Historie, geplakt aan elkaar, foto historie1
+
+5. Historie, vooter en tekst zie foto historie2.1, historie2.2
+
+6. Nieuws, "Meer Lezen" doet niets. foto nieuws1
+
+7. Nieuws, Tekst geplakt aan vooter. foto nieuws2
+
+8. Contact, als je alles hebt ingevoeld en je klikt "Verstuur bericht" dan ga je naar andere pagina. foto contact1.1, contact1.2
+
+9. Contact, geen border, gewoon tekst. foto contact2
+
+10. Contact, foto en tekst zijn op andere hoogte. foto contact3.
+
+11. Home, nieuws moet kleiner, zodat hij eindigt samen met linkjes naar menu en reserveren. Foto home1.
+
+12. Achtergrond op contect, kleur etc.
