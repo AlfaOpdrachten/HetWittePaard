@@ -56,10 +56,10 @@
                 </div>          
 
     </div>
-    <div class="col-md-14" style="margin: 0px; background-color: rgba(255, 255, 255, 0.6);   padding: 0 !important; margin: 0 !important;">           
+    <div class="col-md-14" style="margin: 0px; background-color: rgba(255, 255, 255, 0.6);   padding: 0 !important; margin: 0 !important;">
         <div class="text-geschiedenis" style="padding: 10px 50px">
             <h1>Geschiedenis</h1>
-                <img src="img/locatie.jpg" width="255px" height="191px" class="img-responsive" style="float:right;" />            
+                <img src="img/locatie.jpg" width="255px" height="191px" class="img-responsive" style="float:right;" />
             <p>
            
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis dui vulputate diam cursus congue. Proin ligula arcu, consectetur ac auctor eget, fringilla sed nisi. Pellentesque id rutrum lectus. Mauris sollicitudin ligula id ipsum ultricies, ac tempor justo dapibus. Donec nulla dolor, tempus vitae aliquam auctor, aliquam et metus. Curabitur eleifend ultrices consequat. Mauris blandit, eros sit amet lacinia porta, purus orci dapibus odio, cursus tempus libero orci vel magna. Sed odio nulla, dictum vitae risus et, vestibulum porta mauris. Suspendisse in nisl elementum, lobortis turpis nec, vulputate lectus. Proin nec dolor nec dolor rhoncus eleifend eu a nibh. Proin et diam euismod, laoreet dolor congue, imperdiet nibh. Fusce euismod vulputate libero, sed dictum nisl lobortis vel. Fusce pulvinar vulputate auctor. Cras eleifend tellus non suscipit dapibus. Aliquam erat volutpat. Duis id volutpat felis.
@@ -76,7 +76,7 @@
 
 
 
-<div class="container">
+<div class="container" style="padding-top: 10px">
     <?php include 'resources/footer.php'; ?>
 </div
 </body>
