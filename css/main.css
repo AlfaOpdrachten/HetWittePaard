@@ -173,9 +173,16 @@ footer {
     border:1px solid;
     margin: 10px 0px;
 }
+div.col-xs-6:nth-child(2) {
+    padding-right: 15px;
+}
+div.col-xs-6:nth-child(3) {
+    padding-left: 15px;
+}
 @media (max-width: 420px){
-    .container {
-        padding-right: 0px!important;
+    div.container:nth-child(1) {
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .container h2 {
         font-size: 22px;
@@ -183,6 +190,26 @@ footer {
     .container h3 {
         font-size: 15px;
     }
+    .content {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 520px){
+    .col-xs-6 {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    #footer-holder{
+        height: 100%;
+    }
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
 }
 .carousel .item {
     left: 0 !important;
@@ -204,14 +231,7 @@ footer {
     opacity: 0;
     z-index: 2;
 }
-@media (max-width: 768px) {
-    #footer-holder{
-        height: 100%;
-    }
-}
-@media screen and (max-width: 970px){
-    #googlemaps{
-        visibility: hidden;
-        display: none;
-    }
+.breadcrumb {
+    margin-right: 15px;
+    margin-left: 15px; 
 }

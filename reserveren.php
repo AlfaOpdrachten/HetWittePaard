@@ -4,19 +4,65 @@
 <?php include 'resources/head.php'; ?>
 
 <script>
-    function isNumberKey(evt){
+    function isNumberKey(evt)
+    {
         var charCode = (evt.which) ? evt.which : event.ketCode
         if (charCode > 31 && (charCode < 45 || charCode > 57))
             return false;
         return true;
-    };
+    }
 
     $(function(){
         $("#datepicker").datepicker();
         $.datepicker.formatDate("dd-mm-yy", new Date(1,1,2008));
     });
 
+    var d = new Date();
+    var vandaag = d.getDay();
+
+    if(vandaag==1)
+    {
+        var veranderen = document.getElementById("tijd");
+        veranderen.remove(veranderen.index(3));
+    }
+
 </script>
+
+<?php
+    $dezedag=date("l");
+    $zondag="<option>15:00</option>
+            <option>15:30</option>
+            <option>16:00</option>
+            <option>16:30</option>
+            <option>17:00</option>
+            <option>17:30</option>
+            <option>18:00</option>
+            <option>18:30</option>
+            <option>19:00</option>
+            <option>19:30</option>
+            <option>20:00</option>
+            <option>20:30</option>";
+
+    $week="<option>12:00</option>
+            <option>12:30</option>
+            <option>13:00</option>
+            <option>13:30</option>
+            <option>14:00</option>
+            <option>14:30</option>
+            <option>15:00</option>
+            <option>15:30</option>
+            <option>16:00</option>
+            <option>16:30</option>
+            <option>17:00</option>
+            <option>17:30</option>
+            <option>18:00</option>
+            <option>18:30</option>
+            <option>19:00</option>
+            <option>19:30</option>
+            <option>20:00</option>
+            <option>20:30</option>";
+
+?>
 
 <body>
 <?php include 'resources/header.php'; ?>
@@ -60,19 +106,27 @@
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <label for="pers">Hoeveel personen? *</label>
-                            <input type="text" class="form-control" id="pers" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                            <input type="text" class="form-control" onkeypress="return isNumberKey(event)" id="pers" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <label for="tijd">Voorkeurstijd? *</label>
-                            <input type="text" class="form-control" id="tijd" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                            <select type="text" class="form-control" id="tijd" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                                <?php if($dezedag=="Sunday")
+                                {
+                                    echo $zondag;
+                                } else
+                                {
+                                    echo $week;
+                                }?>
+                            </select>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <div class="form-group">
                             <label for="datepicker">Datum *</label>
-                            <input type="text" class="form-control"  id="datepicker"  style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                            <input type="text" class="form-control"  id="datepicker" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-12 col-md-12">
@@ -116,6 +170,7 @@
                         Zaterdag: 12:00 uur<br>
                         Zondag: 15:00 uur<br>
                     </div>
+
                 </div>
             </div>
         </div>

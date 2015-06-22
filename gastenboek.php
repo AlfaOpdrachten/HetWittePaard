@@ -5,6 +5,28 @@
 
 <body>
 <?php include 'resources/header.php'; ?>
+
+<?php
+$errors=array();
+$naam=$_POST['naam'];
+$recensie=$_POST['recensie'];
+$cijfer=$_POST['cijfer'];
+    if(isset($_POST['submit']))
+    {
+        if(is_numeric($naam))
+        {
+            $errors= 'Ingevoerde naam is een getal.';
+        }
+        if($errors)
+        echo $errors;
+    }
+
+    if(!$errors)
+    {
+
+        //Hier moet vervolgens de query komen te staan.
+    }
+?>
 <div class="container">
     <div class="row" style="padding-left: 15px; padding-right: 15px; margin-top: 15px;">
         <ol class="breadcrumb">
@@ -24,26 +46,26 @@
         			<form action="#" method="POST" >
         			<div class="panel-body form-horizontal">
 	                    <div class="form-group">
-	                        <label for="concept" class="col-sm-2 control-label">Naam:</label>
+	                        <label for="naam" class="col-sm-2 control-label">Naam:</label>
 	                        <div class="col-sm-4">
-	                            <input type="text" class="form-control" id="concept" name="concept">
+	                            <input type="text" class="form-control" required id="naam" name="naam">
 	                        </div>
 	                    </div>
 	                    <div class="form-group">
-	                        <label for="description" class="col-sm-2 control-label">Recentie:</label>
+	                        <label for="recensie" class="col-sm-2 control-label">Recentie:</label>
 	                        <div class="col-sm-9">
-	                            <textarea class="form-control" id="description" name="description" cols="10" rows="5"></textarea>
+	                            <textarea class="form-control" id="recensie" required name="recensie" cols="10" rows="5"></textarea>
 	                        </div>
 	                    </div> 
 	                    <div class="form-group">
-	                        <label for="description" class="col-sm-2 control-label">Cijfer:</label>
+	                        <label for="cijfer" class="col-sm-2 control-label">Cijfer:</label>
 	                        <div class="col-sm-4">
-	                            <input type="number" class="form-control" id="description" name="description">
+	                            <input type="number" min="1" max="10" required class="form-control" id="cijfer" name="cijfer">
 	                        </div>
 	                    </div> 
 	                    <div class="form-group">
 	                        <div class="col-sm-4 col-md-offset-3">
-	                            <input type="submit" value="Submit">
+	                            <input type="submit" name="submit" value="Submit">
 	                        </div>
 	                    </div> 
 	                    
