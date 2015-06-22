@@ -76,9 +76,10 @@
 
 
 
-<div class="container" style="padding-top: 10px">
+<div class="container footer">
     <?php include 'resources/footer.php'; ?>
 </div>
+
 </body>
 
 

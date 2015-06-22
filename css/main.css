@@ -235,3 +235,8 @@ div.col-xs-6:nth-child(3) {
     margin-right: 15px;
     margin-left: 15px; 
 }
+
+ .footer {
+    padding-right: 0px;
+    padding-left: 0px;
+}
