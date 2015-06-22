@@ -97,9 +97,9 @@
 
 
 
-
-<?php include 'resources/footer.php'; ?>
-
+<div class="container footer">
+    <?php include 'resources/footer.php'; ?>
+</div>
 </body>
 
 

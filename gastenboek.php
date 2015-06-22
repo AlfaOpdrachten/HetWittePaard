@@ -38,12 +38,11 @@ $cijfer=$_POST['cijfer'];
 
 	<div class="content container ">
     	<div class="container-fluid" style="padding-left: 0;">
-        	<div class="row">
-        		<div class="col-md-12">
-        			<h1>Gastenboek</h1>
-        		</div>
-        		<div class="col-md-12">
-        			<form action="#" method="POST" >
+    		<div class="col-md-12">
+    			<h1>Gastenboek</h1>
+    		</div>
+    		<div class="col-md-12">
+    			<form action="#" method="POST" >
         			<div class="panel-body form-horizontal">
 	                    <div class="form-group">
 	                        <label for="naam" class="col-sm-2 control-label">Naam:</label>
@@ -69,9 +68,9 @@ $cijfer=$_POST['cijfer'];
 	                        </div>
 	                    </div> 
 	                    
-               	 		</div>
-        			</form>
-        		</div>
+               	 	</div>
+    			</form>
+    		</div>
 
 
 
@@ -85,9 +84,7 @@ $cijfer=$_POST['cijfer'];
 
 
                for($i = 0; $i < $test; $i++){
-
-                   echo "
-
+               	echo "
                <div class='col-md-12 recenties'>
         			<div class='col-md-6'>
         				<div class='col-md-12 recentiesItem'>
@@ -98,66 +95,11 @@ $cijfer=$_POST['cijfer'];
 	        				</div>
 	        				<div class='col-md-2'><p>rating:</p></div><div class='col-md-10'><p>8</p></div>
 	        			</div>
-        			</div>";
-
-               }
-
-
-
+        			</div>";}
                 ?>
-
-<!--
-        		<div class="col-md-12 recenties">
-        			<div class="col-md-6">
-        				<div class="col-md-12 recentiesItem">
-	        				<div class="col-md-2"><p>Naam:</p></div><div class="col-md-10"><p>lorem ipsum</p></div>
-	        				<div class="col-md-12"><p>recentie</p></div>
-	        				<div class="col-md-12">
-	        				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem delectus nihil 
-                                ullam suscipit 
-                                provident dicta architecto id, eos, iste, minima ipsam, mollitia. 
-                                Delectus temporibus hic dolores 
-                                cupiditate maxime? Corporis, molestiae!</p>
-	        				</div>
-	        				<div class="col-md-2"><p>rating:</p></div><div class="col-md-10"><p>8</p></div>
-	        			</div>
-        			</div>
-        			<div class="col-md-6">
-        				<div class="col-md-12 recentiesItem">
-	        				<div class="col-md-2"><p>Naam:</p></div><div class="col-md-10"><p>lorem ipsum</p></div>
-	        				<div class="col-md-12"><p>recentie</p></div>
-	        				<div class="col-md-12">
-	        				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem delectus nihil ullam suscipit provident dicta architecto id, eos, iste, minima ipsam, mollitia. Delectus temporibus hic dolores cupiditate maxime? Corporis, molestiae!</p>
-	        				</div>
-	        				<div class="col-md-2"><p>rating:</p></div><div class="col-md-10"><p>8</p></div>
-	        			</div>
-        			</div>
-        			<div class="col-md-6">
-        				<div class="col-md-12 recentiesItem">
-	        				<div class="col-md-2"><p>Naam:</p></div><div class="col-md-10"><p>lorem ipsum</p></div>
-	        				<div class="col-md-12"><p>recentie</p></div>
-	        				<div class="col-md-12">
-	        				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem delectus nihil ullam suscipit provident dicta architecto id, eos, iste, minima ipsam, mollitia. Delectus temporibus hic dolores cupiditate maxime? Corporis, molestiae!</p>
-	        				</div>
-	        				<div class="col-md-2"><p>rating:</p></div><div class="col-md-10"><p>8</p></div>
-	        			</div>
-        			</div>
-        			<div class="col-md-6">
-        				<div class="col-md-12 recentiesItem">
-	        				<div class="col-md-2"><p>Naam:</p></div><div class="col-md-10"><p>lorem ipsum</p></div>
-	        				<div class="col-md-12"><p>recentie</p></div>
-	        				<div class="col-md-12">
-	        				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem delectus nihil ullam suscipit provident dicta architecto id, eos, iste, minima ipsam, mollitia. Delectus temporibus hic dolores cupiditate maxime? Corporis, molestiae!</p>
-	        				</div>
-	        				<div class="col-md-2"><p>rating:</p></div><div class="col-md-10"><p>8</p></div>
-	        			</div>
-        			</div>
-        		
-        		</div>
-        	</div>
-            -->
-        </div>
+   		</div>
+   		</div>
     </div>
-        <?php include 'resources/footer.php'; ?>
+   	<?php include 'resources/footer.php'; ?>
 </body>
 </html>
