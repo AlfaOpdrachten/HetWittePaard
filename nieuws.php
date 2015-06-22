@@ -65,7 +65,7 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container" style="padding-top: 10px;">
 <?php include 'resources/footer.php'; ?>
 </div>
 </body>
