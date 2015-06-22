@@ -174,14 +174,15 @@ footer {
     margin: 10px 0px;
 }
 div.col-xs-6:nth-child(2) {
-    padding-right: 15px!important;
+    padding-right: 15px;
 }
 div.col-xs-6:nth-child(3) {
     padding-left: 15px;
 }
 @media (max-width: 420px){
-    .container {
-        padding-right: 0px!important;
+    div.container:nth-child(1) {
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .container h2 {
         font-size: 22px;
@@ -204,12 +205,6 @@ div.col-xs-6:nth-child(3) {
 @media (max-width: 768px) {
     #footer-holder{
         height: 100%;
-    }
-}
-@media (max-width: 970px){
-    #googlemaps{
-        visibility: hidden;
-        display: none;
     }
 }
 .no-gutter > [class*='col-'] {
@@ -235,4 +230,8 @@ div.col-xs-6:nth-child(3) {
 .active.right {
     opacity: 0;
     z-index: 2;
+}
+.breadcrumb {
+    margin-right: 15px;
+    margin-left: 15px; 
 }

@@ -7,7 +7,7 @@
 <?php include 'resources/header.php'; ?>
 
 <div class="container">
-    <div class="row" style="padding-left: 15px; padding-right: 15px; margin-top: 15px;">
+    <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
             <li class="active">Home</li>
         </ol>
