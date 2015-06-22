@@ -11,7 +11,17 @@
         js = d.createElement(s); js.id = id;
         js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.3";
         fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    }(document, 'script', 'facebook-jssdk'));
+
+    $(document).ready(function() {
+        $(".collapsed").hide();
+
+        $(".expanded, .collapsed").click(function() {
+            $(this).parent().children(".expanded, .collapsed").toggle();
+        });
+    });
+
+</script>
 <?php include 'resources/header.php'; ?>
 <div class="container">
     <div class="row" style="padding-left: 15px; padding-right: 15px; margin-top: 15px;">
@@ -29,7 +39,8 @@
 
                 $allnews = 3;
                 $titles = array("Nieuws1", "Nieuws2", "Nieuws3");
-                $text = array("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.");
+                $text1 = array("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.");
+                $text2 = array("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.");
                 $images = array("img/menu1.jpg", "img/reserveren.jpg", "img/lunch.jpg");
                 $date = array("22-06-2015", "21-06-2015", "20-06-2015");
 
@@ -41,8 +52,12 @@
                         <font size="6">'.$titles[$i].'</font>
                         <br>
                         <br>
-                        <p>'.$text[$i].'</p>
-                        <a href="">Meer Lezen</a>
+                        <p class="expanded">'.$text1[$i].'</p>
+                        <p class="collapsed">'.$text2[$i].'</p>
+                        <a href="javascript:void(0)" class="expanded">Meer lezen</a>
+                        <a href="javascript:void(0)" class="collapsed">Minder lezen</a>
+                        <br>
+                        <br>
                     </div>
                     <div class="col-md-5">
                         <h3 style="text-align: right">'.$date[$i].'</h3>
@@ -64,7 +79,8 @@
         </div>
     </div>
 </div>
-
+<br>
+<br>
 <div class="container">
 <?php include 'resources/footer.php'; ?>
 </div>
