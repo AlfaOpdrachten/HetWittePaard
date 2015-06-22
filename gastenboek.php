@@ -158,8 +158,6 @@ $cijfer=$_POST['cijfer'];
             -->
         </div>
     </div>
+        <?php include 'resources/footer.php'; ?>
 </body>
-
-<?php include 'resources/footer.php'; ?>
-
 </html>
