@@ -3,9 +3,9 @@
 2. http://localhost/HetWittePaard/gastenboek.php#     je kan submit clicken zonder iets intevullen(geen melding etc)
 foto gastenboek1
 
-3. Reserveren, bij hoeveel personen kan je een getal invoeren(better allen cijfers imo)
+3fixed. Reserveren, bij hoeveel personen kan je een getal invoeren(better allen cijfers imo)
 
-4. Reserveren, als je alless tot "Voorkeustijd" hebt ingevoeld dan krijgt je "verboden toegang", hij check niet of "Datum" is ingevoeld.
+4fixed? nog steeds gaat naar website. Reserveren, als je alless tot "Voorkeustijd" hebt ingevoeld dan krijgt je "verboden toegang", hij check niet of "Datum" is ingevoeld.
 foto reserveren 2.1, 2.2
 
 5. Historie, geplakt aan elkaar, foto historie1
