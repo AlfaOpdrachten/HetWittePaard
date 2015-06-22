@@ -1,6 +1,5 @@
 
 <footer>
-    <?php include 'head.php'; ?>
     <div id="footer-holder"  class="container-fluid">
         <div class="col-md-8 panel-default">
 

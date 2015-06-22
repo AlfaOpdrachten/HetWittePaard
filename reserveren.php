@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="nl">
 
+<head>
+    <title>
+        Café Restaurant Het Witte Paard | Reserveren
+    </title>
+</head>
 <?php include 'resources/head.php'; ?>
 
 <script>
