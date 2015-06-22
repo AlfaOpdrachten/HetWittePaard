@@ -79,9 +79,14 @@
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 <br>
 <br>
 <div class="container">
+=======
+
+<div class="container" style="padding-top: 10px;">
+>>>>>>> b89cd1527fb1090878fb08c2c926736a972d4c97
 <?php include 'resources/footer.php'; ?>
 </div>
 </body>

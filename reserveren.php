@@ -60,7 +60,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <label for="pers">Hoeveel personen? *</label>
-                            <input type="text" class="form-control" id="pers" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                            <input type="text" class="form-control" onkeypress="return isNumberKey(event)" id="pers" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6">
@@ -72,7 +72,7 @@
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <div class="form-group">
                             <label for="datepicker">Datum *</label>
-                            <input type="text" class="form-control"  id="datepicker"  style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                            <input type="text" class="form-control"  id="datepicker" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-12 col-md-12">
