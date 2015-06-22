@@ -27,9 +27,9 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate pulvinar turpis. Suspendisse vel sem risus. Morbi volutpat sem id enim iaculis volutpat. In quis urna sem. Suspendisse mollis, risus vitae imperdiet elementum, nibh quam commodo turpis, et porttitor augue magna viverra mauris. Praesent vel massa nec odio semper tristique sed vitae orci. Pellentesque mollis est et risus tristique placerat. Etiam aliquet eros vitae ligula aliquet, sed placerat magna sodales. Donec tempor at sem id volutpat. Quisque ac magna ac dolor lacinia luctus. 
                     </div>
                 </div> 
-                <div class="col-md-6" style="float:right">
+                <div class="col-md-6 hidden-xs" style="float:right">
                     <div class="text-overons" style="padding: 10px 50px">  
-                        <div id="myCarousel" class="carousel slide" data-interval="5000">
+                        <div id="myCarousel" class="carousel slide" data-interval="5000" >
                             <script type="text/javascript">
                                 $(document).ready(function(){
                                     $('.carousel').carousel();
