@@ -5,6 +5,12 @@
 
 <body>
 <?php include 'resources/header.php'; ?>
+
+<?php
+    if(isset($_POST['submit'])){
+        echo 'knopje ingedrukt.';
+    }
+?>
 <div class="container">
     <div class="row" style="padding-left: 15px; padding-right: 15px; margin-top: 15px;">
         <ol class="breadcrumb">
