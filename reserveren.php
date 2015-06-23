@@ -162,7 +162,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: rgba(255, 255, 255, 0.6); padding-bottom: 20px; box-shadow: 0px 0px 5px 0px gray;">
-                    <h1>Openingstijden</h1>
+                    <h2>Openingstijden</h2>
 
                     <div class="col-xs-12 col-sm-12 col-md-6">
                         Maandag: Gesloten<br>
