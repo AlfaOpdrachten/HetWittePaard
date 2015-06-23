@@ -46,7 +46,7 @@
             </a>
         </div>
     </div>
-    <div class="col-xs-12 col-md-4" style="border: 1px solid black; margin-bottom: 50px; box-shadow: 0px 0px 5px 0px black;">
+    <div class="col-xs-12 col-md-4" style="border: 1px solid black; margin-bottom: 50px; box-shadow: 0px 0px 5px 0px black; background-color: bisque;">
         
         <div class="col-md-12">
             <h2 style="font-size: 30px; text-align: center;">Nieuws</h2>
