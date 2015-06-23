@@ -3,8 +3,9 @@
 
 <head>
     <title>
-        Café Restaurant Het Witte Paard | Reserveren
+        Reserveren | Café Restaurant Het Witte Paard
     </title>
+    <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dat bent u bij het goede adres!">
 </head>
 <?php include 'resources/head.php'; ?>
 
@@ -62,6 +63,7 @@
 
 if(isset($_POST['submit']))
 {
+
     $errors= [];
     $voornaam=$_POST['voornaam'];
     $achternaam=$_POST['achternaam'];
@@ -97,7 +99,7 @@ if(isset($_POST['submit']))
 <body>
 <?php include 'resources/header.php'; ?>
 <div class="container">
-    <div class="row" style="padding-left: 15px; padding-right: 15px; margin-top: 15px;">
+    <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
                 <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
                 <li class="active">Reserveren</li>
@@ -150,7 +152,7 @@ if(isset($_POST['submit']))
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <label for="tijd">Voorkeurstijd *</label>
-                            <select type="text" class="form-control" id="tijd" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                            <select  class="form-control" id="tijd" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                                 <?php if($dezedag=="Sunday")
                                 {
                                     echo $zondag;
@@ -195,7 +197,7 @@ if(isset($_POST['submit']))
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: rgba(255, 255, 255, 0.6); padding-bottom: 20px; box-shadow: 0px 0px 5px 0px gray;">
-                    <h1>Openingstijden</h1>
+                    <h2>Openingstijden</h2>
 
                     <div class="col-xs-12 col-sm-12 col-md-6">
                         Maandag: Gesloten<br>

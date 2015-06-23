@@ -3,8 +3,9 @@
 <!-- De scripts -->
 <head>
     <title>
-        Café Restaurant Het Witte Paard | Nieuws
+        Nieuws | Café Restaurant Het Witte Paard
     </title>
+    <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dat bent u bij het goede adres!">
 </head>
 <?php include 'resources/head.php'; ?>
 
@@ -29,7 +30,7 @@
 </script>
 <?php include 'resources/header.php'; ?>
 <div class="container">
-    <div class="row" style="padding-left: 15px; padding-right: 15px; margin-top: 15px;">
+    <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
                 <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
                 <li class="active">Nieuws</li>
@@ -42,45 +43,40 @@
             <div class="col-md-8" style="padding-bottom: 5px;">
                 <?php
 
-                $allnews = 3;
-                $titles = array("Nieuws1", "Nieuws2", "Nieuws3");
-                $text1 = array("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.");
-                $text2 = array("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.");
-                $images = array("img/menu1.jpg", "img/reserveren.jpg", "img/lunch.jpg");
-                $date = array("22-06-2015", "21-06-2015", "20-06-2015");
+                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.NIEUWS%');
+                $data = json_decode($data,1);
+                $test = $data[0];
 
-                for($i=0; $i<$allnews; $i++)
-                {
+                /*echo '<pre>';var_dump($data);echo '</pre>';*/
+                for($i = 0; $i < $test; $i++){
                     echo '<div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 5px 0px black; background-color: bisque;">
                     <div class="col-md-7">
                         <br>
-                        <font size="6">'.$titles[$i].'</font>
+                        <font size="6">'.$data[$i+1]["Location"].'</font>
                         <br>
                         <br>
-                        <p class="expanded">'.$text1[$i].'</p>
-                        <p class="collapsed">'.$text2[$i].'</p>
-                        <a href="javascript:void(0)" class="expanded">Meer lezen</a>
-                        <a href="javascript:void(0)" class="collapsed">Minder lezen</a>
+                        <p class="expanded">'. $data[$i+1]["Text"]. '</p>
+                        <p class="collapsed"></p>
                         <br>
                         <br>
                     </div>
                     <div class="col-md-5">
-                        <h3 style="text-align: right">'.$date[$i].'</h3>
+                        <h3 style="text-align: right"></h3>
                         <div class="thumbnail" style="background-color: bisque; border: 1px solid black; box-shadow: 0px 0px 5px 0px black;">
-                            <img src="'.$images[$i].'" alt="Menu">
+                            <img src="" alt="Menu">
                         </div>
                     </div>
                 </div>';
                 }
-
+                
                 ?>
             </div>
-            <div class="col-md-4" style="border: 1px solid black; margin-bottom: 50px; margin-top: 10px; box-shadow: 0px 0px 5px 0px black;">
+<!--             <div class="col-md-4" style="border: 1px solid black; margin-bottom: 50px; margin-top: 10px; box-shadow: 0px 0px 5px 0px black;">
                 <br>
                 <div class="fb-page" data-href="https://www.facebook.com/HetWittePaardOostwold" data-width="350" data-height="500" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/HetWittePaardOostwold"><a href="https://www.facebook.com/HetWittePaardOostwold">CafÃ© Restaurant Het Witte Paard</a></blockquote></div></div>
                 <br>
                 <br>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

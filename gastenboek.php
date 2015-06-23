@@ -3,8 +3,9 @@
 <!-- De scripts -->
 <head>
 	<title>
-		Café Restaurant Het Witte Paard | Gastenboek
+		Gastenboek | Café Restaurant Het Witte Paard
 	</title>
+	<meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dat bent u bij het goede adres!">
 </head>
 <?php include 'resources/head.php'; ?>
 
@@ -35,7 +36,7 @@ $cijfer=$_POST['cijfer'];
     }
 ?>
 <div class="container">
-    <div class="row" style="padding-left: 15px; padding-right: 15px; margin-top: 15px;">
+    <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
                 <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
                 <li class="active">Gastenboek</li>
