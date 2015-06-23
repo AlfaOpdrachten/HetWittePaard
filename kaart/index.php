@@ -5,7 +5,7 @@
     <title>
         Kaart | Café Restaurant Het Witte Paard
     </title>
-    <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dat bent u bij het goede adres!">
+    <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dan bent u bij het goede adres!">
 </head>
 <?php include '../resources/head.php'; ?>
 
@@ -23,21 +23,21 @@
 <div class="content container ">
     <div class="container-fluid" style="padding-left: 0;">
         <div class="col-md-4">
-            <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/lunch.php'?> class="thumbnail">
+            <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/lunch.php'?> class="thumbnail" style="background-color: bisque; color: black; box-shadow: 0px 0px 5px 0px gray; border: solid black 1px;">
                 <img alt="Lunch Kaart" src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/img/lunch.jpg'?>>
-                <h2>Lunch</h2>
+                <h2 style="color: black;">Lunch</h2>
             </a>
         </div>
         <div class="col-md-4">
-            <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/diner.php'?> class="thumbnail">
+            <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/diner.php'?> class="thumbnail" style="background-color: bisque; color: black; box-shadow: 0px 0px 5px 0px gray; border: solid black 1px;">
                 <img alt="Diner Kaart" src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/img/diner.jpg'?>>
-                <h2>Diner</h2>
+                <h2 style="color: black;">Diner</h2>
             </a>
         </div>
         <div class="col-md-4">
-            <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/dessert.php'?> class="thumbnail">
+            <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/dessert.php'?> class="thumbnail" style="background-color: bisque; color: black; box-shadow: 0px 0px 5px 0px gray; border: solid black 1px;">
                 <img alt="Dessert Kaart" src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/img/dessert.jpg'?>>
-                <h2>Dessert</h2>
+                <h2 style="color: black;">Dessert</h2>
             </a>
         </div>
     </div>

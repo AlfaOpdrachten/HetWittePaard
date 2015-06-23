@@ -5,7 +5,7 @@
 	<title>
 		Gastenboek | Café Restaurant Het Witte Paard
 	</title>
-	<meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dat bent u bij het goede adres!">
+	<meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dan bent u bij het goede adres!">
 </head>
 <?php include 'resources/head.php'; ?>
 
@@ -95,7 +95,7 @@ $cijfer=$_POST['cijfer'];
                	echo "
                <div class='col-md-12 recenties'>
         			<div class='col-md-6'>
-        				<div class='col-md-12 recentiesItem'>
+        				<div class='col-md-12 recentiesItem' style='box-shadow: 0px 0px 5px 0px black; background-color: bisque; 1px solid black;'>
 	        				<div class='col-md-2'><p>Naam:</p></div><div class='col-md-10'><p>lorem ipsum</p></div>
 	        				<div class='col-md-12'><p>recentie</p></div>
 	        				<div class='col-md-12'>
