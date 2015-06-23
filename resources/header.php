@@ -1,5 +1,5 @@
 <div class="container">
-    <div onclick="location.href='http://www.caferestauranthetwittepaard.nl';" style="cursor: pointer;" class="masthead">
+    <div class="masthead">
         <nav class="navbar-default navbar" role="navigation">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
