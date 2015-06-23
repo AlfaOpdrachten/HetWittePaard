@@ -4,7 +4,7 @@
     <title>
         Contact | Café Restaurant Het Witte Paard
     </title>
-    <meta name="description" content="Neem contact op met Het Witte Paard.">
+    <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dat bent u bij het goede adres!">
 </head>
 <!-- De scripts -->
 <?php include 'resources/head.php'; ?>
