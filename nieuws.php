@@ -62,7 +62,7 @@
                     </div>
                     <div class="col-md-5">
                         <h3 style="text-align: right"></h3>
-                        <div class="thumbnail" style="background-color: bisque; border: 1px solid black; box-shadow: 0px 0px 5px 0px black;">
+                        <div class="thumbnail" style="">
                             <img src="" alt="Menu">
                         </div>
                     </div>

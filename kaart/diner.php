@@ -22,7 +22,7 @@
         </ol>
     </div>
 </div>
-<div class="content container ">
+<div class="content container " style="background-color: bisque;  box-shadow: 0px 0px 5px 0px gray; border: solid black 1px;">
     <div class="container-fluid" style="padding-left: 0;">
         <div class="menuOverzicht">
             <div class="col-xs-12 col-md-6">
