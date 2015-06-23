@@ -18,7 +18,9 @@ $cijfer=$_POST['cijfer'];
             $errors= 'Ingevoerde naam is een getal.';
         }
         if($errors)
-        echo $errors;
+        {
+            echo $errors;
+        }
     }
 
     if(!$errors)
