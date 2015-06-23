@@ -12,7 +12,7 @@
     function isNumberKey(evt)
     {
         var charCode = (evt.which) ? evt.which : event.ketCode
-        if (charCode > 31 && (charCode < 45 || charCode > 57))
+        if(charCode > 31 && (charCode < 45 || charCode > 57))
             return false;
         return true;
     }
@@ -21,15 +21,6 @@
         $("#datepicker").datepicker();
         $.datepicker.formatDate("dd-mm-yy", new Date(1,1,2008));
     });
-
-    var d = new Date();
-    var vandaag = d.getDay();
-
-    if(vandaag==1)
-    {
-        var veranderen = document.getElementById("tijd");
-        veranderen.remove(veranderen.index(3));
-    }
 
 </script>
 
@@ -66,7 +57,41 @@
             <option>19:30</option>
             <option>20:00</option>
             <option>20:30</option>";
+$errors= [];
+$voornaam=$_POST['voornaam'];
+$achternaam=$_POST['achternaam'];
+$telnr=$_POST['tel'];
+$geklikt=$_POST['submit'];
 
+
+if(isset($_POST['submit']))
+{
+
+    //ga verder met het afhandelen
+
+    if(is_numeric($voornaam))
+    {
+        $errors[] ="Dit lijkt geen echte naam te zijn...";
+    }
+    if(is_numeric($achternaam))
+    {
+        $errors[] ="Dit lijkt geen echte naam te zijn...";
+    }
+
+    $num_length = strlen((string)$telnr);
+    if($num_length < 10 || $num_length > 11) {
+        echo 'Dit gaat goed.';
+    } else {
+        $errors[] ="Dit lijkt geen echt telefoonnummer te zijn...";
+    }
+
+    if(count($errors) > 0){
+        foreach($errors as $e){
+            echo $e . "<br />";
+        }
+    }
+    var_dump($errors);
+}
 ?>
 
 <body>
@@ -83,40 +108,48 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-7">
-                <form method="post" action="<?php echo htmlspecialchars($_server["PHP_SELF"]);?>" role="form">
+                <div class="col-xs-12"><?php
+                    if($dezedag=="Monday")
+                    {
+                        echo "<h3 style='color:red;'>Let op! Houd er rekening mee dat we vandaag en morgen nog gesloten zijn.</h3>";
+                    }else if($dezedag=="Tuesday")
+                    {
+                        echo "<h3 style='color:red;'>Let op! Houd er rekening mee dat we vandaag nog gesloten zijn.</h3>";
+                    }?></div>
+                <form method="post" action="#" role="form">
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
-                            <label for="naam">Uw voornaam: *</label>
-                            <input type="text" class="form-control" id="naam" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                            <label for="voornaam">Uw voornaam *</label>
+                            <input type="text" class="form-control" id="voornaam" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
-                            <label for="naam">Uw achternaam: *</label>
-                            <input type="text" class="form-control" id="naam" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                            <label for="achternaam">Uw achternaam *</label>
+                            <input type="text" class="form-control" id="achternaam" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <div class="form-group">
-                            <label for="email">Uw E-Mail: *</label>
+                            <label for="email">Uw E-Mail *</label>
                             <input type="email" class="form-control" id="email" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <div class="form-group">
-                            <label for="tel">Uw telefoonnummer: *</label>
+                            <label for="tel">Uw telefoonnummer *</label>
                             <input type="tel" onkeypress="return isNumberKey(event)" class="form-control" id="tel" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
-                            <label for="pers">Hoeveel personen? *</label>
+                            <label for="pers">Aantal personen *</label>
                             <input type="text" class="form-control" onkeypress="return isNumberKey(event)" id="pers" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
-                            <label for="tijd">Voorkeurstijd? *</label>
+                            <label for="tijd">Voorkeurstijd *</label>
                             <select type="text" class="form-control" id="tijd" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                                 <?php if($dezedag=="Sunday")
                                 {
@@ -146,7 +179,7 @@
                     </div>
 
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-default">Verstuur reservering</button><br><br>
+                        <input type="submit" name="submit" value="submit" class="btn btn-default"><br><br>
                     </div>
 
                 </form>
