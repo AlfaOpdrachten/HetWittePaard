@@ -39,7 +39,7 @@
 <div class="content container ">
     <div class="container-fluid" style="padding-left: 0;">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8" style="padding-bottom: 5px;">
                 <?php
 
                 $allnews = 3;
