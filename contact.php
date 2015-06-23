@@ -12,7 +12,7 @@
 <body>
 <?php include 'resources/header.php'; ?>
 <div class="container">
-    <div class="row" style="padding-left: 15px; padding-right: 15px; margin-top: 15px;">
+    <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
             <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
             <li class="active">Contact</li>

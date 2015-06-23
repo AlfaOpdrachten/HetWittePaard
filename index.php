@@ -52,52 +52,32 @@
             <h2 style="font-size: 30px; text-align: center;">Nieuws</h2>
         </div>
 
-        <div class="col-md-12">
-            <div class="col-md-7">
-                <p style="font-size: 20px;">Titel news</p>
-            </div>
-            <div class="col-md-5">
-                <p style="font-size: 20px; text-align: end;">11-06-2015</p>
-            </div>
-            <div class="col-md-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus accusantium, alias aliquam at cum debitis delectus deserunt harum minima molestiae molestias nisi perferendis rerum, sapiente totam voluptate voluptatum.</p>
-            </div>
-            <div class="col-md-12">
-                <hr style="border-color:#000000; box-shadow: 0px 0px 1px 0px black;">
-            </div>
+        <?php
 
-        </div>
-        <div class="col-md-12">
-            <div class="col-md-7">
-                <p style="font-size: 20px;">Titel news</p>
-            </div>
-            <div class="col-md-5">
-                <p style="font-size: 20px; text-align: end;">11-06-2015</p>
-            </div>
-            <div class="col-md-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus accusantium, alias aliquam at cum debitis delectus deserunt harum minima molestiae molestias nisi perferendis rerum, sapiente totam voluptate voluptatum.</p>
-            </div>
-            <div class="col-md-12">
-                <hr style="border-color:#000000; box-shadow: 0px 0px 1px 0px black;">
-            </div>
-
-        </div>
-        <div class="col-md-12">
-            <div class="col-md-7">
-                <p style="font-size: 20px;">Titel news</p>
-            </div>
-            <div class="col-md-5">
-                <p style="font-size: 20px; text-align: end;">11-06-2015</p>
-            </div>
-            <div class="col-md-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus accusantium, alias aliquam at cum debitis delectus deserunt harum minima molestiae molestias nisi perferendis rerum, sapiente totam voluptate voluptatum.</p>
-            </div>
-            <div class="col-md-12">
-                <hr style="border-color:#000000; box-shadow: 0px 0px 1px 0px black;">
-                <p><a class="btn btn-link" style="color: black; font-size: 18px; text-align: end;" href="/HetWittePaard/nieuws.php" role="button">Klik hier voor meer nieuws.</a></p>
-            </div>
-
-        </div>
+                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.NIEUWS%');
+                $data = json_decode($data,1);
+                $test = $data[0];
+                $testmax = 3;
+                echo $testmax;
+                echo '<pre>';var_dump($test);echo '</pre>';
+                for($i = 0; $i <= $testmax; $i++){
+                    echo '<div class="col-md-12" style="margin-top: 10px;">
+                        <div class="col-md-7">
+                            <p style="font-size: 20px;">'.$data[$i+1]["Location"].'</p>
+                        </div>
+                        <div class="col-md-5">
+                            <p style="font-size: 20px; text-align: right;">11-06-2015</p>
+                        </div>
+                        <br>
+                        <br>
+                        <p class="expanded">'. $data[$i+1]["Text"]. '</p>
+                        <p class="collapsed"></p>
+                        <hr style="border-color:#000000; box-shadow: 0px 0px 1px 0px black;">
+                </div>';
+                }
+                
+                ?>
+        
     </div>
 </div>
 
