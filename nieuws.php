@@ -47,7 +47,7 @@
                 $data = json_decode($data,1);
                 $test = $data[0];
 
-                echo '<pre>';var_dump($data);echo '</pre>';
+                // echo '<pre>';var_dump($data);echo '</pre>';
                 for($i = 0; $i < $test; $i++){
                     echo '<div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 5px 0px black; background-color: bisque;">
                     <div class="col-md-7">
