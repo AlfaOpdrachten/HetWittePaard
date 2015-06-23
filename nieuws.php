@@ -49,7 +49,7 @@
 
                 // echo '<pre>';var_dump($data);echo '</pre>';
                 for($i = 0; $i < $test; $i++){
-                    echo '<div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 5px 0px black; background-color: bisque;">
+                    echo '<div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
                     <div class="col-md-7">
                         <br>
                         <font size="6">'.$data[$i+1]["Location"].'</font>
@@ -71,7 +71,7 @@
                 
                 ?>
             </div>
-            <div class="col-md-4" style="border: 1px solid black; margin-bottom: 50px; margin-top: 10px; box-shadow: 0px 0px 5px 0px black; background-color: bisque;">
+            <div class="col-md-4" style="border: 1px solid black; margin-bottom: 50px; margin-top: 10px; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
                 <br>
                 <div class="fb-page" data-href="https://www.facebook.com/HetWittePaardOostwold" data-width="350" data-height="500" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/HetWittePaardOostwold"><a href="https://www.facebook.com/HetWittePaardOostwold">CafÃ© Restaurant Het Witte Paard</a></blockquote></div></div>
                 <br>

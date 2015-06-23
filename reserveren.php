@@ -154,7 +154,7 @@ if(isset($_POST['submit']))
 <div class="content container ">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-7" style="border: 1px solid black; box-shadow: 0px 0px 5px 0px black; background-color: bisque;">
+            <div class="col-md-7" style="border: 1px solid black; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
                 <div class="col-xs-12"><?php
                     if($dezedag=="Monday")
                     {
@@ -169,37 +169,37 @@ if(isset($_POST['submit']))
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <label for="voornaam">Uw voornaam *</label>
-                            <input type="text" class="form-control" name="voornaam" id="voornaam" value="<?php echo isset($_POST['voornaam']) ? $_POST['voornaam'] : '' ?>" required style=" box-shadow: 0px 0px 5px 0px gray;">
+                            <input type="text" class="form-control" name="voornaam" id="voornaam" value="<?php echo isset($_POST['voornaam']) ? $_POST['voornaam'] : '' ?>" required style="">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <label for="achternaam">Uw achternaam *</label>
-                            <input type="text" class="form-control" id="achternaam" name="achternaam" value="<?php echo isset($_POST['achternaam']) ? $_POST['achternaam'] : '' ?>" required style=" box-shadow: 0px 0px 5px 0px gray;">
+                            <input type="text" class="form-control" id="achternaam" name="achternaam" value="<?php echo isset($_POST['achternaam']) ? $_POST['achternaam'] : '' ?>" required style="">
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <div class="form-group">
                             <label for="email">Uw E-Mail *</label>
-                            <input type="email" class="form-control" id="email" name="email" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>" required style=" box-shadow: 0px 0px 5px 0px gray;">
+                            <input type="email" class="form-control" id="email" name="email" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ?>" required style="">
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <div class="form-group">
                             <label for="tel">Uw telefoonnummer *</label>
-                            <input type="tel" onkeypress="return isNumberKey(event)" name="tel" class="form-control" id="tel" value="<?php echo isset($_POST['tel']) ? $_POST['tel'] : '' ?>" required style=" box-shadow: 0px 0px 5px 0px gray;">
+                            <input type="tel" onkeypress="return isNumberKey(event)" name="tel" class="form-control" id="tel" value="<?php echo isset($_POST['tel']) ? $_POST['tel'] : '' ?>" required style="">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <label for="pers">Aantal personen *</label>
-                            <input type="text" class="form-control" name="pers" onkeypress="return isNumberKey(event)" id="pers" value="<?php echo isset($_POST['pers']) ? $_POST['pers'] : '' ?>" required style=" box-shadow: 0px 0px 5px 0px gray;">
+                            <input type="text" class="form-control" name="pers" onkeypress="return isNumberKey(event)" id="pers" value="<?php echo isset($_POST['pers']) ? $_POST['pers'] : '' ?>" required style="">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <label for="tijd">Voorkeurstijd *</label>
-                            <select  class="form-control" name="tijd" id="tijd" required style=" box-shadow: 0px 0px 5px 0px gray;">
+                            <select  class="form-control" name="tijd" id="tijd" required style="">
                                 <?php if($dezedag=="Sunday")
                                 {
                                     echo $zondag;
@@ -213,13 +213,13 @@ if(isset($_POST['submit']))
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <div class="form-group">
                             <label for="datepicker">Datum *</label>
-                            <input type="text" class="form-control" name="datepicker" value="<?php echo isset($_POST['datepicker']) ? $_POST['datepicker'] : '' ?>" id="datepicker" required style=" box-shadow: 0px 0px 5px 0px gray;">
+                            <input type="text" class="form-control" name="datepicker" value="<?php echo isset($_POST['datepicker']) ? $_POST['datepicker'] : '' ?>" id="datepicker" required style="">
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <div class="form-group">
                             <label for="comment" style="">Extra informatie</label>
-                            <textarea class="form-control" rows="5" id="comment" style=" box-shadow: 0px 0px 5px 0px gray;" name="comment"><?php echo isset($_POST['comment']) ? $_POST['comment'] : '' ?></textarea>
+                            <textarea class="form-control" rows="5" id="comment" style="" name="comment"><?php echo isset($_POST['comment']) ? $_POST['comment'] : '' ?></textarea>
 
                         </div>
                     </div>
@@ -235,7 +235,7 @@ if(isset($_POST['submit']))
                 </form>
             </div>
             <div class="col-md-5" id="informatie">
-                <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: bisque; box-shadow: 0px 0px 5px 0px gray; border: solid black 1px;">
+                <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: #FFDCAA; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
                     <h1>Adress gegevens</h1>
                     <div class="col-xs-12 col-sm-12 col-md-6">
                         Hoofdstraat 217<br>
@@ -244,7 +244,7 @@ if(isset($_POST['submit']))
                         M:<a href="mailto:reserveren@caferestauranthetwittepaard.nl">reserveren@caferestauranthetwittepaard.nl</a><br><br>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: bisque; padding-bottom: 20px; box-shadow: 0px 0px 5px 0px gray; border: solid black 1px;">
+                <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: #FFDCAA; padding-bottom: 20px; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
                     <h2>Openingstijden</h2>
 
                     <div class="col-xs-12 col-sm-12 col-md-6">

@@ -46,28 +46,28 @@ $cijfer=$_POST['cijfer'];
 
 	<div class="content container ">
     	<div class="container-fluid" style="padding-left: 0;">
-    		<div class="col-md-12" style=" box-shadow: 0px 0px 5px 0px gray; border: solid black 1px; background-color: bisque; border-bottom: hidden;">
+    		<div class="col-md-12" style=" box-shadow: 0px 0px 10px 0px gray; border: solid black 1px; background-color: #FFDCAA; border-bottom: hidden;">
     			<h1>Gastenboek</h1>
     		</div>
-    		<div class="col-md-12" style=" box-shadow: 0px 0px 5px 0px gray; border: solid black 1px; background-color: bisque;">
+    		<div class="col-md-12" style=" box-shadow: 0px 0px 10px 0px gray; border: solid black 1px; background-color: #FFDCAA;">
     			<form action="#" method="POST" >
         			<div class="panel-body form-horizontal">
 	                    <div class="form-group">
 	                        <label for="naam" class="col-sm-2 control-label">Naam:</label>
 	                        <div class="col-sm-4">
-	                            <input type="text" class="form-control" style="box-shadow: 0px 0px 5px 0px gray;" required id="naam" name="naam">
+	                            <input type="text" class="form-control" style="" required id="naam" name="naam">
 	                        </div>
 	                    </div>
 	                    <div class="form-group">
 	                        <label for="recensie" class="col-sm-2 control-label">Recentie:</label>
 	                        <div class="col-sm-9">
-	                            <textarea class="form-control" style="box-shadow: 0px 0px 5px 0px gray;" id="recensie" required name="recensie" cols="10" rows="5"></textarea>
+	                            <textarea class="form-control" style="" id="recensie" required name="recensie" cols="10" rows="5"></textarea>
 	                        </div>
 	                    </div> 
 	                    <div class="form-group">
 	                        <label for="cijfer" class="col-sm-2 control-label">Cijfer:</label>
 	                        <div class="col-sm-4">
-	                            <input type="number" min="1" max="10" style="box-shadow: 0px 0px 5px 0px gray;" required class="form-control" id="cijfer" name="cijfer">
+	                            <input type="number" min="1" max="10" style="" required class="form-control" id="cijfer" name="cijfer">
 	                        </div>
 	                    </div> 
 	                    <div class="form-group">
@@ -95,7 +95,7 @@ $cijfer=$_POST['cijfer'];
                	echo "
                <div class='col-md-12 recenties'>
         			<div class='col-md-6'>
-        				<div class='col-md-12 recentiesItem' style='box-shadow: 0px 0px 5px 0px gray; background-color: bisque; 1px solid black;'>
+        				<div class='col-md-12 recentiesItem' style='box-shadow: 0px 0px 10px 0px gray; background-color: #FFDCAA; 1px solid black;'>
 	        				<div class='col-md-2'><p>Naam:</p></div><div class='col-md-10'><p>lorem ipsum</p></div>
 	        				<div class='col-md-12'><p>recentie</p></div>
 	        				<div class='col-md-12'>
