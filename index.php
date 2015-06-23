@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="nl">
 <!-- De scripts -->
+<head>
+    <title>
+        Café Restaurant Het Witte Paard
+    </title>
+    <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dat bent u bij het goede adres!">
+</head>
 <?php include 'resources/head.php'; ?>
 
 <body>
@@ -97,8 +103,9 @@
 
 
 
-
-<?php include 'resources/footer.php'; ?>
+<div class="container footer">
+    <?php include 'resources/footer.php'; ?>
+</div>
 
 </body>
 

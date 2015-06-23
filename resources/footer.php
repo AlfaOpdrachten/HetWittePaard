@@ -2,42 +2,42 @@
     <div id="footer-holder" class="container-fluid">
         <div class="col-xs-12 col-md-8 panel-default ">
             <div id="footer-left" class="col-xs-6 col-sm-4 panel-body">
-                 <h1><b>Openingstijden</b></h1>
-                 <p>
-                     Maandag: Gesloten<br>
-                     Dinsdag: Gesloten<br>
-                     Woensdag:  12.00 uur<br>
-                     Donderdag:  12.00 uur<br>
-                     Vrijdag:  12.00 uur<br>
-                     Zaterdag:  12.00 uur<br>
-                     Zondag:  15:00 uur
-                 </p>
+                <h1><b>Openingstijden</b></h1>
+                <p>
+                    Maandag: Gesloten<br>
+                    Dinsdag: Gesloten<br>
+                    Woensdag:  12.00 uur<br>
+                    Donderdag:  12.00 uur<br>
+                    Vrijdag:  12.00 uur<br>
+                    Zaterdag:  12.00 uur<br>
+                    Zondag:  15:00 uur
+                </p>
 
             </div>
             <div id="footer-center" class="col-xs-6  col-sm-4 panel-body">
-                 <h1><b>Contactgegevens</b></h1>
-                 <p>
-                     Restaurant Het Witte Paard<br>
-                     Hoofdstraat 217<br>
-                     9828 PB Oostwold<br>
-                     050 – 5515 282<br>
-                     info@caferestauranthetwittepaard.nl
-                 </p>
-                 <br>
+                <h1><b>Contactgegevens</b></h1>
+                <p>
+                    Restaurant Het Witte Paard<br>
+                    Hoofdstraat 217<br>
+                    9828 PB Oostwold<br>
+                    050 – 5515 282<br>
+                    info@caferestauranthetwittepaard.nl
+                </p>
+                <br>
 
 
-                 <!-- <img src="img/webicons/webicon-facebook-s.png" /> -->
-                 <a href="https://www.facebook.com/HetWittePaardOostwold" class="webicon facebook">Like us on Facebook</a>
-                 <a href="https://www.twitter.com/het_witte_paard" class="webicon twitter">Like us on Facebook</a>
-                 <a href="mailto:info@caferestauranthetwittepaard.nl" class="webicon mail">Like us on Facebook</a>
+                <!-- <img src="img/webicons/webicon-facebook-s.png" /> -->
+                <a href="https://www.facebook.com/HetWittePaardOostwold" class="webicon facebook">Like us on Facebook</a>
+                <a href="https://www.twitter.com/het_witte_paard" class="webicon twitter">Like us on Facebook</a>
+                <a href="mailto:info@caferestauranthetwittepaard.nl" class="webicon mail">Like us on Facebook</a>
 
             </div>
             <div id="footer-right" class="col-xs-6  col-sm-4 panel-body">
-                     <h1><b>Handige linkjes</b></h1>
-                     <a href="index.php">Home</a><br>
-                     <a href="reserveren.php">Reserveren</a><br>
-                     <a href="contact.php">Contact</a><br>
-                     <a href="kaart/index.php">Menu</a><br>
+                <h1><b>Handige linkjes</b></h1>
+                <a href="index.php">Home</a><br>
+                <a href="reserveren.php">Reserveren</a><br>
+                <a href="contact.php">Contact</a><br>
+                <a href="kaart/index.php">Menu</a><br>
             </div>
 
             <div id="copyrightholder" class="col-xs-12 col-sm-9">

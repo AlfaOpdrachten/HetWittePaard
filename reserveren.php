@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="nl">
 
+<head>
+    <title>
+        Café Restaurant Het Witte Paard | Reserveren
+    </title>
+</head>
 <?php include 'resources/head.php'; ?>
 
 <script>
@@ -212,7 +217,7 @@ if(isset($_POST['submit']))
 
 
 
-<div class="container">
+<div class="container footer">
     <?php include 'resources/footer.php'; ?>
 </div>
 

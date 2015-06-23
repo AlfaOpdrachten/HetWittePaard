@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="nl">
-
+<head>
+    <title>
+        Café Restaurant Het Witte Paard | Contact
+    </title>
+</head>
 <!-- De scripts -->
 <?php include 'resources/head.php'; ?>
 
@@ -86,9 +90,10 @@
 
 
 
-<div class="container">
-<?php include 'resources/footer.php'; ?>
+<div class="container footer">
+    <?php include 'resources/footer.php'; ?>
 </div>
+
 </body>
 
 

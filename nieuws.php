@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="nl">
 <!-- De scripts -->
+<head>
+    <title>
+        Café Restaurant Het Witte Paard | Nieuws
+    </title>
+</head>
 <?php include 'resources/head.php'; ?>
 
 <body>
@@ -34,7 +39,7 @@
 <div class="content container ">
     <div class="container-fluid" style="padding-left: 0;">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8" style="padding-bottom: 5px;">
                 <?php
 
                 $allnews = 3;
@@ -79,15 +84,9 @@
         </div>
     </div>
 </div>
-<<<<<<< HEAD
-<br>
-<br>
-<div class="container">
-=======
 
-<div class="container" style="padding-top: 10px;">
->>>>>>> b89cd1527fb1090878fb08c2c926736a972d4c97
-<?php include 'resources/footer.php'; ?>
+<div class="container footer">
+    <?php include 'resources/footer.php'; ?>
 </div>
 </body>
 
