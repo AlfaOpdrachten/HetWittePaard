@@ -2,8 +2,9 @@
 <html lang="nl">
 <head>
     <title>
-        Café Restaurant Het Witte Paard | Contact
+        Contact | Café Restaurant Het Witte Paard
     </title>
+    <meta name="description" content="Neem contact op met Het Witte Paard.">
 </head>
 <!-- De scripts -->
 <?php include 'resources/head.php'; ?>
@@ -36,7 +37,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-12" style="padding-bottom: 10px; background-color: rgba(255, 255, 255, 0.6); box-shadow: 0px 0px 5px 0px gray;">
-                        <h1 style="">Openingstijden</h1>
+                        <h2 style="">Openingstijden</h2>
 
                         <div class="col-xs-12 col-sm-12 col-md-6">
                             Maandag: Gesloten<br>

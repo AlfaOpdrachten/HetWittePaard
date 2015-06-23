@@ -3,7 +3,7 @@
 <!-- De scripts -->
 <head>
     <title>
-        Café Restaurant Het Witte Paard | Kaart
+        Kaart | Café Restaurant Het Witte Paard
     </title>
 </head>
 <?php include '../resources/head.php'; ?>
@@ -23,19 +23,19 @@
     <div class="container-fluid" style="padding-left: 0;">
         <div class="col-md-4">
             <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/lunch.php'?> class="thumbnail">
-                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/img/lunch.jpg'?> alt="...">
+                <img alt="Lunch Kaart" src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/img/lunch.jpg'?>>
                 <h2>Lunch</h2>
             </a>
         </div>
         <div class="col-md-4">
             <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/diner.php'?> class="thumbnail">
-                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/img/diner.jpg'?> alt="...">
+                <img alt="Diner Kaart" src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/img/diner.jpg'?>>
                 <h2>Diner</h2>
             </a>
         </div>
         <div class="col-md-4">
             <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/dessert.php'?> class="thumbnail">
-                <img src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/img/dessert.jpg'?> alt="...">
+                <img alt="Dessert Kaart" src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/img/dessert.jpg'?>>
                 <h2>Dessert</h2>
             </a>
         </div>

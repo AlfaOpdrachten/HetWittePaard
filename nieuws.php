@@ -3,7 +3,7 @@
 <!-- De scripts -->
 <head>
     <title>
-        Café Restaurant Het Witte Paard | Nieuws
+        Nieuws | Café Restaurant Het Witte Paard
     </title>
 </head>
 <?php include 'resources/head.php'; ?>
