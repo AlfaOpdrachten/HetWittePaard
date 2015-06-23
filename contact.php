@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <title>
-        Café Restaurant Het Witte Paard | Contact
+        Contact | Café Restaurant Het Witte Paard
     </title>
     <meta name="description" content="Neem contact op met Het Witte Paard.">
 </head>
