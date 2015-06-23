@@ -57,10 +57,10 @@
                 $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.NIEUWS%');
                 $data = json_decode($data,1);
                 $test = $data[0];
-                $testmax = 3;
-                echo $testmax;
-                echo '<pre>';var_dump($test);echo '</pre>';
-                for($i = 0; $i <= $testmax; $i++){
+                $testmax = 2;
+                // echo '<pre>';var_dump($test);echo '</pre>';
+                if(isset($data[2])){
+                    for($i = 0; $i <= $testmax; $i++){
                     echo '<div class="col-md-12" style="margin-top: 10px;">
                         <div class="col-md-7">
                             <p style="font-size: 20px;">'.$data[$i+1]["Location"].'</p>
@@ -73,9 +73,9 @@
                         <p class="expanded">'. $data[$i+1]["Text"]. '</p>
                         <p class="collapsed"></p>
                         <hr style="border-color:#000000; box-shadow: 0px 0px 1px 0px black;">
-                </div>';
+                    </div>';
+                    }
                 }
-                
                 ?>
         
     </div>
