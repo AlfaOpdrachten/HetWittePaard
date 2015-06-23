@@ -5,6 +5,7 @@
     <title>
         Kaart | Café Restaurant Het Witte Paard
     </title>
+    <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dat bent u bij het goede adres!">
 </head>
 <?php include '../resources/head.php'; ?>
 
