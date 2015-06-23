@@ -11,6 +11,29 @@
 
 <body>
 <?php include 'resources/header.php'; ?>
+<?php
+$errors=[];
+$naam = $_POST['naam'];
+$email = $_POST['email'];
+$bericht = $_POST['bericht'];
+if(isset($_POST['submit']))
+{
+    if(is_numeric($naam))
+    {
+        $errors= 'Ingevoerde naam is een getal.';
+    }
+    if($errors)
+    {
+        echo  "<script type='text/javascript'>alert('$errors')</script>";
+    }
+}
+
+if(!$errors)
+{
+
+    //Hier moet vervolgens de query komen te staan.
+}
+?>
 <div class="container">
     <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
@@ -27,7 +50,7 @@
                     <img src="img/restaurant.jpg" ALT="restaurant" WIDTH="500" HEIGHT="350">
                 </div>
                 <div class="col-md-5" id="informatie" style="margin-bottom: 100px;">
-                    <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: bisque; box-shadow: 0px 0px 5px 0px gray;">
+                    <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: bisque; box-shadow: 0px 0px 5px 0px gray; border: solid black 1px;">
                         <h1>Adres gegevens</h1>
                         <div class="col-xs-12 col-sm-12 col-md-6" >
                             Hoofdstraat 217<br>
@@ -36,7 +59,7 @@
                             M: <a href="mailto:reserveren@caferestauranthetwittepaard.nl">reserveren@caferestauranthetwittepaard.nl</a><br><br>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-12" style="padding-bottom: 10px; background-color: bisque; box-shadow: 0px 0px 5px 0px gray;">
+                    <div class="col-xs-12 col-sm-6 col-md-12" style="padding-bottom: 10px; background-color: bisque; box-shadow: 0px 0px 5px 0px gray; border: solid black 1px;">
                         <h2 style="">Openingstijden</h2>
 
                         <div class="col-xs-12 col-sm-12 col-md-6">

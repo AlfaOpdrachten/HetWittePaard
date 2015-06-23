@@ -4,9 +4,9 @@ class DB {
 	//
 	private static function connect(){
 		//
-		$config = @include('./config/database.php');
+		$config = @include('./config.php');
 		if (empty($config))
-			$config = @include('../config/database.php');
+			$config = @include('config.php');
 
 		$dns 	= $config['type'].':host='.$config['host'].';dbname='.$config['dbname'];
 		try {
