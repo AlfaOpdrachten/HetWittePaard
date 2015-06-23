@@ -25,7 +25,7 @@
             <h1>Over ons</h1>
             <p style="font-size: 15px;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.</p>
         </div>
-        <div class="col-xs-6 col-md-6" style="margin-top: 10px; padding: 0px;">
+        <div class="col-xs-6 col-md-6" style="margin-top: 10px; padding-right: 15px;padding-left:0px;">
             <a href="/HetWittePaard/kaart/index.php" style="padding-bottom: 20px;">
                 <div class="thumbnail" style="background-color: bisque; border: 1px solid black; box-shadow: 0px 0px 5px 0px black;">
                     <img src="img/menu1.jpg" alt="Menu">
@@ -35,7 +35,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-xs-6 col-md-6" style="margin-top: 10px; padding: 0px; ">
+        <div class="col-xs-6 col-md-6" style="margin-top: 10px; padding-left: 15px; padding-right: 0px; ">
             <a href="/HetWittePaard/reserveren.php">
                 <div class="thumbnail" style="background-color: bisque; border: 1px solid black; box-shadow: 0px 0px 5px 0px black;">
                     <img src="img/reserveren.jpg" alt="Reserveren">
