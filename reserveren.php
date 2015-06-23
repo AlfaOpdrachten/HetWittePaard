@@ -91,10 +91,11 @@ if(isset($_POST['submit']))
     $email=$_POST['email'];
     $pers=$_POST['pers'];
     $tijd=$_POST['tijd'];
-    $datum=date("d-m-Y", strtotime($_POST['datepicker']));
+    $inputdate=$_POST['datepicker'];
+    $datumnieuw=$inputdate . " " . $tijd;
     $comment=$_POST['comment'];
-    $datumnieuw=$datum . " " . $tijd;
-    echo $datumnieuw;
+
+
 
     //ga verder met het afhandelen
 
