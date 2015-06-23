@@ -47,7 +47,7 @@ if(!$errors)
     	<div class="container-fluid">
   			<div class="row">
                 <div class="col-md-6">
-                    <img src="img/restaurant.jpg" ALT="restaurant" WIDTH="500" HEIGHT="350">
+                    <img src="img/restaurant.jpg" ALT="restaurant" WIDTH="500" HEIGHT="350" style=" box-shadow: 0px 0px 5px 0px gray; border: solid black 1px;">
                 </div>
                 <div class="col-md-5" id="informatie" style="margin-bottom: 100px;">
                     <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: bisque; box-shadow: 0px 0px 5px 0px gray; border: solid black 1px;">
@@ -75,7 +75,7 @@ if(!$errors)
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12" style="background-color: bisque; box-shadow: 0px 0px 5px 0px gray; border: solid black 1px;">
                     <div class="col-md-12">
                         <h2>Heeft u een vraag stel hem?</h2>
                     </div>
@@ -83,21 +83,21 @@ if(!$errors)
                     <div class="form-group">
                         <label class="control-label col-sm-2" for="naam">Naam:</label>
                         <div class="col-sm-10">
-                            <input required type="text" class="form-control" id="naam" name="naam" placeholder="Naam">
+                            <input required type="text" class="form-control" style="box-shadow: 0px 0px 5px 0px gray;" id="naam" name="naam" placeholder="Naam">
                             <span class="text-danger">*</span>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="control-label col-sm-2" for="email">E-mail adres:</label>
                         <div class="col-sm-10">          
-                            <input required type="email" class="form-control" id="email" name="email" placeholder="voorbeeld@mail.nl">
+                            <input required type="email" class="form-control" id="email" style="box-shadow: 0px 0px 5px 0px gray;" name="email" placeholder="voorbeeld@mail.nl">
                             <span class="text-danger">*</span>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="control-label col-sm-2" for="bericht">Uw bericht:</label>
                         <div class="col-sm-10">
-                            <textarea required class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht."></textarea>
+                            <textarea required class="form-control" rows="5" style="box-shadow: 0px 0px 5px 0px gray;" id="bericht" name="bericht" placeholder="Typ hier uw bericht."></textarea>
                             <span class="text-danger">*</span>
                         </div>
                     </div>
