@@ -120,25 +120,25 @@ if(isset($_POST['submit']))
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <label for="voornaam">Uw voornaam *</label>
-                            <input type="text" class="form-control" id="voornaam" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                            <input type="text" class="form-control" name="voornaam" id="voornaam" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <label for="achternaam">Uw achternaam *</label>
-                            <input type="text" class="form-control" id="achternaam" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                            <input type="text" class="form-control" id="achternaam" name="achternaam" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <div class="form-group">
                             <label for="email">Uw E-Mail *</label>
-                            <input type="email" class="form-control" id="email" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                            <input type="email" class="form-control" id="email" name="email" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <div class="form-group">
                             <label for="tel">Uw telefoonnummer *</label>
-                            <input type="tel" onkeypress="return isNumberKey(event)" class="form-control" id="tel" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
+                            <input type="tel" onkeypress="return isNumberKey(event)" name="tel" class="form-control" id="tel" required style=" box-shadow: 0px 0px 5px 0px burlywood;">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6">
