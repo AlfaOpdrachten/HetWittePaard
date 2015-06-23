@@ -58,9 +58,9 @@
                 $data = json_decode($data,1);
                 $test = $data[0];
                 $testmax = 3;
-
-                /*echo '<pre>';var_dump($data);echo '</pre>';*/
-                for($i = 0; $i < $testmax; $i++){
+                echo $testmax;
+                echo '<pre>';var_dump($test);echo '</pre>';
+                for($i = 0; $i <= $testmax; $i++){
                     echo '<div class="col-md-12" style="margin-top: 10px;">
                         <div class="col-md-7">
                             <p style="font-size: 20px;">'.$data[$i+1]["Location"].'</p>
