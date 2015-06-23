@@ -57,15 +57,15 @@
             <option>19:30</option>
             <option>20:00</option>
             <option>20:30</option>";
-$errors= [];
-$voornaam=$_POST['voornaam'];
-$achternaam=$_POST['achternaam'];
-$telnr=$_POST['tel'];
-$geklikt=$_POST['submit'];
+
 
 
 if(isset($_POST['submit']))
 {
+    $errors= [];
+    $voornaam=$_POST['voornaam'];
+    $achternaam=$_POST['achternaam'];
+    $telnr=$_POST['tel'];
 
     //ga verder met het afhandelen
 
