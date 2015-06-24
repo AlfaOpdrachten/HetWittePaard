@@ -20,7 +20,7 @@
                        </ol>
     </div>
 </div>
-<div class="content container" style="margin-bottom: 5px;">
+<div class="content container" style="margin-bottom: 5px; padding-bottom:10px;">
         <div class="border" style="border:1px solid black;box-shadow: 0px 0px 10px 0px black">
             <div class="col-md-12" style="margin: 0px; padding: 0 !important; margin: 0 !important; background-color: #FFDCAA;">
                 <div class="col-md-6" style="float:left; padding: 10px 50px">
