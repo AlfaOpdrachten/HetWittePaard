@@ -12,12 +12,13 @@
 <body>
 <?php include 'resources/header.php'; ?>
 <?php
-$errors=[];
-$naam = $_POST['naam'];
-$email = $_POST['email'];
-$bericht = $_POST['bericht'];
+
 if(isset($_POST['submit']))
 {
+    $errors=[];
+    $naam = $_POST['naam'];
+    $email = $_POST['email'];
+    $bericht = $_POST['bericht'];
     if(is_numeric($naam))
     {
         $errors= 'Ingevoerde naam is een getal.';
@@ -26,13 +27,14 @@ if(isset($_POST['submit']))
     {
         echo  "<script type='text/javascript'>alert('$errors')</script>";
     }
+    if(!$errors)
+    {
+
+        //Hier moet vervolgens de query komen te staan.
+    }
 }
 
-if(!$errors)
-{
 
-    //Hier moet vervolgens de query komen te staan.
-}
 ?>
 <div class="container">
     <div class="row" style="margin-top: 15px;">
