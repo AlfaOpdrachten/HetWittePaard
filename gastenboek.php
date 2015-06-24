@@ -10,10 +10,10 @@
 <?php include 'resources/head.php'; ?>
 
 <body>
-<?php include 'resources/header.php'; ?>
-<?php include 'database.php'; ?>
+<?php include 'resources/header.php';
+require_once('./database.php');
+// test
 
-<?php
 $test=0;
 $errors=array();
 $naam=$_POST['naam'];
