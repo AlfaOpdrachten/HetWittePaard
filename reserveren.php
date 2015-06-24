@@ -166,9 +166,8 @@ if(isset($_POST['submit']))
                     }else if($dezedag=="Tuesday")
                     {
                         echo "<h3 style='color:darkred;'>Let op! Houd er rekening mee dat we vandaag nog gesloten zijn.</h3>";
-                    }?></div>
-                <div class="col-xs-12">
-                </div>
+                    }?>
+                    </div>
                 <form method="post" action="#" role="form">
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
@@ -176,7 +175,7 @@ if(isset($_POST['submit']))
                             <input type="text" class="form-control" name="voornaam" id="voornaam" value="<?php echo isset($_POST['voornaam']) ? $_POST['voornaam'] : '' ?>" required style="">
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                  <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <label for="achternaam">Uw achternaam *</label>
                             <input type="text" class="form-control" id="achternaam" name="achternaam" value="<?php echo isset($_POST['achternaam']) ? $_POST['achternaam'] : '' ?>" required style="">
@@ -194,7 +193,7 @@ if(isset($_POST['submit']))
                             <input type="tel" onkeypress="return isNumberKey(event)" name="tel" class="form-control" id="tel" value="<?php echo isset($_POST['tel']) ? $_POST['tel'] : '' ?>" required style="">
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6">
+                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <div class="form-group">
                             <label for="pers">Aantal personen *</label>
                             <input type="text" class="form-control" name="pers" onkeypress="return isNumberKey(event)" id="pers" value="<?php echo isset($_POST['pers']) ? $_POST['pers'] : '' ?>" required style="">
@@ -231,11 +230,7 @@ if(isset($_POST['submit']))
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <p>Vergeet niet de verplichte velden met een (*) in te vullen</p>
                     </div>
-
-                    <div class="col-md-12">
-                        <input type="submit" name="submit" value="submit" class="btn btn-default"><br><br>
-                    </div>
-
+                    &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="submit" value="submit" class="btn btn-default"><br><br>
                 </form>
             </div>
             <div class="col-md-5" id="informatie">
