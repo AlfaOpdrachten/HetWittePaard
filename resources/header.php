@@ -46,7 +46,6 @@
                 $('b', this).toggleClass("caret caret-up");
             });
     });
-
 </script>
 
 <?php
@@ -83,16 +82,16 @@
             $nieuws             = "linkActive";
             break;
         case 'kaart':
-            $nieuws             = "linkActive";
+            $kaart              = "linkActive";
             break;
         case 'lunch':
-            $nieuws             = "linkActive";
+            $lunch              = "linkActive";
             break;
         case 'diner':
-            $nieuws             = "linkActive";
+            $diner              = "linkActive";
             break;
         case 'dessert':
-            $nieuws             = "linkActive";
+            $dessert            = "linkActive";
             break;
         case 'contact':
             $contact            = "linkActive";
