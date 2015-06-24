@@ -240,7 +240,8 @@ if(isset($_POST['submit']))
                         Hoofdstraat 217<br>
                         9828 PB Oostwold<br>
                         T: 050 - 5515 282<br>
-                        M:<a href="mailto:reserveren@caferestauranthetwittepaard.nl">reserveren@caferestauranthetwittepaard.nl</a><br><br>
+                        Onze e-mail adres is: <br>
+                        <a href="mailto:reserveren@caferestauranthetwittepaard.nl">reserveren@caferestauranthetwittepaard.nl</a><br><br>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: #FFDCAA; padding-bottom: 20px; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px; border-top: hidden;">
