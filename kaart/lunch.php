@@ -52,7 +52,7 @@
                                  <p>€'. $data[$i]["Prijs"] .'</p>
                              </div>
                              <div class="col-xs-12 col-md-12">
-                                 <p>'. $data[$i]["Beschrijving"].'<p>
+                                 <p style="font-style: italic; text-shadow: 0px 1px rgb(51, 51, 51);">'. $data[$i]["Beschrijving"].'<p>
                             </div>
                              ';
                          }
@@ -74,7 +74,7 @@
                                  <p>€'. $data[$i]["Prijs"] .'</p>
                              </div>
                              <div class="col-xs-12 col-md-12">
-                                 <p>'. $data[$i]["Beschrijving"].'<p>
+                                 <p style="font-style: italic; text-shadow: 0px 1px rgb(51, 51, 51);">'. $data[$i]["Beschrijving"].'<p>
                             </div>
                              ';
                          }
@@ -96,7 +96,7 @@
                                  <p>€'. $data[$i]["Prijs"] .'</p>
                              </div>
                              <div class="col-xs-12 col-md-12">
-                                 <p>'. $data[$i]["Beschrijving"].'<p>
+                                 <p style="font-style: italic; text-shadow: 0px 1px rgb(51, 51, 51);">'. $data[$i]["Beschrijving"].'<p>
                             </div>
                              ';
                          }
@@ -123,7 +123,7 @@
                                  <p>€'. $data[$i]["Prijs"] .'</p>
                              </div>
                              <div class="col-xs-12 col-md-12">
-                                 <p>'. $data[$i]["Beschrijving"].'<p>
+                                 <p style="font-style: italic; text-shadow: 0px 1px rgb(51, 51, 51);">'. $data[$i]["Beschrijving"].'<p>
                             </div>
                              ';
                          }
@@ -144,7 +144,7 @@
                                  <p>€'. $data[$i]["Prijs"] .'</p>
                              </div>
                              <div class="col-xs-12 col-md-12">
-                                 <p>'. $data[$i]["Beschrijving"].'<p>
+                                 <p style="font-style: italic; text-shadow: 0px 1px rgb(51, 51, 51);">'. $data[$i]["Beschrijving"].'<p>
                             </div>
                              ';
                          }
@@ -165,25 +165,13 @@
                                  <p>€'. $data[$i]["Prijs"] .'</p>
                              </div>
                              <div class="col-xs-12 col-md-12">
-                                 <p>'. $data[$i]["Beschrijving"].'<p>
+                                 <p style="font-style: italic; text-shadow: 0px 1px rgb(51, 51, 51);">'. $data[$i]["Beschrijving"].'<p>
                             </div>
                              ';
                          }
                      }
                 ?>
             </div>
-
-            <!-- Voorgerechten -->
-
-            <!-- Lekker voor bij de borrel -->
-
-            <!-- Maaltijdsalades -->
-
-                
-        <!-- Hoofdgerechten - vlees -->
-
-            <!-- Hoofdgerecht - vis -->
-
             </div>
         </div>
     </div>

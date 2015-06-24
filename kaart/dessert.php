@@ -24,23 +24,67 @@
 <div class="content container " style="background-color: #FFDCAA;  box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
             <?php
 
-                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/menu/?kaart=1');
+                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/menu/?kaart=3');
                 $data = json_decode($data,1);
                 $test = $data[0];
 
-                echo '<pre>';var_dump($data);echo '</pre>';
-                echo $data[$test]["Categorie"];
+                // echo '<pre>';var_dump($data);echo '</pre>';
+                // echo $data[$test]["Categorie"];
 
                
                 ?>
     <div class="container-fluid" style="padding-left: 0;">
          <div class="menuOverzicht">
             <div class="col-xs-12 col-md-6">
-                
+                <?php
+                    // Soupen
+                        echo '<div class="col-xs-8 col-md-8">
+                                    <h2>'. $data[1]["Categorie"].'<h2>
+                                </div>
+                                ';
+                        for($i = 1; $i <= $data[0]; $i++){
+                            if ($data[$i]['Categorie'] == 'Ijs'){
+                           echo '
+                                <div class="col-xs-8 col-md-8">
+                                    <h3>'. $data[$i]["Naam"].'<h3>
+                                </div>
+                                
+                                <div class="col-xs-4 col-md-4 prijs">
+                                     <p>€'. $data[$i]["Prijs"] .'</p>
+                                 </div>
+                                 <div class="col-xs-12 col-md-12">
+                                     <p style="font-style: italic; text-shadow: 0px 1px rgb(51, 51, 51);">'. $data[$i]["Beschrijving"].'<p>
+                                </div>
+                                 ';
+                             }
+                         }
+                ?>
             </div>
 
             <div class="col-xs-12 col-md-6">
-                
+                <?php
+                    // Soupen
+                        echo '<div class="col-xs-8 col-md-8">
+                                    <h2>Drinken<h2>
+                                </div>
+                                ';
+                        for($i = 1; $i <= $data[0]; $i++){
+                            if ($data[$i]['Categorie'] == 'Drinken'){
+                           echo '
+                                <div class="col-xs-8 col-md-8">
+                                    <h3>'. $data[$i]["Naam"].'<h3>
+                                </div>
+                                
+                                <div class="col-xs-4 col-md-4 prijs">
+                                     <p>€'. $data[$i]["Prijs"] .'</p>
+                                 </div>
+                                 <div class="col-xs-12 col-md-12">
+                                     <p style="font-style: italic; text-shadow: 0px 1px rgb(51, 51, 51);">'. $data[$i]["Beschrijving"].'<p>
+                                </div>
+                                 ';
+                             }
+                         }
+                ?>
             </div>
         </div>
     </div>
