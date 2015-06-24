@@ -12,10 +12,10 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="<?php echo $gastenboek ?> "     href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/gastenboek.php'?>>Gastenboek</a></li>
+                    <li><a class="<?php echo $overons ?> "       href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/overons.php'?>>Over ons</a></li>
                     <li><a class="<?php echo $reserveren ?> "     href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/reserveren.php'?>>Reserveren</a></li>
-                    <li><a class="<?php echo $historie ?> "       href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/historie.php'?>>Historie</a></li>
                     <li><a class="<?php echo $nieuws ?> "         href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/nieuws.php'?>>Nieuws</a></li>
+                    <li><a class="<?php echo $gastenboek ?> "     href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/gastenboek.php'?>>Gastenboek</a></li>
                     <li><a class="<?php echo $contact ?> "        href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/contact.php'?>>Contact</a></li>
                     <li class="dropdown">
                         <a class="<?php echo $menu ?>" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/index.php'?> id="dropdownmenu">Onze kaart <b class="caret"></b></a>
@@ -54,7 +54,7 @@
     $home          =   "link";
     $menu          =   "link";
     $reserveren    =   "link";
-    $historie      =   "link";
+    $overons       =   "link";
     $nieuws        =   "link";
     $contact       =   "link";
     $gastenboek    =   "link";
@@ -76,8 +76,8 @@
         case 'reserveren':
             $reserveren         = "linkActive";
             break;
-        case 'historie':
-            $historie           = "linkActive";
+        case 'overons':
+            $overons            = "linkActive";
             break;
         case 'nieuws':
             $nieuws             = "linkActive";
