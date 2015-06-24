@@ -154,14 +154,14 @@ if(isset($_POST['submit']))
 <div class="content container ">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-7" style="border: 1px solid black; box-shadow: 0px 0px 5px 0px black; background-color: bisque;">
+            <div class="col-md-7" style="border: 1px solid black; box-shadow: 0px 0px 5px 0px black; background-color: #FFDCAA;">
                 <div class="col-xs-12"><?php
                     if($dezedag=="Monday")
                     {
-                        echo "<h3 style='color:red;'>Let op! Houd er rekening mee dat we vandaag en morgen nog gesloten zijn.</h3>";
+                        echo "<h3 style='color:darkred;'>Let op! Houd er rekening mee dat we vandaag en morgen nog gesloten zijn.</h3>";
                     }else if($dezedag=="Tuesday")
                     {
-                        echo "<h3 style='color:red;'>Let op! Houd er rekening mee dat we vandaag nog gesloten zijn.</h3>";
+                        echo "<h3 style='color:darkred;'>Let op! Houd er rekening mee dat we vandaag nog gesloten zijn.</h3>";
                     }?></div>
                 <div class="col-xs-12">
                 </div>
