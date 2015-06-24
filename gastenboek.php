@@ -11,13 +11,18 @@
 
 <body>
 <?php include 'resources/header.php'; ?>
+<?php include 'database.php'; ?>
 
 <?php
+$test=0;
 $errors=array();
 $naam=$_POST['naam'];
 $recensie=$_POST['recensie'];
 $cijfer=$_POST['cijfer'];
+
     if(isset($_POST['submit']))
+
+
     {
         if(is_numeric($naam))
         {
@@ -36,7 +41,7 @@ $cijfer=$_POST['cijfer'];
         try
         {
             DB::insert("akkoord,rating,recensie,naam","recensies",[
-                'akkoord'=>     0,
+                'akkoord'=>     $test,
                 'rating' =>     $cijfer,
                 'recensie' =>   $recensie,
                 'naam' =>       $naam
@@ -45,6 +50,7 @@ $cijfer=$_POST['cijfer'];
         {
             echo 'Message: ' .$e->getMessage();
         }
+
     }
 ?>
 <div class="container">
