@@ -11,7 +11,7 @@
 
 <body>
 <?php include 'resources/header.php';
-include 'database.php';
+require_once('./database.php');
 // test
 
 $test=0;
