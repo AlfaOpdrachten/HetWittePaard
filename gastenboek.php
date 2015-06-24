@@ -15,12 +15,14 @@ $filepath = realpath (dirname(__FILE__));
 
 require_once($filepath.'/database.php');
 
-$test=0;
-$errors=array();
+
+
 
 
     if(isset($_POST['submit']))
     {
+        $test=0;
+        $errors=array();
         $naam=$_POST['naam'];
         $recensie=$_POST['recensie'];
         $cijfer=$_POST['cijfer'];
@@ -34,10 +36,14 @@ $errors=array();
         }
         if(!$errors)
         {
+
             //Hier moet vervolgens de query komen te staan.
             try
             {
-                DB::insert("akkoord,rating,recensie,naam","recensies",[
+                echo $cijfer;
+                echo $naam;
+                echo $recensie;
+                DB::insert("akkoord,rating,recensie,naam","recenties",[
                     'akkoord'=>     $test,
                     'rating' =>     $cijfer,
                     'recensie' =>   $recensie,
@@ -46,6 +52,7 @@ $errors=array();
             }catch(Exception $e)
             {
                 echo 'Message: ' .$e->getMessage();
+
             }
         }
     }
