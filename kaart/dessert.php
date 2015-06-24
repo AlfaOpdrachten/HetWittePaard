@@ -22,60 +22,25 @@
     </div>
 </div>
 <div class="content container " style="background-color: #FFDCAA;  box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
+            <?php
+
+                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/menu/?kaart=1');
+                $data = json_decode($data,1);
+                $test = $data[0];
+
+                echo '<pre>';var_dump($data);echo '</pre>';
+                echo $data[$test]["Categorie"];
+
+               
+                ?>
     <div class="container-fluid" style="padding-left: 0;">
          <div class="menuOverzicht">
             <div class="col-xs-12 col-md-6">
-                <div class="col-xs-8 col-md-8">
-                    <h3>Chocotaartje met balletje ijs<h3>
-                </div>
-                <div class="col-xs-4 col-md-4 prijs">
-                    <p>6.50</p>
-                </div>
-                <div class="col-xs-8 col-md-8">
-                    <h3>Dame blanche<h3>
-                </div>
-                <div class="col-xs-4 col-md-4 prijs">
-                    <p>5.50</p>
-                </div>
-                <div class="col-xs-8 col-md-8">
-                    <h3>Chocotaartje met balletje ijs<h3>
-                </div>
-                <div class="col-xs-4 col-md-4 prijs">
-                    <p>6.50</p>
-                </div>
-                <div class="col-xs-8 col-md-8">
-                    <h3>Chocotaartje met balletje ijs<h3>
-                </div>
-                <div class="col-xs-4 col-md-4 prijs">
-                    <p>6.50</p>
-                </div>
-                <div class="col-xs-8 col-md-8">
-                    <h3>Chocotaartje met balletje ijs<h3>
-                </div>
-                <div class="col-xs-4 col-md-4 prijs">
-                    <p>6.50</p>
-                </div>
+                
             </div>
 
             <div class="col-xs-12 col-md-6">
-                <div class="col-xs-8 col-md-8">
-                    <h3>Chocotaartje met balletje ijs<h3>
-                </div>
-                <div class="col-xs-4 col-md-4 prijs">
-                    <p>6.50</p>
-                </div>
-                <div class="col-xs-8 col-md-8">
-                    <h3>Chocotaartje met balletje ijs<h3>
-                    <p>Amaretto</p>
-                    <p>sambuca</p>
-                    <p>Amaretto</p>
-                    <p>sambuca</p>
-                    <p>Amaretto</p>
-                    <p>sambuca</p>
-                </div>
-                <div class="col-xs-4 col-md-4 prijs">
-                    <p>6.50</p>
-                </div>
+                
             </div>
         </div>
     </div>

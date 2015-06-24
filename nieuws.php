@@ -43,16 +43,16 @@
             <div class="col-md-8" style="padding-bottom: 5px;">
                 <?php
 
-                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.NIEUWS%');
+                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/nieuws/');
                 $data = json_decode($data,1);
                 $test = $data[0];
 
-                // echo '<pre>';var_dump($data);echo '</pre>';
+                //echo '<pre>';var_dump($data);echo '</pre>';
                 for($i = 0; $i < $test; $i++){
                     echo '<div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
                     <div class="col-md-7">
                         <br>
-                        <font size="6">'.$data[$i+1]["Location"].'</font>
+                        <font size="6">'.$data[$i+1]["Title"].'</font>
                         <br>
                         <br>
                         <p class="expanded">'. $data[$i+1]["Text"]. '</p>

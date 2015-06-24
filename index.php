@@ -54,7 +54,7 @@
 
         <?php
 
-                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.NIEUWS%');
+                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/nieuws/');
                 $data = json_decode($data,1);
                 $test = $data[0];
                 $testmax = 2;
@@ -63,7 +63,7 @@
                     for($i = 0; $i <= $testmax; $i++){
                     echo '<div class="col-md-12" style="margin-top: 10px;">
                         <div class="col-md-7">
-                            <p style="font-size: 20px;">'.$data[$i+1]["Location"].'</p>
+                            <p style="font-size: 20px;">'.$data[$i+1]["Title"].'</p>
                         </div>
                         <div class="col-md-5">
                             <p style="font-size: 20px; text-align: right;">11-06-2015</p>
