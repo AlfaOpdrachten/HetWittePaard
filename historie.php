@@ -21,8 +21,8 @@
     </div>
 </div>
 <div class="content container" style="margin-bottom: 5px;">
-        <div class="border" style="border:1px solid black;box-shadow: 0px 0px 5px 0px black">
-            <div class="col-md-12" style="margin: 0px; padding: 0 !important; margin: 0 !important; background-color: bisque;">
+        <div class="border" style="border:1px solid black;box-shadow: 0px 0px 10px 0px black">
+            <div class="col-md-12" style="margin: 0px; padding: 0 !important; margin: 0 !important; background-color: #FFDCAA;">
                 <div class="col-md-6" style="float:left; padding: 10px 50px">
                     <div class="col-md-12" style="padding: 0px;">
                         <h1>Parkeren</h1>
@@ -58,7 +58,7 @@
 
 
     </div>
-        <div class="col-md-14" style="margin: 0px; background-color: bisque; padding: 0 !important; margin: 0 !important;">
+        <div class="col-md-14" style="margin: 0px; background-color: #FFDCAA; padding: 0 !important; margin: 0 !important;">
             <div class="text-geschiedenis" style="padding: 10px 50px">
                 <h2>Geschiedenis</h2>
                     <img src="img/locatie.jpg" width="255px" height="191px" class="img-responsive" style="float:right;" />            
