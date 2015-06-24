@@ -12,7 +12,7 @@
 <body>
 <?php include 'resources/header.php';
 include 'database.php';
-
+// test
 
 $test=0;
 $errors=array();
