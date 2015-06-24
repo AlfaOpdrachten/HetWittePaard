@@ -77,7 +77,7 @@
 
 
 
-<div class="container footer">
+<div class="container footer" style="padding-top: 10px;">
     <?php include 'resources/footer.php'; ?>
 </div>
 
