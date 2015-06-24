@@ -43,10 +43,10 @@ require_once($filepath.'/database.php');
                 echo $cijfer;
                 echo $naam;
                 echo $recensie;
-                DB::insert("akkoord,rating,recensie,naam","recenties",[
+                DB::insert("akkoord,rating,recentie,naam","recenties",[
                     'akkoord'=>     $test,
                     'rating' =>     $cijfer,
-                    'recensie' =>   $recensie,
+                    'recentie' =>   $recensie,
                     'naam' =>       $naam
                 ]);
             }catch(Exception $e)
@@ -105,25 +105,24 @@ require_once($filepath.'/database.php');
     		</div>
 
 
-
+            <div class='col-md-12 recenties'>
 
 
                <?php
 
-               $data = file_get_contents('http://snshoeksema.nl/CMS/text/?location=HWP%');
+               $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/recenties/');
                $data = json_decode($data,1);
                $test = $data[0];
 
 
                for($i = 0; $i < $test; $i++){
-               	echo "
-               <div class='col-md-12 recenties'>
+                   echo "
         			<div class='col-md-6'>
         				<div class='col-md-12 recentiesItem' style='box-shadow: 0px 0px 10px 0px gray; background-color: #FFDCAA; 1px solid black;'>
 	        				<div class='col-md-2'><p>Naam:</p></div><div class='col-md-10'><p>lorem ipsum</p></div>
 	        				<div class='col-md-12'><p>recentie</p></div>
 	        				<div class='col-md-12'>
-	        				<p>".$data[$i+1]['Text']."</p>
+	        				<p>".$data[$i+1]['Recentie']."</p>
 	        				</div>
 	        				<div class='col-md-2'><p>rating:</p></div><div class='col-md-10'><p>8</p></div>
 	        			</div>
