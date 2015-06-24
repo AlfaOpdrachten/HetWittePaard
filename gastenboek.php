@@ -11,19 +11,19 @@
 
 <body>
 <?php include 'resources/header.php';
-require_once('./database.php');
-// test
+$filepath = realpath (dirname(__FILE__));
+
+require_once($filepath.'/database.php');
 
 $test=0;
 $errors=array();
-$naam=$_POST['naam'];
-$recensie=$_POST['recensie'];
-$cijfer=$_POST['cijfer'];
+
 
     if(isset($_POST['submit']))
-
-
     {
+        $naam=$_POST['naam'];
+        $recensie=$_POST['recensie'];
+        $cijfer=$_POST['cijfer'];
         if(is_numeric($naam))
         {
             $errors= 'Ingevoerde naam is een getal.';
@@ -32,26 +32,25 @@ $cijfer=$_POST['cijfer'];
         {
             echo $errors;
         }
-    }
-
-    if(!$errors)
-    {
-
-        //Hier moet vervolgens de query komen te staan.
-        try
+        if(!$errors)
         {
-            DB::insert("akkoord,rating,recensie,naam","recensies",[
-                'akkoord'=>     $test,
-                'rating' =>     $cijfer,
-                'recensie' =>   $recensie,
-                'naam' =>       $naam
-            ]);
-        }catch(Exception $e)
-        {
-            echo 'Message: ' .$e->getMessage();
+            //Hier moet vervolgens de query komen te staan.
+            try
+            {
+                DB::insert("akkoord,rating,recensie,naam","recensies",[
+                    'akkoord'=>     $test,
+                    'rating' =>     $cijfer,
+                    'recensie' =>   $recensie,
+                    'naam' =>       $naam
+                ]);
+            }catch(Exception $e)
+            {
+                echo 'Message: ' .$e->getMessage();
+            }
         }
-
     }
+
+
 ?>
 <div class="container">
     <div class="row" style="margin-top: 15px;">
