@@ -40,15 +40,13 @@ require_once($filepath.'/database.php');
             //Hier moet vervolgens de query komen te staan.
             try
             {
-                echo $cijfer;
-                echo $naam;
-                echo $recensie;
                 DB::insert("akkoord,rating,recentie,naam","recenties",[
                     'akkoord'=>     $test,
                     'rating' =>     $cijfer,
                     'recentie' =>   $recensie,
                     'naam' =>       $naam
                 ]);
+                echo "<script>alert('Bedankt voor uw reactie!');</script>";
             }catch(Exception $e)
             {
                 echo 'Message: ' .$e->getMessage();

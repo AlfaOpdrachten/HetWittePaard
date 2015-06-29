@@ -43,6 +43,8 @@
 
     });
 
+
+
 </script>
 
 <?php
@@ -111,7 +113,7 @@ if(isset($_POST['submit']))
 
     if(count($errors) > 0){
         foreach($errors as $e){
-          echo  "<script type='text/javascript'>alert('$e')</script>";
+          echo  "<script type='text/javascript'>alert('$e');</script>";
         }
     } else
     {
@@ -131,8 +133,8 @@ if(isset($_POST['submit']))
             'datetime'=>    $datumnieuw,
             'extras'=>      $comment
         ]);
-            echo  "<script type='text/javascript'>alert('Bedankt voor uw reservering! U wordt teruggestuurd naar de homepagina.')</script>";
-            header('Location:index.php');
+
+        echo "<script>if(!alert('Bedankt voor uw bestelling! U wordt teruggestuurd naar de homepagina.')) document.location = 'index.php';</script>";
         }catch(Exception $e)
         {
             echo 'Message: ' .$e->getMessage();
@@ -232,7 +234,7 @@ if(isset($_POST['submit']))
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <p>Vergeet niet de verplichte velden met een (*) in te vullen</p>
                     </div>
-                    &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="submit" value="Reserveren" class="btn btn-default"><br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="submit" name="submit" value="Reserveren" class="btn btn-default"><br><br>
                 </form>
             </div>
             <div class="col-md-5" id="informatie">
