@@ -22,8 +22,15 @@
 <div class="content container index">
     <div class="col-xs-12 col-md-8" style="padding-left:0px;">
         <div class="col-md-12" style="border: 1px solid black; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
-            <h1>Over ons</h1>
-            <p style="font-size: 15px;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam cum omnis rerum! Accusamus, ad, dicta ea ipsum iusto laudantium minus modi molestiae neque, pariatur quas recusandae suscipit tenetur ullam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque doloribus explicabo labore quasi ullam, ut! A, alias at atque est excepturi, fugiat harum possimus quibusdam ratione saepe tempore totam.</p>
+            <h1>Een korte indtroductie</h1>
+            <p style="font-size: 15px;"> Restaurant Het Witte Paard bevindt zich in het prachtige Westerkwartier gebied,
+                met vele fietsroutes,
+                kleine watertjes en een groot meer.<br><br>
+                U kunt bij ons genieten op de twee terrassen zowel aan de voor- zijkant, als ook het grote terras aan
+                de achterkant, waar tevens een groot afgebakend en veilige speelweide is voor de kinderen.<br><br>
+                Ook kunt u achter het pand gebruik maken van de ruime parkeerplaats.<br><br>
+                Hopelijk staat u niets meer in de weg om eens langs te komen of te reserveren,
+                wij zullen u graag hartelijk verwelkomen.</p>
         </div>
         <div class="col-xs-6 col-md-6" style="margin-top: 10px; padding-right: 15px;padding-left:0px;">
             <a href="/HetWittePaard/kaart/index.php" style="padding-bottom: 20px;">

@@ -37,14 +37,15 @@ if(isset($_POST['submit']))
 $test= "";
 if(isset($_POST['submit']))
 {
+    $bericht = $_POST['naam'];
     $to = "martin.vinke.mv@gmail.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $name = $_POST['naam'];
 
     $subject = "Vraag van het contactformulier";
     $subject2 = "Kopie van uw vraag bij het Witte Paard";
-    $message = $name . " schreef het volgende:" . "\n\n" . $_POST['bericht'];
-    $message2 = "Hier is een kopie van uw vraag " . $name . "\n\n" . $_POST['bericht'];
+    $message = $name . " schreef het volgende:" . "\n\n" . $bericht;
+    $message2 = "Hier is een kopie van uw vraag " . $name . "\n\n" . $bericht;
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
