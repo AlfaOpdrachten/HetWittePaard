@@ -9,8 +9,6 @@
 </head>
 <?php include 'resources/head.php'; ?>
 
-<body>
-<div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
@@ -28,8 +26,10 @@
     });
 
 </script>
+<body>
 <?php include 'resources/header.php'; ?>
 <div class="container">
+    <div id="fb-root"></div>
     <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
                 <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
