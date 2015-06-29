@@ -10,6 +10,7 @@
 <?php include 'resources/head.php'; ?>
 
 <body>
+<?php include 'resources/header.php'; ?>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -28,7 +29,6 @@
     });
 
 </script>
-<?php include 'resources/header.php'; ?>
 <div class="container">
     <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
