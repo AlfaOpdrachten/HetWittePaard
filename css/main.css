@@ -57,6 +57,12 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
 }
 
+.form-control {
+    display: inline-block;
+    width: 400px;
+    max-width: 95%;
+}
+
 @media (min-width: 768px) {
     .masthead {
         background-image: url("../img/headernieuw.jpg");

@@ -109,21 +109,21 @@ if(isset($_POST['submit']))
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="naam">Naam:</label>
                             <div class="col-sm-10">
-                                <input required type="text" class="form-control" style="" id="naam" name="naam" placeholder="Naam">
+                                <input required type="text" class="form-control" style="display: block; width: 640px" id="naam" name="naam" placeholder="Naam">
                                 <span class="text-danger">*</span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="email">E-mail adres:</label>
                             <div class="col-sm-10">          
-                                <input required type="email" class="form-control" id="email" style="" name="email" placeholder="voorbeeld@mail.nl">
+                                <input required type="email" class="form-control" id="email" style="display: block; width: 640px" name="email" placeholder="voorbeeld@mail.nl">
                                 <span class="text-danger">*</span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="bericht">Uw bericht:</label>
                             <div class="col-sm-10">
-                                <textarea required class="form-control" rows="5" style="" id="bericht" name="bericht" placeholder="Typ hier uw bericht."></textarea>
+                                <textarea required class="form-control" rows="5" style="display: block; width: 640px" id="bericht" name="bericht" placeholder="Typ hier uw bericht."></textarea>
                                 <span class="text-danger">*</span>
                             </div>
                         </div>
