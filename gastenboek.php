@@ -3,7 +3,7 @@
 <!-- De scripts -->
 <head>
 	<title>
-		Gastenboek | Café Restaurant Het Witte Paard
+		Gastenboek | Restaurant Het Witte Paard
 	</title>
 	<meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dan bent u bij het goede adres!">
 </head>
@@ -60,7 +60,7 @@ require_once($filepath.'/database.php');
 <div class="container">
     <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
-                <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
+                <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/index.php'?>>Home</a></li>
                 <li class="active">Gastenboek</li>
         </ol>
     </div>

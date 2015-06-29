@@ -3,7 +3,7 @@
 <!-- De scripts -->
 <head>
     <title>
-        Lunch | Café Restaurant Het Witte Paard
+        Lunch | Restaurant Het Witte Paard
     </title>
     <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dan bent u bij het goede adres!">
 </head>
@@ -15,8 +15,8 @@
 <div class="container">
     <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
-            <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
-            <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/index.php'?>>Kaart</a></li>
+            <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/index.php'?>>Home</a></li>
+            <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/kaart/index.php'?>>Kaart</a></li>
             <li class="active">Lunch</li>
         </ol>
     </div>
