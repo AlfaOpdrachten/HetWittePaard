@@ -239,7 +239,7 @@ if(isset($_POST['submit']))
             </div>
             <div class="col-xs-12 col-md-5" id="informatie">
                 <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: #FFDCAA; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
-                    <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
                         <h2>Adres gegevens</h2>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6">

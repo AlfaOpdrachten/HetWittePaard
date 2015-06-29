@@ -180,10 +180,6 @@ div.col-xs-6:nth-child(3) {
     padding-left: 15px;
 }
 @media (max-width: 420px){
-    div.container:nth-child(1) {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
     .container h2 {
         font-size: 22px;
     }
@@ -193,10 +189,7 @@ div.col-xs-6:nth-child(3) {
     .content {
         margin-top: 20px;
     }
-     .footer {
-    padding-right: 0px;
-    padding-left: 0px;
-}
+    
 }
 @media (max-width: 520px){
     .col-xs-6 {
@@ -209,6 +202,25 @@ div.col-xs-6:nth-child(3) {
 @media (max-width: 768px) {
     #footer-holder{
         height: 100%;
+    }
+    .footer {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    div.container:nth-child(1) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #footer-right {
+        padding-left: 15px!important;
+    }
+    .reserveren div.col-md-12:nth-child(1),
+    .reserveren div.col-md-12:nth-child(2) {
+        margin-top: 10px;
+    }
+    .reserveren div.col-md-12:nth-child(1) > div:nth-child(2),
+    .reserveren div.col-md-12:nth-child(1) > div:nth-child(2){
+        padding-left: 8px;
     }
 }
 .no-gutter > [class*='col-'] {
@@ -248,26 +260,17 @@ div.col-xs-6:nth-child(3) {
     .index div.col-md-6:nth-child(3),
     #copyrightholder,
     .col-md-7,
-    #informatie,
-    div.col-md-12:nth-child(1){
+    #informatie{
         padding-right: 0px!important;
         padding-left: 0px!important;
     }
-
-    {
+    .index div.col-md-12:nth-child(1)  {
         padding:  0px 10px!important;
     }
     .form-control {
         width: 80%!important;
     }
-    .reserveren div.col-md-12:nth-child(1),
-    .reserveren div.col-md-12:nth-child(2) {
-        margin-top: 10px;
-    }
-    .reserveren div.col-md-12:nth-child(1) > div:nth-child(2),
-    .reserveren div.col-md-12:nth-child(1) > div:nth-child(2){
-        padding-left: 8px;
-    }
+    
     .gastenboek > div:nth-child(1) > div:nth-child(1) {
         height: 70px;
     }
@@ -283,5 +286,16 @@ div.col-xs-6:nth-child(3) {
     .menu div.col-md-4{
         padding-left: 0px;
         padding-right: 0px;
+    }
+    #footer-right{
+        padding-left: 0px!important;
+    }
+
+    .geschiedenis div.col-md-6:nth-child(1),
+    .text-geschiedenis {
+        padding: 0px!important;
+    }
+    img.img-responsive:nth-child(2) {
+        width: 300px;
     }
 }
