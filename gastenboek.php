@@ -104,7 +104,7 @@ require_once($filepath.'/database.php');
     		</div>
 
 
-            <div class='col-md-12 recenties'>
+            <div class='col-md-12 recenties no-gutter' style="padding:0px;">
 
 
                <?php
