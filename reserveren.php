@@ -9,7 +9,7 @@
 </head>
 <?php include 'resources/head.php'; ?>
 <?php include 'database.php'; ?>
-<?php include 'errorreport.php'; ?>
+
 
 <script>
 
@@ -150,7 +150,7 @@ if(isset($_POST['submit']))
 <div class="container">
     <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
-                <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>>Home</a></li>
+                <li><a href="http://www.caferestauranthetwittepaard.nl/index.php'?>>Home</a></li>
                 <li class="active">Reserveren</li>
         </ol>
     </div>

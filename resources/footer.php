@@ -34,10 +34,10 @@
             </div>
             <div id="footer-right" class="col-xs-6  col-sm-4 panel-body">
                 <h1><b>Handige linkjes</b></h1>
-                <a href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?>">Home</a><br>
-                <a href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/reserveren.php'?>">Reserveren</a><br>
-                <a href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/contact.php'?>">Contact</a><br>
-                <a href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/index.php'?>">Menu</a><br>
+                <a href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/index.php'?>">Home</a><br>
+                <a href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/reserveren.php'?>">Reserveren</a><br>
+                <a href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/contact.php'?>">Contact</a><br>
+                <a href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/kaart/index.php'?>">Menu</a><br>
             </div>
 
             <div id="copyrightholder" class="col-xs-12 col-sm-9">

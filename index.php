@@ -33,21 +33,21 @@
                 wij zullen u graag hartelijk verwelkomen.</p>
         </div>
         <div class="col-xs-6 col-md-6" style="margin-top: 10px; padding-right: 15px;padding-left:0px;">
-            <a href="/HetWittePaard/kaart/index.php" style="padding-bottom: 20px;">
+            <a href="/kaart/index.php" style="padding-bottom: 20px;">
                 <div class="thumbnail" style="background-color: #FFDCAA; border: 1px solid black; box-shadow: 0px 0px 10px 0px black;">
                     <img src="img/menu1.jpg" alt="Menu">
                     <div class="caption">
-                        <p><a class="btn btn-link" style="color: black; font-size: 35px;" href="/HetWittePaard/kaart/index.php" role="button">Bekijk menu</a></p>
+                        <p><a class="btn btn-link" style="color: black; font-size: 35px;" href="/kaart/index.php" role="button">Bekijk menu</a></p>
                     </div>
                 </div>
             </a>
         </div>
         <div class="col-xs-6 col-md-6" style="margin-top: 10px; padding-left: 15px; padding-right: 0px; ">
-            <a href="/HetWittePaard/reserveren.php">
+            <a href="/reserveren.php">
                 <div class="thumbnail" style="background-color: #FFDCAA; border: 1px solid black; box-shadow: 0px 0px 10px 0px black;">
                     <img src="img/reserveren.png" alt="Reserveren">
                     <div class="caption">
-                        <p><a class="btn btn-link" style="color: black; font-size: 35px;" href="/HetWittePaard/reserveren.php" role="button">Reserveren</a></p>
+                        <p><a class="btn btn-link" style="color: black; font-size: 35px;" href="/reserveren.php" role="button">Reserveren</a></p>
                     </div>
                 </div>
             </a>
