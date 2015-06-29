@@ -12,7 +12,7 @@
 <body>
 <?php include 'resources/header.php'; ?>
 <?php
-
+/*
 if(isset($_POST['submit']))
 {
     $errors=[];
@@ -33,7 +33,26 @@ if(isset($_POST['submit']))
         //Hier moet vervolgens de query komen te staan.
     }
 }
+*/
+$test= "";
+if(isset($_POST['submit']))
+{
+    $to = "martin.vinke.mv@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $name = $_POST['naam'];
 
+    $subject = "Vraag van het contactformulier";
+    $subject2 = "Kopie van uw vraag bij het Witte Paard";
+    $message = $name . " schreef het volgende:" . "\n\n" . $_POST['bericht'];
+    $message2 = "Hier is een kopie van uw vraag " . $name . "\n\n" . $_POST['bericht'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    $test = "<h3 style='color:dodgerblue'>Mail verstuurd. Bedankt " . $name . ", we zullen zo spoedig mogelijk contact met u opnemen.</h3>";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+}
 
 ?>
 <div class="container">
@@ -79,11 +98,18 @@ if(isset($_POST['submit']))
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 
                 <div class="col-xs-12 col-md-12" style="background-color: #FFDCAA; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
+=======
+
+                <div class="col-md-12" style="background-color: #FFDCAA; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
+>>>>>>> c6cad47534f31c217dbbea8c6575d35f6d2965b8
                     <div class="col-md-12">
+                        <?php if($test){echo $test;} ?>
                         <h2>Heeft u een vraag, stel hem!</h2>
                     </div>
+<<<<<<< HEAD
                     <form class="form-horizontal" role="form" action="formulierverzenden.php" method="post">
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="naam">Naam:</label>
@@ -91,6 +117,14 @@ if(isset($_POST['submit']))
                                 <input required type="text" class="form-control" style="" id="naam" name="naam" placeholder="Naam">
                                 <span class="text-danger">*</span>
                             </div>
+=======
+                    <form class="form-horizontal" role="form" action="" method="post">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="naam">Naam:</label>
+                        <div class="col-sm-10">
+                            <input required type="text" class="form-control" style="" id="naam" name="naam" placeholder="Naam">
+                            <span class="text-danger">*</span>
+>>>>>>> c6cad47534f31c217dbbea8c6575d35f6d2965b8
                         </div>
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="email">E-mail adres:</label>
@@ -106,10 +140,17 @@ if(isset($_POST['submit']))
                                 <span class="text-danger">*</span>
                             </div>
                         </div>
+<<<<<<< HEAD
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
                                 <button type="submit" class="btn btn-default">Verstuur bericht</button>
                             </div>
+=======
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <input type="submit" name="submit" id="submit" value="Verstuur bericht" class="btn btn-default">
+>>>>>>> c6cad47534f31c217dbbea8c6575d35f6d2965b8
                         </div>
                     </form>
                 </div>
