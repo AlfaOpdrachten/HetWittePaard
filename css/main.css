@@ -243,12 +243,18 @@ div.col-xs-6:nth-child(3) {
 /* Responsive*/
 
 @media (max-width: 420px){
-    .content > div:nth-child(1),
-    div.col-md-6:nth-child(2),
-    div.col-md-6:nth-child(3),
-    #copyrightholder{
+    .index > div:nth-child(1),
+    .index div.col-md-6:nth-child(2),
+    .index div.col-md-6:nth-child(3){
         padding-right: 0px!important;
         padding-left: 0px!important;
+    }
+
+    {
+        padding:  0px 10px!important;
+    }
+    .form-control {
+        width: 200px!important;
     }
 
 }

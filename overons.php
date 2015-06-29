@@ -25,7 +25,7 @@
             <div class="col-md-12" style="margin: 0px; padding: 0 !important; margin: 0 !important; background-color: #FFDCAA;">
                 <div class="col-md-6" style="float:left; padding: 10px 50px">
                     <div class="col-md-12" style="padding: 0px;">
-                        <h1>Parkeren</h1>
+                        <h2>Parkeren</h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate pulvinar turpis. consectetur adipiscing elit. Mauris vulputate pulvinar turpis. Suspendisse vel sem risus. 
                     </div>
                     <div class="col-md-12" style="padding: 0px;">
