@@ -10,7 +10,10 @@
 <?php include 'resources/head.php'; ?>
 
 <body>
+
+
 <?php include 'resources/header.php'; ?>
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -30,8 +33,8 @@
 
 </script>
 
-<body>
 
+<body>
 
 <div class="container">
     <div id="fb-root"></div>
@@ -64,12 +67,6 @@
                         <p class="collapsed"></p>
                         <br>
                         <br>
-                    </div>
-                    <div class="col-md-5">
-                        <h3 style="text-align: right"></h3>
-                        <div class="thumbnail" style="">
-                            <img src="" alt="Menu">
-                        </div>
                     </div>
                 </div>';
                 }

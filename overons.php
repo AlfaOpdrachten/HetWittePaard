@@ -20,45 +20,43 @@
                        </ol>
     </div>
 </div>
-<div class="content container" style="margin-bottom: 5px; padding-bottom:10px;">
-        <div class="border" style="border:1px solid black;box-shadow: 0px 0px 10px 0px black">
-            <div class="col-md-12" style="margin: 0px; padding: 0 !important; margin: 0 !important; background-color: #FFDCAA;">
-                <div class="col-md-6" style="float:left; padding: 10px 50px">
-                    <div class="col-md-12" style="padding: 0px;">
-                        <h2>Parkeren</h2>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate pulvinar turpis. consectetur adipiscing elit. Mauris vulputate pulvinar turpis. Suspendisse vel sem risus. 
-                    </div>
-                    <div class="col-md-12" style="padding: 0px;">
-                        <h2>Speeltuin</h2>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate pulvinar turpis. Suspendisse vel sem risus. consectetur adipiscing elit. Mauris vulputate pulvinar turpis. Suspendisse vel sem risus. consectetur adipiscing elit. Mauris vulputate pulvinar turpis. Suspendisse vel sem risus. 
-                    </div>
-                </div> 
-                <div class="col-md-6 hidden-xs" style="float:right">
-                    <div class="text-overons" style="padding: 10px 50px">  
-                        <div id="myCarousel" class="carousel slide" data-interval="5000" >
-                            <script type="text/javascript">
-                                $(document).ready(function(){
-                                    $('.carousel').carousel();
-                                });
-                            </script>
-                                <div class="carousel-inner" style="width: 400px; height 300px; float:right;">
-                                    <div class="item active">
-                                        <img src="img/lunch.jpg" width="400px" height="300px" class="img-responsive"/>
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/locatie.jpg" width="400px" height="300px" class="img-responsive"/>
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/menu1.jpg" width="400px" height="300px" class="img-responsive"/>
-                                    </div>
-                                </div>
-                            </div>        
+<div class="content container geschiedenis">
+    <div class="border" style="box-shadow: 0px 0px 10px 0px black;">
+        <div class="col-md-6" style="float:left; padding: 10px 50px">
+            <div class="col-md-12" style="padding: 0px;">
+                <h2>Parkeren</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate pulvinar turpis. consectetur adipiscing elit. Mauris vulputate pulvinar turpis. Suspendisse vel sem risus. 
+            </div>
+            
+            <div class="col-md-12" style="padding: 0px;">
+                <h2>Speeltuin</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vulputate pulvinar turpis. Suspendisse vel sem risus. consectetur adipiscing elit. Mauris vulputate pulvinar turpis. Suspendisse vel sem risus. consectetur adipiscing elit. Mauris vulputate pulvinar turpis. Suspendisse vel sem risus. 
+            </div>
+        </div>
+        <div class="col-md-6 hidden-xs" style="float:right">
+            <div class="text-overons" style="padding: 10px 50px">  
+                <div id="myCarousel" class="carousel slide" data-interval="5000" >
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                            $('.carousel').carousel();
+                        });
+                    </script>
+                        <div class="carousel-inner" style="width: 400px; height 300px; float:right;">
+                            <div class="item active">
+                                <img src="img/lunch.jpg" width="400px" height="300px" class="img-responsive"/>
+                            </div>
+                            <div class="item">
+                                <img src="img/locatie.jpg" width="400px" height="300px" class="img-responsive"/>
+                            </div>
+                            <div class="item">
+                                <img src="img/menu1.jpg" width="400px" height="300px" class="img-responsive"/>
+                            </div>
                         </div>
-                    </div>          
-
-
-    </div>
-        <div class="col-md-14" style="margin: 0px; background-color: #FFDCAA; padding: 0 !important; margin: 0 !important;">
+                    </div>        
+                </div>
+            </div>          
+        </div>
+        <div class="col-md-12" style="margin: 0px; padding: 0 !important; margin: 0 !important;">
             <div class="text-geschiedenis" style="padding: 10px 50px">
                 <h2>Geschiedenis</h2>
                     <img src="img/locatie.jpg" width="255px" height="191px" class="img-responsive" style="float:right;" />            
@@ -67,9 +65,10 @@
                                 
                 </p>
             </div>
-            
-        </div>
-    </div>
+    </div> 
+
+</div>
+
 </div>
 
 

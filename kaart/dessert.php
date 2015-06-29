@@ -92,7 +92,7 @@
 
 
 
-<div class="container">
+<div class="container footer">
 <?php include '../resources/footer.php'; ?>
 </div>
 </body>
