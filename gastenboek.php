@@ -119,11 +119,11 @@ require_once($filepath.'/database.php');
         			<div class='col-md-6'>
         				<div class='col-md-12 recentiesItem' style='box-shadow: 0px 0px 10px 0px gray; background-color: #FFDCAA; 1px solid black;'>
 	        				<div class='col-md-2'><p><b>Naam:</b></p></div><div class='col-md-10'><p>".$data[$i+1]['Naam']."</p></div>
-	        				<div class='col-md-2'><p><b>recentie:</b></p></div>
+	        				<div class='col-md-2'><p><b>Recensie:</b></p></div>
 	        				<div class='col-md-10'>
 	        				<p>".$data[$i+1]['Recentie']."</p>
 	        				</div>
-	        				<div class='col-md-2'><p><b>rating:</b></p></div><div class='col-md-10'><p>" .$data[$i+1]['Rating'] . "</p></div>
+	        				<div class='col-md-2'><p><b>Cijfer:</b></p></div><div class='col-md-10'><p>" .$data[$i+1]['Rating'] . "</p></div>
 	        			</div>
         			</div>";}
                 ?>

@@ -65,7 +65,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 @media (min-width: 768px) {
     .masthead {
-        background-image: url("../img/headernieuw.jpg");
+        background-image: url("../img/headerfotonieuwste.jpg");
         height: 484px;
         padding-top:432px;
     }

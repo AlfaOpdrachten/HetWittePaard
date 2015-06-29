@@ -22,7 +22,7 @@
 <div class="content container index">
     <div class="col-xs-12 col-md-8" style="padding-left:0px;">
         <div class="col-md-12" style="border: 1px solid black; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
-            <h1>Een korte indtroductie</h1>
+            <h1>Een korte introductie</h1>
             <p style="font-size: 15px;"> Restaurant Het Witte Paard bevindt zich in het prachtige Westerkwartier gebied,
                 met vele fietsroutes,
                 kleine watertjes en een groot meer.<br><br>
