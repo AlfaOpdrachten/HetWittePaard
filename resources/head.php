@@ -12,18 +12,18 @@
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
 
 	<!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/css/bootstrap.css' ?>">
+    <link rel="stylesheet" href="http://caferestauranthetwittepaard.nl/css/bootstrap.css">
 
     <!-- Bootstrap JavaScript -->
-    <script src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/libs/bootstrap.min.js'?>> </script>
+    <script href="http://caferestauranthetwittepaard.nl/libs/bootstrap.min.js'> </script>
     
     <!-- Custom JavaScript -->
 
 	
 	<!-- Custum CSS -->
-	<link rel="stylesheet" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/css/main.css' ?>">
+	<link rel="stylesheet" href="http://caferestauranthetwittepaard.nl/css/main.css">
 
 
-    <link rel="stylesheet" href="<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/css/webicons.css' ?>">
+    <link rel="stylesheet" href="http://caferestauranthetwittepaard.nl/css/webicons.css">
 
 </head>

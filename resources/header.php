@@ -8,21 +8,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class=" active navbar-brand <?php echo $home; ?>" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/index.php'?> >Home</a>
+                <a class=" active navbar-brand <?php echo $home; ?>" href="index.php" >Home</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="<?php echo $overons?> "       href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/overons.php'?>>Over ons</a></li>
-                    <li><a class="<?php echo $reserveren ?> "     href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/reserveren.php'?>>Reserveren</a></li>
-                    <li><a class="<?php echo $nieuws ?> "         href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/nieuws.php'?>>Nieuws</a></li>
-                    <li><a class="<?php echo $gastenboek ?> "     href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/gastenboek.php'?>>Gastenboek</a></li>
-                    <li><a class="<?php echo $contact ?> "        href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/contact.php'?>>Contact</a></li>
+                    <li><a class="<?php echo $overons?> "       href="http://caferestauranthetwittepaard.nl/overons.php">Over ons</a></li>
+                    <li><a class="<?php echo $reserveren ?> "     href="http://caferestauranthetwittepaard.nl/reserveren.php">Reserveren</a></li>
+                    <li><a class="<?php echo $nieuws ?> "         href="http://caferestauranthetwittepaard.nl/nieuws.php">Nieuws</a></li>
+                    <li><a class="<?php echo $gastenboek ?> "     href="http://caferestauranthetwittepaard.nl/gastenboek.php">Gastenboek</a></li>
+                    <li><a class="<?php echo $contact ?> "        href="http://caferestauranthetwittepaard.nl/contact.php">Contact</a></li>
                     <li class="dropdown">
-                        <a class="<?php echo $menu ?>" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/index.php'?> id="dropdownmenu">Onze kaart <b class="caret"></b></a>
+                        <a class="<?php echo $menu ?>" href="kaart/index.php" id="dropdownmenu">Onze kaart <b class="caret"></b></a>
                         <ul id="dropdownmenus" class="dropdown-menu">
-                            <li><a class="<?php echo $lunch ?> " id="dropdownmenu" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/lunch.php'?>>Lunch</a></li>
-                            <li><a class="<?php echo $diner ?> " id="dropdownmenu" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/diner.php'?>>Diner</a></li>
-                            <li><a class="<?php echo $desert ?> " id="dropdownmenu" href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/HetWittePaard/kaart/dessert.php'?>>Dessert</a></li>
+                            <li><a class="<?php echo $lunch ?> " id="dropdownmenu" href="http://caferestauranthetwittepaard.nl/kaart/lunch.php">Lunch</a></li>
+                            <li><a class="<?php echo $diner ?> " id="dropdownmenu" href="http://caferestauranthetwittepaard.nl/kaart/diner.php">Diner</a></li>
+                            <li><a class="<?php echo $desert ?> " id="dropdownmenu" href="http://caferestauranthetwittepaard.nl/kaart/dessert.php">Dessert</a></li>
                         </ul>
                     </li>
                 </ul>
