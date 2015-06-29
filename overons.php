@@ -15,7 +15,7 @@
 <div class="container">
     <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
-                <li><a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/index.php'?>>Home</a></li>
+                <li><a href="http://www.caferestauranthetwittepaard.nl/index.php">Home</a></li>
                 <li class="active">Over Ons</li>
                        </ol>
     </div>
