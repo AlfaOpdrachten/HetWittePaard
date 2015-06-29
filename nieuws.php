@@ -60,12 +60,6 @@
                         <br>
                         <br>
                     </div>
-                    <div class="col-md-5">
-                        <h3 style="text-align: right"></h3>
-                        <div class="thumbnail" style="">
-                            <img src="" alt="Menu">
-                        </div>
-                    </div>
                 </div>';
                 }
                 

@@ -157,7 +157,7 @@ if(isset($_POST['submit']))
 </div>
 <div class="content container ">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row reserveren">
 
 
             <div class="col-md-7" style="border: 1px solid black; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
@@ -237,9 +237,11 @@ if(isset($_POST['submit']))
                     &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" id="submit" name="submit" value="Reserveren" class="btn btn-default"><br><br>
                 </form>
             </div>
-            <div class="col-md-5" id="informatie">
+            <div class="col-xs-12 col-md-5" id="informatie">
                 <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: #FFDCAA; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
-                    <h2>Adres gegevens</h2>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <h2>Adres gegevens</h2>
+                    </div>
                     <div class="col-xs-12 col-sm-12 col-md-6">
                         Hoofdstraat 217<br>
                         9828 PB Oostwold<br>
