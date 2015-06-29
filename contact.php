@@ -99,13 +99,13 @@ if(isset($_POST['submit']))
                         </div>
                     </div>
                 </div>
-                                
+
                 <div class="col-xs-12 col-md-12" style="background-color: #FFDCAA; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
                     <div class="col-md-12">
                         <?php if($test){echo $test;} ?>
                         <h2>Heeft u een vraag, stel hem!</h2>
                     </div>
-                    <form class="form-horizontal" role="form" action="formulierverzenden.php" method="post">
+                    <form class="form-horizontal" role="form" action="" method="post">
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="naam">Naam:</label>
                             <div class="col-sm-10">
@@ -127,6 +127,10 @@ if(isset($_POST['submit']))
                                 <span class="text-danger">*</span>
                             </div>
                         </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <input type="submit" name="submit" id="submit" value="Verstuur bericht" class="btn btn-default">
+                            </div>
                         </div>
                     </form>
                 </div>
