@@ -99,34 +99,23 @@ if(isset($_POST['submit']))
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
-                
-                <div class="col-xs-12 col-md-12" style="background-color: #FFDCAA; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
-=======
 
-                <div class="col-md-12" style="background-color: #FFDCAA; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
->>>>>>> c6cad47534f31c217dbbea8c6575d35f6d2965b8
+
+                <div class="col-xs-12 col-md-12" style="background-color: #FFDCAA; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
+
                     <div class="col-md-12">
                         <?php if($test){echo $test;} ?>
                         <h2>Heeft u een vraag, stel hem!</h2>
                     </div>
-<<<<<<< HEAD
-                    <form class="form-horizontal" role="form" action="formulierverzenden.php" method="post">
+
+
+                    <form class="form-horizontal" role="form" action="" method="post">
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="naam">Naam:</label>
                             <div class="col-sm-10">
                                 <input required type="text" class="form-control" style="" id="naam" name="naam" placeholder="Naam">
                                 <span class="text-danger">*</span>
-                            </div>
-=======
-                    <form class="form-horizontal" role="form" action="" method="post">
-                    <div class="form-group">
-                        <label class="control-label col-sm-2" for="naam">Naam:</label>
-                        <div class="col-sm-10">
-                            <input required type="text" class="form-control" style="" id="naam" name="naam" placeholder="Naam">
-                            <span class="text-danger">*</span>
->>>>>>> c6cad47534f31c217dbbea8c6575d35f6d2965b8
-                        </div>
+                             </div>
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="email">E-mail adres:</label>
                             <div class="col-sm-10">          
@@ -141,17 +130,12 @@ if(isset($_POST['submit']))
                                 <span class="text-danger">*</span>
                             </div>
                         </div>
-<<<<<<< HEAD
+
+
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-default">Verstuur bericht</button>
-                            </div>
-=======
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <input type="submit" name="submit" id="submit" value="Verstuur bericht" class="btn btn-default">
->>>>>>> c6cad47534f31c217dbbea8c6575d35f6d2965b8
+                                <input type="submit" name="submit" id="submit" value="Verstuur bericht" class="btn btn-default">
+
                         </div>
                     </form>
                 </div>
