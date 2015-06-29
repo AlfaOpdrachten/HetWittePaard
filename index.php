@@ -56,27 +56,23 @@
 
                 $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/nieuws/');
                 $data = json_decode($data,1);
-                $test = $data[0];
-                $testmax = 2;
-                // echo '<pre>';var_dump($test);echo '</pre>';
-                if(isset($data[2])){
-                    for($i = 0; $i <= $testmax; $i++){
-                    echo '<div class="col-md-12" style="margin-top: 10px;">
-                        <div class="col-md-7">
-                            <p style="font-size: 20px;">'.$data[$i+1]["Title"].'</p>
-                        </div>
-                        <div class="col-md-5">
-                            <p style="font-size: 20px; text-align: right;">11-06-2015</p>
-                        </div>
-                        <br>
-                        <br>
-                        <p class="expanded">'. $data[$i+1]["Text"]. '</p>
-                        <p class="collapsed"></p>
-                        <hr style="border-color:#000000; box-shadow: 0px 0px 10px 0px black;">
-                    </div>';
-                    }
+                $testmax = 3;
+                // echo '<pre>';var_dump($data);echo '</pre>';
+                if(isset($data[0])){
+                    for ($i=0; $i < $testmax; $i++) { 
+                        echo '<div class="col-md-12" style="margin-top: 10px;">
+                            <div class="col-md-12">
+                                <p style="font-size: 20px;">'.$data[$i+1]["Title"].'</p>
+                            </div>
+                            <br>
+                            <br>
+                            <p class="expanded">'. $data[$i+1]["Text"]. '</p>
+                            <p class="collapsed"></p>
+                            <hr style="border-color:#000000; box-shadow: 0px 0px 10px 0px black;">
+                            </div>';
+                    } 
                 }
-                ?>
+        ?>
         
     </div>
 </div>

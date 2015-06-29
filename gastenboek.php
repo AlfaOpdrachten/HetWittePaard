@@ -72,6 +72,7 @@ require_once($filepath.'/database.php');
     			<h1>Gastenboek</h1>
     		</div>
     		<div class="col-md-12" style=" box-shadow: 0px 0px 10px 0px gray; border: solid black 1px; background-color: #FFDCAA;">
+                <h3>Laat weten wat je van ons vond!</h3>
     			<form action="#" method="POST" >
         			<div class="panel-body form-horizontal">
 	                    <div class="form-group">
@@ -94,7 +95,7 @@ require_once($filepath.'/database.php');
 	                    </div> 
 	                    <div class="form-group">
 	                        <div class="col-sm-4 col-md-offset-3">
-	                            <input type="submit" name="submit" value="Submit">
+	                            <input type="submit" name="submit" value="Versturen">
 	                        </div>
 	                    </div> 
 	                    
@@ -103,7 +104,7 @@ require_once($filepath.'/database.php');
     		</div>
 
 
-            <div class='col-md-12 recenties'>
+            <div class='col-md-12 recenties no-gutter' style="padding:0px;">
 
 
                <?php
@@ -117,16 +118,16 @@ require_once($filepath.'/database.php');
                    echo "
         			<div class='col-md-6'>
         				<div class='col-md-12 recentiesItem' style='box-shadow: 0px 0px 10px 0px gray; background-color: #FFDCAA; 1px solid black;'>
-	        				<div class='col-md-2'><p>Naam:</p></div><div class='col-md-10'><p>lorem ipsum</p></div>
-	        				<div class='col-md-12'><p>recentie</p></div>
-	        				<div class='col-md-12'>
+	        				<div class='col-md-2'><p><b>Naam:</b></p></div><div class='col-md-10'><p>".$data[$i+1]['Naam']."</p></div>
+	        				<div class='col-md-2'><p><b>recentie:</b></p></div>
+	        				<div class='col-md-10'>
 	        				<p>".$data[$i+1]['Recentie']."</p>
 	        				</div>
-	        				<div class='col-md-2'><p>rating:</p></div><div class='col-md-10'><p>8</p></div>
+	        				<div class='col-md-2'><p><b>rating:</b></p></div><div class='col-md-10'><p>" .$data[$i+1]['Rating'] . "</p></div>
 	        			</div>
         			</div>";}
                 ?>
-   		</div>
+   		    </div>
    		</div>
     </div>
     
