@@ -57,7 +57,7 @@ if(isset($_POST['submit']))
                         <div class="col-xs-12 col-sm-12 col-md-6" >
                             Hoofdstraat 217<br>
                             9828 PB Oostwold<br>
-                            T: 050 - 5515 282<br>
+                            T: <a href="tel:0505515282">050 - 5515 282</a><br>
                             Onze e-mail adres is: <br>
                            <a  href="mailto:info@caferestauranthetwittepaard.nl">info@caferestauranthetwittepaard.nl</a><br><br>
                         </div>

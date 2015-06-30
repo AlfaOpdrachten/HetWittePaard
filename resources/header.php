@@ -33,7 +33,7 @@
         case 'contact':
             $Contact              = "linkActive";
             break;
-        case 'kaart/index':
+        case 'kaart/kaarten':
             $Kaart              = "linkActive";
             break;
         case 'kaart/lunch':
@@ -68,11 +68,11 @@
                     <li><a class="<?php echo $Gastenboek  ?> "     href="http://caferestauranthetwittepaard.nl/gastenboek.php">Gastenboek</a></li>
                     <li><a class="<?php echo $Contact ?> "        href="http://caferestauranthetwittepaard.nl/contact.php">Contact</a></li>
                     <li class="dropdown">
-                        <a class="<?php echo $Kaart ?>" href="kaart/index.php" id="dropdownmenu">Onze kaart <b class="caret"></b></a>
+                        <a href="kaart/index.php" id="dropdownmenu">Onze kaart <b class="caret"></b></a>
                         <ul id="dropdownmenus" class="dropdown-menu">
-                            <li><a class="<?php echo $KaartLunch ?> " id="dropdownmenu" href="http://caferestauranthetwittepaard.nl/kaart/lunch.php">Lunch</a></li>
-                            <li><a class="<?php echo $KaartDiner ?> " id="dropdownmenu" href="http://caferestauranthetwittepaard.nl/kaart/diner.php">Diner</a></li>
-                            <li><a class="<?php echo $KaartDessert ?> " id="dropdownmenu" href="http://caferestauranthetwittepaard.nl/kaart/dessert.php">Dessert</a></li>
+                            <li><a  id="dropdownmenu" href="http://caferestauranthetwittepaard.nl/kaart/lunch.php">Lunch</a></li>
+                            <li><a  id="dropdownmenu" href="http://caferestauranthetwittepaard.nl/kaart/diner.php">Diner</a></li>
+                            <li><a id="dropdownmenu" href="http://caferestauranthetwittepaard.nl/kaart/dessert.php">Dessert</a></li>
                         </ul>
                     </li>
                 </ul>

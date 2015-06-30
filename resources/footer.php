@@ -20,7 +20,7 @@
                     Restaurant Het Witte Paard<br>
                     Hoofdstraat 217<br>
                     9828 PB Oostwold<br>
-                    050 – 5515 282<br>
+                    <a href="tel:0505515282">050 – 5515 282</a><br>
                     info@caferestauranthetwittepaard.nl
                 </p>
                 <br>
