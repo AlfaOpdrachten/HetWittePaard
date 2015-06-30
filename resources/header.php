@@ -7,10 +7,7 @@
     $Nieuws          =   "link";
     $Gastenboek          =   "link";
     $Contact          =   "link";
-    $Kaart          =   "link";
-    $KaartLunch          =   "link";
-    $KaartDiner         =   "link";
-    $KaartDessert         =   "link";
+
 
     $menuLinks=basename($_SERVER['PHP_SELF'],".php");
 
@@ -32,18 +29,6 @@
             break;
         case 'contact':
             $Contact              = "linkActive";
-            break;
-        case 'kaart/kaarten':
-            $Kaart              = "linkActive";
-            break;
-        case 'kaart/lunch':
-            $KaartLunch              = "linkActive";
-            break;
-        case 'kaart/diner':
-            $KaartLunch              = "linkActive";
-            break;
-        case 'kaart/dessert':
-            $KaartLunch              = "linkActive";
             break;
     }
 
