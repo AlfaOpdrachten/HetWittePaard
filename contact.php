@@ -84,26 +84,32 @@ if(isset($_POST['submit']))
                         <?php if($test){echo $test;} ?>
                         <h2>Heeft u een vraag, stel hem!</h2>
                     </div>
-                    <form class="form-horizontal" role="form" action="" method="post">
+                    <form class="form-horizontal" role="form" action="" style="padding-left: 17px" method="post">
+                            <p class="text-danger">
+                            <span class="small">Velden met</span> 
+                            * 
+                            <span class="small">zijn verplicht.</span>
+                            </p>
+
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="naam">Naam:</label>
-                            <div class="col-sm-10">
-                                <input required type="text" class="form-control" style="" id="naam" name="naam" placeholder="Naam">
-                                <span class="text-danger">*</span>
+                            <div class="col-sm-10" style="display: inline-flex; width: 640px">
+                                <input class="form-control" id="naam" name="naam" placeholder="Naam" required="" type="text">
+                                <span class="text-danger" style="padding-left: 5px; padding-bottom: 20px">*</span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="email">E-mail adres:</label>
-                            <div class="col-sm-10">          
-                                <input required type="email" class="form-control" id="email" style="" name="email" placeholder="voorbeeld@mail.nl">
-                                <span class="text-danger">*</span>
+                            <div class="col-sm-10" style="display: inline-flex; width: 640px; vertical-align: text-top;">          
+                                <input required type="email" class="form-control" id="email" name="email" placeholder="voorbeeld@mail.nl">
+                                <span class="text-danger" style="padding-left: 5px; padding-bottom: 20px">*</span>
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="bericht">Uw bericht:</label>
-                            <div class="col-sm-10">
-                                <textarea required class="form-control" rows="5" style="" id="bericht" name="bericht" placeholder="Typ hier uw bericht."></textarea>
-                                <span class="text-danger">*</span>
+                            <div class="col-sm-10" style="display: inline-flex; width: 640px">
+                                <textarea required class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht."></textarea>
+                                <span class="text-danger" style="padding-left: 5px; padding-bottom: 20px">*</span>
                             </div>
                         </div>
                         <div class="form-group">

@@ -57,6 +57,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
 }
 
+form[role="form"] > .form-group *{
+    vertical-align: text-top;
+}
+
 @media (min-width: 768px) {
     .masthead {
         background-image: url("../img/headerfotonieuwste.jpg");
