@@ -22,19 +22,19 @@
 </div>
 <div class="content container menu">
     <div class="container-fluid" style="padding-left: 0;">
-        <div class="col-md-4">
+        <div class="col-md-4" style="padding-left: 0px;">
             <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/kaart/lunch.php'?> class="thumbnail" style="background-color: #FFDCAA; color: black; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
                 <img alt="Lunch Kaart" src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/img/lunch.jpg'?> class="img-responsive">
                 <h2 style="color: black;">Lunch</h2>
             </a>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="padding-left: 7px; padding-right: 7px;">
             <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/kaart/diner.php'?> class="thumbnail" style="background-color: #FFDCAA; color: black; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
                 <img alt="Diner Kaart" src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/img/diner.jpg'?>  class="img-responsive">
                 <h2 style="color: black;">Diner</h2>
             </a>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="padding-right: 0px;">
             <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/kaart/dessert.php'?> class="thumbnail" style="background-color: #FFDCAA; color: black; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
                 <img alt="Dessert Kaart" src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/img/dessert.jpg'?>  class="img-responsive">
                 <h2 style="color: black;">Dessert</h2>

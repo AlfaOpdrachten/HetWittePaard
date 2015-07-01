@@ -60,14 +60,14 @@ require_once($filepath.'/database.php');
 <div class="container">
     <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
-                <li><a href="http://www.caferestauranthetwittepaard.nl/index.php'?>>Home</a></li>
+                <li><a href="http://www.caferestauranthetwittepaard.nl/index.php">Home</a></li>
                 <li class="active">Gastenboek</li>
         </ol>
     </div>
 </div>
 
 	<div class="content container gastenboek">
-    	<div class="container-fluid" style="padding-left: 0;">
+    	<div class="container-fluid" style="padding-left: 0px; padding-right:0px;">
     		<div class="col-md-12" style=" box-shadow: 0px 0px 10px 0px gray; border: solid black 1px; background-color: #FFDCAA; border-bottom: hidden;">
     			<h1>Gastenboek</h1>
     		</div>
