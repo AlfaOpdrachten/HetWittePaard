@@ -3,7 +3,7 @@
 <!-- De scripts -->
 <head>
     <title>
-        Over Ons | Café Restaurant Het Witte Paard
+        Over Ons | Restaurant Het Witte Paard
     </title>
     <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dan bent u bij het goede adres!">
 </head>
