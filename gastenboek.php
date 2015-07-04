@@ -72,7 +72,7 @@ require_once($filepath.'/database.php');
     			<h1>Gastenboek</h1>
     		</div>
     		<div class="col-md-12" style=" box-shadow: 0px 0px 10px 0px gray; border: solid black 1px; background-color: #FFDCAA;">
-                <h3>Laat weten wat je van ons vond!</h3>
+                <h3>Laat weten wat u van ons vond!</h3>
     			<form action="#" method="POST" >
         			<div class="panel-body form-horizontal">
 	                    <div class="form-group">

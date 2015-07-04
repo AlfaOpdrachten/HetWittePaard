@@ -133,8 +133,37 @@ if(isset($_POST['submit']))
             'datetime'=>    $datumnieuw,
             'extras'=>      $comment
         ]);
+            $bericht = $_POST['naam'];
+            $to = "jolandapikkert40@gmail.com"; // this is your Email address
+            $from = $_POST['email']; // this is the sender's Email address
+            $name = $_POST['voornaam'];
+            $surname = $_POST['achternaam'];
 
-        echo "<script>if(!alert('Bedankt voor uw bestelling! U wordt teruggestuurd naar de homepagina.')) document.location = 'index.php';</script>";
+
+
+            $subject = "Nieuwe reservering binnen";
+            $subject2 = "Bevestiging reservering het Witte Paard";
+            $message = $name . " ". $surname . " heeft de volgende bestelling geplaatst:" . "\n\n"
+            . "Aantal personen: " . $pers . "\n\n"
+            . "Voorkeurstijd: " . $tijd . "\n\n"
+            . "Datum: " . $datumnieuw . "\n\n"
+            . "Extra informatie: " . $comment . "\n\n"
+            . "Email: " . $email . "\n\n"
+            . "Telefoonnummer: " . $telnr;
+            $message2 = $name . " ". $surname . " heeft de volgende bestelling geplaatst:" . "\n\n"
+                . "Aantal personen: " . $pers . "\n\n"
+                . "Voorkeurstijd: " . $tijd . "\n\n"
+                . "Datum: " . $datumnieuw . "\n\n"
+                . "Extra informatie: " . $comment . "\n\n"
+                . "Email: " . $email . "\n\n"
+                . "Telefoonnummer: " . $telnr;
+
+            $headers = "From:" . $from;
+            $headers2 = "From:" . $to;
+            mail($to,$subject,$message,$headers);
+            mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+
+        echo "<script>if(!alert('Bedankt voor uw bestelling! Er is een bevestigingsmail naar u gestuurd.')) document.location = 'index.php';</script>";
         }catch(Exception $e)
         {
             echo 'Message: ' .$e->getMessage();
@@ -150,7 +179,7 @@ if(isset($_POST['submit']))
 <div class="container">
     <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
-                <li><a href="http://www.caferestauranthetwittepaard.nl/index.php'?>>Home</a></li>
+                <li><a href="http://www.caferestauranthetwittepaard.nl/index.php">Home</a></li>
                 <li class="active">Reserveren</li>
         </ol>
     </div>

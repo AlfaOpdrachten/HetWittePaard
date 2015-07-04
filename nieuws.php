@@ -60,7 +60,7 @@
                     echo '<div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
                     <div class="col-md-7">
                         <br>
-                        <font size="6">'.$data[$i+1]["Title"].'</font>
+                        <font class="nieuwsitem" size="6">'.$data[$i+1]["Title"].'</font>
                         <br>
                         <br>
                         <p class="expanded">'. $data[$i+1]["Text"]. '</p>
