@@ -16,6 +16,10 @@ html {
     background-color: #EDD29B;
     border: 1px solid #DDDDDD;
 }
+.thumbnail a {
+      color: black;
+  font-size: 35px;
+}
 .content {
     margin-top: 5px;
     margin-bottom: 20px;
