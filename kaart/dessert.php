@@ -10,7 +10,7 @@
 <?php include '../resources/head.php'; ?>
 
 <body>
-<?php include '../resources/header.php'; ?>
+<?php include '../resources/header2.php'; ?>
 <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
 <div class="container">
     <div class="row" style="margin-top: 15px;">
