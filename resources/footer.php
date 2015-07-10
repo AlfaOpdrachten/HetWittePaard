@@ -3,15 +3,13 @@
         <div class="col-xs-12 col-md-8 panel-default ">
             <div id="footer-left" class="col-xs-6 col-sm-4 panel-body">
                 <h1><b>Openingstijden</b></h1>
-                <p>
-                    Maandag: Gesloten<br>
-                    Dinsdag: Gesloten<br>
-                    Woensdag:  12.00 uur<br>
-                    Donderdag:  12.00 uur<br>
-                    Vrijdag:  12.00 uur<br>
-                    Zaterdag:  12.00 uur<br>
-                    Zondag:  15:00 uur
-                </p>
+               <?php
+
+                    $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.TIJDEN.1');
+                    $data = json_decode($data,1);
+                    // var_dump($data);
+                    echo $data[1]["Text"];
+                    ?>
 
             </div>
             <div id="footer-center" class="col-xs-6  col-sm-4 panel-body">

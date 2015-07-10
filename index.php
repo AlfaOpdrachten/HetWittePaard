@@ -22,21 +22,12 @@
 <div class="content container index">
     <div class="col-xs-12 col-md-8" style="padding-left:0px;">
         <div class="col-md-12" style="border: 1px solid black; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
-            <h1>Een korte introductie</h1>
-            <p style="font-size: 15px;"> Restaurant Het Witte Paard bevindt zich in het prachtige Westerkwartier gebied,
-                met vele fietsroutes,
-                kleine watertjes en een groot meer.<br><br>
-                U kunt bij ons genieten op de twee terrassen zowel aan de voor- zijkant, als ook het grote terras aan
-                de achterkant, waar tevens een groot afgebakend en veilige speelweide is voor de kinderen.<br><br>
-                Ook kunt u achter het pand gebruik maken van de ruime parkeerplaats.<br><br>
-                Hopelijk staat u niets meer in de weg om eens langs te komen of te reserveren,
-                wij zullen u graag hartelijk verwelkomen.</p>
                 <?php
-
-                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.MENU.1');
+                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.INTRODUCTIE.1');
                 $data = json_decode($data,1);
                 // var_dump($data);
                 echo $data[1]["Text"];
+
                 ?>
         </div>
         <div class="col-xs-6 col-md-6" style="margin-top: 10px; padding-right: 15px;padding-left:0px;">
@@ -44,15 +35,12 @@
                 <div class="thumbnail" style="background-color: #FFDCAA; border: 1px solid black; box-shadow: 0px 0px 10px 0px black;">
                     <?php
 
-                    $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.MENU.2');
+                    $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.index.1');
                     $data = json_decode($data,1);
                     // var_dump($data);
                     echo $data[1]["Text"];
                     ?>
-                    <!-- <img src="img/menu1.jpg" alt="Menu">
-                    <div class="caption">
-                        <p><a class="btn btn-link" style="color: black; font-size: 35px;" href="/kaart/index.php" role="button">Bekijk menu</a></p>
-                    </div> -->
+
                 </div>
             </a>
         </div>

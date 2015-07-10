@@ -23,9 +23,17 @@
 <div class="content container menu">
     <div class="container-fluid" style="padding-left: 0;">
         <div class="col-md-4" style="padding-left: 0px;">
+            
             <a href=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/kaart/lunch.php'?> class="thumbnail" style="background-color: #FFDCAA; color: black; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
-                <img alt="Lunch Kaart" src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/img/lunch.jpg'?> class="img-responsive">
-                <h2 style="color: black;">Lunch</h2>
+                <?php
+
+                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.KAART.1');
+                $data = json_decode($data,1);
+                // var_dump($data);
+                echo $data[1]["Text"];
+                ?>
+                <!-- <img alt="Lunch Kaart" src=<?php echo 'http://'.$_SERVER['SERVER_NAME'].'/img/lunch.jpg'?> class="img-responsive">
+                <h2 style="color: black;">Lunch</h2> -->
             </a>
         </div>
         <div class="col-md-4" style="padding-left: 7px; padding-right: 7px;">

@@ -55,7 +55,13 @@ if(isset($_POST['submit']))
   			<div class="row contact">
                 
                 <div class="col-xs-12 col-md-6">
-                    <img src="img/IMG_1951.JPG" class="img-responsive" ALT="restaurant" WIDTH="465" HEIGHT="350" style=" box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
+                    <?php
+
+                    $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.CONTACT.1');
+                    $data = json_decode($data,1);
+                    // var_dump($data);
+                    echo $data[1]["Text"];
+                    ?>
                 </div>
                 <div class="col-xs-12 col-md-6" id="informatie" style="margin-bottom: 100px;">
                     <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: #FFDCAA; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
@@ -71,17 +77,13 @@ if(isset($_POST['submit']))
                     <div class="col-xs-12 col-sm-6 col-md-12" style="padding-bottom: 15px; background-color: #FFDCAA; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px; border-top: hidden;">
                         <h2 style="">Openingstijden</h2>
 
-                        <div class="col-xs-12 col-sm-12 col-md-6">
-                            Maandag: Gesloten<br>
-                            Dinsdag: Gesloten<br>
-                            Woensdag: 12:00 uur<br>
-                            Donderdag: 12:00 uur<br>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6">
-                            Vrijdag: 12:00 uur<br>
-                            Zaterdag: 12:00 uur<br>
-                            Zondag: 15:00 uur<br>
-                        </div>
+                        <?php
+
+                    $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.TIJDEN.1');
+                    $data = json_decode($data,1);
+                    // var_dump($data);
+                    echo $data[1]["Text"];
+                    ?>
                     </div>
                 </div>
 
