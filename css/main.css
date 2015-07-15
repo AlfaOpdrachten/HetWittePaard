@@ -5,12 +5,15 @@ html {
     padding: 0;
 
     font-family: fantasy;
-    background: url("../img/555.jpg") no-repeat center center fixed;
+   
+
+}
+body {
+     background: url("http://www.caferestauranthetwittepaard.nl/img/555.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
 }
 .thumbnail {
     background-color: #EDD29B;
@@ -67,7 +70,7 @@ form[role="form"] > .form-group *{
 
 @media (min-width: 768px) {
     .masthead {
-        background-image: url("../img/headerfotonieuwste.jpg");
+        background-image: url("http://www.caferestauranthetwittepaard.nl//img/headerfotonieuwste.jpg");
         height: 484px;
         padding-top:432px;
     }

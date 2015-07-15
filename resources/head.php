@@ -11,19 +11,21 @@
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
-
+    <!-- Bootstrap JavaScript -->
+    <script src="http://caferestauranthetwittepaard.nl/libs/bootstrap.min.js"></script>
 
 	<!-- Bootstrap CSS -->
     <link href="http://caferestauranthetwittepaard.nl/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap JavaScript -->
-   <script src="http://caferestauranthetwittepaard.nl/libs/bootstrap.min.js"></script>
-    
-    <!-- Custom CSS -->
-	<link rel="stylesheet" href="http://caferestauranthetwittepaard.nl/css/main.css">
 
+    
     <!-- Webicons -->
     <link rel="stylesheet" href="http://caferestauranthetwittepaard.nl/css/webicons.css">
+
+    <!-- Custom CSS -->
+	<link rel="stylesheet" href="http://www.caferestauranthetwittepaard.nl/css/main.css">
+
+
 
 
 </head>
