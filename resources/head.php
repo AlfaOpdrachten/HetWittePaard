@@ -26,6 +26,6 @@
 	<link rel="stylesheet" href="http://www.caferestauranthetwittepaard.nl/css/main.css">
 
 
-
+    <?php error_reporting(0); ?>
 
 </head>

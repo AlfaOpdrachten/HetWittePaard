@@ -25,15 +25,15 @@
 <div class="content container " style="background-color: #FFDCAA;  box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
     <?php
 
-                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/menu/?kaart=2');
-                $data = json_decode($data,1);
-                $test = $data[0];
+    $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/menu/?kaart=2');
+    $data = json_decode($data,1);
+    $test = $data[0];
 
-                // echo '<pre>';var_dump($data);echo '</pre>';
-                // echo $data[$test]["Categorie"];
+    // echo '<pre>';var_dump($data);echo '</pre>';
+    // echo $data[$test]["Categorie"];
 
-               
-                ?>
+   
+    ?>
     <div class="container-fluid" style="padding-left: 0;">
         <div class="menuOverzicht">
             <div class="col-xs-12 col-md-6">
