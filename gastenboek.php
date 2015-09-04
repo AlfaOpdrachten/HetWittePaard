@@ -8,17 +8,10 @@
 	<meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dan bent u bij het goede adres!">
 </head>
 <?php include 'resources/head.php'; ?>
-
 <body>
 <?php include 'resources/header.php';
 $filepath = realpath (dirname(__FILE__));
-
 require_once($filepath.'/database.php');
-
-
-
-
-
     if(isset($_POST['submit']))
     {
         $test=0;
@@ -36,7 +29,6 @@ require_once($filepath.'/database.php');
         }
         if(!$errors)
         {
-
             //Hier moet vervolgens de query komen te staan.
             try
             {
@@ -50,12 +42,9 @@ require_once($filepath.'/database.php');
             }catch(Exception $e)
             {
                 echo 'Message: ' .$e->getMessage();
-
             }
         }
     }
-
-
 ?>
 <div class="container">
     <div class="row" style="margin-top: 15px;">
@@ -65,7 +54,6 @@ require_once($filepath.'/database.php');
         </ol>
     </div>
 </div>
-
 	<div class="content container gastenboek">
     	<div class="container-fluid" style="padding-left: 0px; padding-right:0px;">
     		<div class="col-md-12" style=" box-shadow: 0px 0px 10px 0px gray; border: solid black 1px; background-color: #FFDCAA; border-bottom: hidden;">
@@ -102,18 +90,11 @@ require_once($filepath.'/database.php');
                	 	</div>
     			</form>
     		</div>
-
-
             <div class='col-md-12 recenties no-gutter' style="padding:0px;">
-
-
                <?php
-
                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/recenties/');
                $data = json_decode($data,1);
                $test = $data[0];
-
-
                for($i = 0; $i < $test; $i++){
                    echo "
         			<div class='col-md-6'>
@@ -130,10 +111,8 @@ require_once($filepath.'/database.php');
    		    </div>
    		</div>
     </div>
-    
 <div class="container footer">
     <?php include 'resources/footer.php'; ?>
 </div>
-
 </body>
 </html>

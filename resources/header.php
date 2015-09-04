@@ -1,16 +1,12 @@
 <?php 
 @session_start(); 
-
     $index          =   "link";
     $OverOns          =   "link";
     $Reserveren          =   "link";
     $Nieuws          =   "link";
     $Gastenboek          =   "link";
     $Contact          =   "link";
-
-
     $menuLinks=basename($_SERVER['PHP_SELF'],".php");
-
     switch ($menuLinks) {
         case 'index':
             $index              = "linkActive";
@@ -31,7 +27,6 @@
             $Contact              = "linkActive";
             break;
     }
-
 ?>
 <div class="container">
     <div class="masthead">
@@ -65,7 +60,6 @@
         </nav>
     </div>
 </div>
-
 <script>
     $(function(){
         $(".dropdown").hover(

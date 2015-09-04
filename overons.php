@@ -8,26 +8,22 @@
     <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dan bent u bij het goede adres!">
 </head>
 <?php include 'resources/head.php'; ?>
-
 <body>
 <?php include 'resources/header.php'; ?>
-
 <div class="container">
     <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
                 <li><a href="http://www.caferestauranthetwittepaard.nl/index.php">Home</a></li>
                 <li class="active">Over Ons</li>
-                       </ol>
+        </ol>
     </div>
 </div>
-
 <div class="content container" style="margin-bottom: 5px; padding-bottom:10px;">
         <div class="border" style="border:1px solid black;box-shadow: 0px 0px 10px 0px black; overflow: hidden;background-color: #FFDCAA;">
             <div class="col-md-12" style="margin: 0px; padding: 0 !important; margin: 0 !important; background-color: #FFDCAA;">
                 <div class="col-md-6" style="float:left; padding: 10px 50px">
                     <div class="col-md-12" style="padding: 0px;">
                        <?php
-
                         $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.PARKEREN.1');
                         $data = json_decode($data,1);
                         // var_dump($data);
@@ -36,7 +32,6 @@
                     </div>
                     <div class="col-md-12" style="padding: 0px;">
                         <?php
-
                         $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.SPEELTUIN.1');
                         $data = json_decode($data,1);
                         // var_dump($data);
@@ -65,33 +60,22 @@
                                 </div>
                             </div>        
                         </div>
-                    </div>          
-
-
+                    </div>
     </div>
         <div class="col-md-12" style="margin: 0px; background-color: #FFDCAA; padding: 0 !important;margin-bottom: 5px;">
-
             <div class="text-geschiedenis" style="padding: 10px 50px">
                 <?php
-
                     $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.GESCHIEDENIS.1');
                     $data = json_decode($data,1);
                     // var_dump($data);
                     echo $data[1]["Text"];
                 ?>
             </div>
-            
         </div>
     </div>
 </div>
-
-
-
 <div class="container footer">
     <?php include 'resources/footer.php'; ?>
 </div>
-
 </body>
-
-
 </html>

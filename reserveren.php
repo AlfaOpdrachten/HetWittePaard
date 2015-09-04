@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="nl">
-
 <head>
     <title>
         Reserveren | Café Restaurant Het Witte Paard
@@ -9,10 +8,7 @@
 </head>
 <?php include 'resources/head.php'; ?>
 <?php include 'database.php'; ?>
-
-
 <script>
-
     function isNumberKey(evt)
     {
         var charCode = (evt.which) ? evt.which : event.ketCode
@@ -20,12 +16,10 @@
             return false;
         return true;
     }
-
     $(function(){
         $("#datepicker").datepicker();
         $.datepicker.formatDate("dd-mm-yy", new Date(1,1,2008));
     });
-
     $(document).ready(function () {
         $('#myform').validate({ // initialize the plugin
             rules: {
@@ -40,13 +34,8 @@
                 }
             }
         });
-
     });
-
-
-
 </script>
-
 <?php
     $dezedag=date("l");
     $zondag="<option>15:00</option>
@@ -61,7 +50,6 @@
             <option>19:30</option>
             <option>20:00</option>
             <option>20:30</option>";
-
     $week="<option>12:00</option>
             <option>12:30</option>
             <option>13:00</option>
@@ -80,12 +68,8 @@
             <option>19:30</option>
             <option>20:00</option>
             <option>20:30</option>";
-
-
-
 if(isset($_POST['submit']))
 {
-
     $errors= [];
     $voornaam=$_POST['voornaam'];
     $achternaam=$_POST['achternaam'];
@@ -96,21 +80,15 @@ if(isset($_POST['submit']))
     $inputdate=$_POST['datepicker'];
     $datumnieuw=$inputdate . " " . $tijd;
     $comment=$_POST['comment'];
-
-
-
     //ga verder met het afhandelen
-
     if(is_numeric($voornaam) || is_numeric($achternaam))
     {
         $errors[] ="Dit lijkt geen echte naam te zijn...";
     }
-
     $num_length = strlen((string)$telnr);
     if($num_length < 10 || $num_length > 11) {
         $errors[] ="Dit lijkt geen echt telefoonnummer te zijn...";
     }
-
     if(count($errors) > 0){
         foreach($errors as $e){
           echo  "<script type='text/javascript'>alert('$e');</script>";
@@ -138,9 +116,6 @@ if(isset($_POST['submit']))
             $from = $_POST['email']; // this is the sender's Email address
             $name = $_POST['voornaam'];
             $surname = $_POST['achternaam'];
-
-
-
             $subject = "Nieuwe reservering binnen";
             $subject2 = "Bevestiging reservering het Witte Paard";
             $message = $name . " ". $surname . " heeft de volgende bestelling geplaatst:" . "\n\n"
@@ -157,23 +132,18 @@ if(isset($_POST['submit']))
                 . "Extra informatie: " . $comment . "\n\n"
                 . "Email: " . $email . "\n\n"
                 . "Telefoonnummer: " . $telnr;
-
             $headers = "From:" . $from;
             $headers2 = "From:" . $to;
             mail($to,$subject,$message,$headers);
             mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-
         echo "<script>if(!alert('Bedankt voor uw bestelling! Er is een bevestigingsmail naar u gestuurd.')) document.location = 'index.php';</script>";
         }catch(Exception $e)
         {
             echo 'Message: ' .$e->getMessage();
         }
-
     }
-
 }
 ?>
-
 <body>
 <?php include 'resources/header.php'; ?>
 <div class="container">
@@ -187,11 +157,8 @@ if(isset($_POST['submit']))
 <div class="content container ">
     <div class="container-fluid">
         <div class="row reserveren">
-
-
             <div class="col-md-7" style="border: 1px solid black; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
                 <div class="col-xs-12"><h1>Reserveer hier online!</div>
-
                 <div class="col-xs-12"><?php
                     if($dezedag=="Monday")
                     {
@@ -256,10 +223,8 @@ if(isset($_POST['submit']))
                         <div class="form-group">
                             <label for="comment" style="">Extra informatie</label>
                             <textarea class="form-control" rows="5" id="comment" style="" name="comment"><?php echo isset($_POST['comment']) ? $_POST['comment'] : '' ?></textarea>
-
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-md-12 col-md-12">
                         <p>Vergeet niet de verplichte velden met een (*) in te vullen</p>
                     </div>
@@ -281,28 +246,19 @@ if(isset($_POST['submit']))
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-12" style="background-color: #FFDCAA; padding-bottom: 20px; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px; border-top: hidden;">
                     <h2>Openingstijden</h2>
-
                      <?php
-
                     $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.TIJDEN.1');
                     $data = json_decode($data,1);
                     // var_dump($data);
                     echo $data[1]["Text"];
                     ?>
-
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
-
 <div class="container footer">
     <?php include 'resources/footer.php'; ?>
 </div>
-
 </body>
-
-
 </html>

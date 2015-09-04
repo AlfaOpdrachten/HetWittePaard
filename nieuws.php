@@ -8,12 +8,8 @@
     <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dan bent u bij het goede adres!">
 </head>
 <?php include 'resources/head.php'; ?>
-
 <body>
-
-
 <?php include 'resources/header.php'; ?>
-
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -22,7 +18,6 @@
         js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.3";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
-
     $(document).ready(function() {
         $(".collapsed").hide();
 
@@ -30,12 +25,8 @@
             $(this).parent().children(".expanded, .collapsed").toggle();
         });
     });
-
 </script>
-
-
 <body>
-
 <div class="container">
     <div id="fb-root"></div>
     <div class="row" style="margin-top: 15px;">
@@ -50,11 +41,9 @@
         <div class="row">
             <div class="col-md-8" style="padding-bottom: 5px;">
                 <?php
-
                 $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/nieuws/');
                 $data = json_decode($data,1);
                 $test = $data[0];
-
                 //echo '<pre>';var_dump($data);echo '</pre>';
                 for($i = 0; $i < $test; $i++){
                     echo '<div class="col-md-12" style="border: 1px solid black; margin-top: 10px; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
@@ -70,7 +59,6 @@
                     </div>
                 </div>';
                 }
-                
                 ?>
             </div>
             <div class="col-md-4" style="border: 1px solid black; margin-bottom: 50px; margin-top: 10px; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
@@ -82,11 +70,8 @@
         </div>
     </div>
 </div>
-
 <div class="container footer">
     <?php include 'resources/footer.php'; ?>
 </div>
 </body>
-
-
 </html>

@@ -18,7 +18,6 @@
 <body>
 <?php include 'resources/header.php'; ?>
 <?php
-
 $test= "";
 if(isset($_POST['submit']))
 {
@@ -39,7 +38,6 @@ if(isset($_POST['submit']))
     $test = "<h3 style='color:dodgerblue'>Mail verstuurd. Bedankt " . $name . ", we zullen zo spoedig mogelijk contact met u opnemen.</h3>";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
 }
-
 ?>
 <div class="container">
     <div class="row" style="margin-top: 15px;">
@@ -49,14 +47,11 @@ if(isset($_POST['submit']))
         </ol>
     </div>
 </div>
-
     <div class="content container ">
     	<div class="container-fluid">
   			<div class="row contact">
-                
                 <div class="col-xs-12 col-md-6">
                     <?php
-
                     $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.CONTACT.1');
                     $data = json_decode($data,1);
                     // var_dump($data);
@@ -76,17 +71,14 @@ if(isset($_POST['submit']))
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-12" style="padding-bottom: 15px; background-color: #FFDCAA; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px; border-top: hidden;">
                         <h2 style="">Openingstijden</h2>
-
                         <?php
-
-                    $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.TIJDEN.1');
-                    $data = json_decode($data,1);
-                    // var_dump($data);
-                    echo $data[1]["Text"];
-                    ?>
+                        $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.TIJDEN.1');
+                        $data = json_decode($data,1);
+                        // var_dump($data);
+                        echo $data[1]["Text"];
+                        ?>
                     </div>
                 </div>
-
                 <div class="col-xs-12 col-md-12" style="background-color: #FFDCAA; box-shadow: 0px 0px 10px 0px gray; border: solid black 1px;">
                     <div class="col-md-12">
                         <?php if($test){echo $test;} ?>
@@ -137,14 +129,8 @@ if(isset($_POST['submit']))
             </div>
         </div>
     </div>
-
-
-
 <div class="container footer">
     <?php include 'resources/footer.php'; ?>
 </div>
-
 </body>
-
-
 </html>

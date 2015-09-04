@@ -30,7 +30,6 @@
         </nav>
     </div>
 </div>
-
 <script>
 $(function(){
     $(".dropdown").hover(
@@ -46,7 +45,6 @@ $(function(){
         });
 });
 </script>
-
 <?php
 @session_start();
     $home          =   "link";
@@ -56,11 +54,7 @@ $(function(){
     $nieuws        =   "link";
     $contact       =   "link";
     $gastenboek    =   "link";
-
-
-
     $menuLinks=basename($_SERVER['PHP_SELF'],".php");
-
     switch ($menuLinks) {
         case 'index':
             $home               = "linkActiveHome";
@@ -95,5 +89,4 @@ $(function(){
         case 'contact':
             $contact            = "linkActive";
     }
-
 ?>

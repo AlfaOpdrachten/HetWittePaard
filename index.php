@@ -8,10 +8,8 @@
     <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dan bent u bij het goede adres!">
 </head>
 <?php include 'resources/head.php'; ?>
-
 <body>
 <?php include 'resources/header.php'; ?>
-
 <div class="container">
     <div class="row" style="margin-top: 15px;">
         <ol class="breadcrumb">
@@ -27,20 +25,17 @@
                 $data = json_decode($data,1);
                 // var_dump($data);
                 echo $data[1]["Text"];
-
                 ?>
         </div>
         <div class="col-xs-6 col-md-6" style="margin-top: 10px; padding-right: 15px;padding-left:0px;">
             <a href="/kaart/index.php" style="padding-bottom: 20px;">
                 <div class="thumbnail" style="background-color: #FFDCAA; border: 1px solid black; box-shadow: 0px 0px 10px 0px black;">
                     <?php
-
                     $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=HWP.index.1');
                     $data = json_decode($data,1);
                     // var_dump($data);
                     echo $data[1]["Text"];
                     ?>
-
                 </div>
             </a>
         </div>
@@ -56,43 +51,33 @@
         </div>
     </div>
     <div class="col-xs-12 col-md-4" style="border: 1px solid black; margin-bottom: 50px; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
-        
         <div class="col-md-12">
             <h2 style="font-size: 30px; text-align: center;">Nieuws</h2>
         </div>
-
         <?php
-
-                $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/nieuws/');
-                $data = json_decode($data,1);
-                $testmax = 3;
-                // echo '<pre>';var_dump($data);echo '</pre>';
-                if(isset($data[0])){
-                    for ($i=0; $i < $testmax; $i++) { 
-                        echo '<div class="col-md-12" style="margin-top: 10px;">
-                            <div class="col-md-12">
-                                <p style="font-size: 20px;">'.$data[$i+1]["Title"].'</p>
-                            </div>
-                            <br>
-                            <br>
-                            <p class="expanded">'. $data[$i+1]["Text"]. '</p>
-                            <p class="collapsed"></p>
-                            <hr style="border-color:#000000; box-shadow: 0px 0px 10px 0px black;">
-                            </div>';
-                    } 
-                }
+            $data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/nieuws/');
+            $data = json_decode($data,1);
+            $testmax = 3;
+            // echo '<pre>';var_dump($data);echo '</pre>';
+            if(isset($data[0])){
+                for ($i=0; $i < $testmax; $i++) { 
+                    echo '<div class="col-md-12" style="margin-top: 10px;">
+                        <div class="col-md-12">
+                            <p style="font-size: 20px;">'.$data[$i+1]["Title"].'</p>
+                        </div>
+                        <br>
+                        <br>
+                        <p class="expanded">'. $data[$i+1]["Text"]. '</p>
+                        <p class="collapsed"></p>
+                        <hr style="border-color:#000000; box-shadow: 0px 0px 10px 0px black;">
+                        </div>';
+                } 
+            }
         ?>
-        
     </div>
 </div>
-
-
-
 <div class="container footer">
     <?php include 'resources/footer.php'; ?>
 </div>
-
 </body>
-
-
 </html>
