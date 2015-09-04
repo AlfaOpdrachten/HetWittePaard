@@ -74,10 +74,14 @@
     <?php include 'resources/footer.php'; ?>
 </div>
 </body>
-<<<<<<< HEAD
-</html>
-=======
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-66973506-2', 'auto');
+  ga('send', 'pageview');
 
+</script>
 </html>
->>>>>>> 5cf971c5ae4f1e304b48cf42e8af85fb20bb1729
