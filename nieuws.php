@@ -63,7 +63,7 @@
             </div>
             <div class="col-md-4" style="border: 1px solid black; margin-bottom: 50px; margin-top: 10px; box-shadow: 0px 0px 10px 0px black; background-color: #FFDCAA;">
                 <br>
-                <div class="fb-page" data-href="https://www.facebook.com/HetWittePaardOostwold" data-width="350" data-height="500" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/HetWittePaardOostwold"><a href="https://www.facebook.com/HetWittePaardOostwold">CafÃ© Restaurant Het Witte Paard</a></blockquote></div></div>
+                <div class="fb-page" data-href="https://www.facebook.com/HetWittePaardOostwold" data-width="350" data-height="500" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/HetWittePaardOostwold"><a href="https://www.facebook.com/HetWittePaardOostwold">Café Restaurant Het Witte Paard</a></blockquote></div></div>
                 <br>
                 <br>
             </div>
@@ -74,4 +74,10 @@
     <?php include 'resources/footer.php'; ?>
 </div>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+
+
+</html>
+>>>>>>> 5cf971c5ae4f1e304b48cf42e8af85fb20bb1729
