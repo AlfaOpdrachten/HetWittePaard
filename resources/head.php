@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="http://caferestauranthetwittepaard.nl/img/favicon.ico">
+    <link rel="shortcut icon" href="http://caferestauranthetwittepaard.nl/favicon.ico">
     <!-- dit is  voor de kalender -->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
