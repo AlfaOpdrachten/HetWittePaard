@@ -17,7 +17,6 @@
     <link rel="icon" type="image/png" href="/favicon-96x96.png?0" sizes="96x96">
     <link rel="icon" type="image/png" href="/favicon-16x16.png?0" sizes="16x16">
     <link rel="manifest" href="/manifest.json?0">
-    <link rel="shortcut icon" href="/favicon.ico?0">
     <meta name="msapplication-TileColor" content="#1f4333">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png?0">
     <meta name="theme-color" content="#ffffff">
