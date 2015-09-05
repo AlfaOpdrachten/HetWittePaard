@@ -3,8 +3,12 @@
 <!-- De scripts -->
 <head>
     <title>
-        Over Ons | Restaurant Het Witte Paard
+        Over Ons :: Cafe Restaurant Het Witte Paard
     </title>
+	<script>
+		var title = document.title = "Over Ons :: Café Restaurant Het Witte Paard";
+		if(title != "Over Ons :: Café Restaurant Het Witte Paard") {document.title = "Over Ons :: Cafe Restaurant Het Witte Paard";}
+	</script>
     <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dan bent u bij het goede adres!">
 </head>
 <?php include 'resources/head.php'; ?>

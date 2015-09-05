@@ -3,8 +3,12 @@
 <!-- De scripts -->
 <head>
     <title>
-        Nieuws | Café Restaurant Het Witte Paard
+        Nieuws :: Cafe Restaurant Het Witte Paard
     </title>
+	<script>
+		var title = document.title = "Nieuws :: Café Restaurant Het Witte Paard";
+		if(title != "Nieuws :: Café Restaurant Het Witte Paard") {document.title = "Nieuws :: Cafe Restaurant Het Witte Paard";}
+	</script>
     <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dan bent u bij het goede adres!">
 </head>
 <?php include 'resources/head.php'; ?>

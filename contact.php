@@ -2,8 +2,12 @@
 <html lang="nl">
 <head>
     <title>
-        Contact | Café Restaurant Het Witte Paard
+        Contact :: Cafe Restaurant Het Witte Paard
     </title>
+	<script>
+		var title = document.title = "Contact :: Café Restaurant Het Witte Paard";
+		if(title != "Contact :: Café Restaurant Het Witte Paard") {document.title = "Contact :: Cafe Restaurant Het Witte Paard";}
+	</script>
     <meta name="description" content="Wilt u lekker genieten voor een heerlijke prijs? Dan bent u bij het goede adres!">
 </head>
 <!-- De scripts -->
